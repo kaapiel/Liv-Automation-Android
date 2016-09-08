@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-analytics-9.0.0_114163723e2d568367a754aabfe515e3dd8d1d74\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_f7601a5db3a48e09462a6fa813dcfbea721fff76\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.0.0_bd011142a4f16fff449a99e43837f220a3565967\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-support-v4-23.4.0_69429f7860d0084d5cdf8de706bfd82b11544990\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_e53936d5b7182d67f8553f85b02f01063311233e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3575e73a22dce98f0bdbcdb475ef55a84606a9a6">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\io.fabric.sdk.android-fabric-1.3.12_9d883daa26b60eefe64f509863267526f2995deb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-iid-9.0.0_fbc78778d54ce0f89d15011ba11a4946bc65c2b1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\support-annotations-23.4.0_bf4b64d87eeb8d0f78dd58604c0e802cd0d0d22a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-appcompat-v7-23.4.0_11258e72924d2501cc4e4f2ee1cd61c1716681f8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.scottyab\aescrypt\0.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="439f1fa08fbc88d31ffdb11d80a13211689da6aa">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.scottyab-aescrypt-0.0.1_35dfedd8801fb8e5b59911e1f43efd6e3040ea24\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_82880b0882af621dabf28ea3164e4eafda5a6b71\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.inkapplications.viewpageindicator\library\2.4.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bee80f9dccb91a4916e299091f12ccd44ccdd2e5">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.inkapplications.viewpageindicator-library-2.4.3_fdebbd89d2f35480897f2e117406609bac57355d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.dlazaro66.qrcodereaderview\qrcodereaderview\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cd3f0aeca8f8e53d60cad6597e69d5d753fb0360">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.dlazaro66.qrcodereaderview-qrcodereaderview-1.0.0_a50bc679d0898152a0aaea7088cc94545800d1f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.dlazaro66.qrcodereaderview\qrcodereaderview\1.0.0\jars\libs\core.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f3c7e89b5124329cddba83bcf7c26c1c636c16b8">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\core_7d3fcae230e7fdcc0aa4f1a80a5c8a6d20be2592\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-annotations\r03\4898719420a0e946ad0772c5c2c61111999c78c2\guava-annotations-r03.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4898719420a0e946ad0772c5c2c61111999c78c2">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\guava-annotations-r03_699fd1e17c9844d5bb2d67bad99640d44a6cc8c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\uk.co.chrisjenx\calligraphy\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\uk.co.chrisjenx-calligraphy-2.1.0_25e433907033a12e1555c69fe7cf1e4c5a9aa4e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0c46a5a897439810b6c437ce188bd07d9d8dffb0">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.8_2a0249ebf9e24ca0e0f006c82bb73871d61cb5d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d2ce88db16786c9c2a839f1839af47a9a96dad17">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.1_9ae5ac3b221853928c1dacd0140accc490dae717\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-analytics-9.0.0_a720a2023447dbf545eac006e8c9fb1e90c17ff4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="99c0128e5e416cf65c7dc8465c1cb1d5fd7c4f92">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.1_3c9ff94f80fc8af3cd70428f51b268861635c086\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-database-9.4.0_f5c8e7161e1e13078b7192b0055c96525b3784a7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-collections\r03\3772a083628d3c78edddf91af53612104789b886\guava-collections-r03.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3772a083628d3c78edddf91af53612104789b886">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\guava-collections-r03_d059d3e8338a8052ebf38d00a0d9bdf51a3bc2eb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\library-2.4.0_87ef2a42028292971b7a006721f0220e2ece37f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\internal_impl-23.4.0_51e7c9259d29d741f3acf5d33f14ce8a617e179d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-design-23.3.0_8427ac32f66656dd16ca0bf4be2f5c0ae65f5f0d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_900dd130876c69b69d79c61dc6ec96c0621ecdf6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-iid-9.0.0_b46797668e8de6ae5ffce611b934505a33583358\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\incremental-runtime-classes\sit\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1bc54edc2d4871739163cb8c02b9936746db1fb5">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\instant-run_ba329feee88d7ee2743fdff097f4093f9a33514a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\okhttp-2.6.0_74f0fcc56790eb1b7d863431b5dc18ffc946944a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.daimajia.androidanimations-library-1.1.3_769bab64f7b0f9f720a28567c37d678d6a334a6b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.8\cf615176cd1177edf71d3c9605f8dc148fede6be\otto-1.3.8.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\otto-1.3.8_9b04233d48d6aa3a3c6f9c018999bf0f313c6a5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_501506c15fe7b0d15402ffe07e6a20d24eed5abf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\incremental-classes\sit\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="43bfc68b3b0c36a1fd1b8331715d7ddba79c6cec">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\instant-run-bootstrap_3763b403d02713f18dbaaf12db8b4c50a7e9af29\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="184428c29b2a4b220cd44284d515db5d8cb5fc76">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-wearable-9.0.0_8ce9e88367789cece7db3d4964e78880944135b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\butterknife-7.0.1_43537d4322c1bfec8183af8ac29ff4b97d5993fd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.android.gms-play-services-gcm-9.0.0_088fc867ffa7b67ceca16715fabb1c0885b2f0b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.daimajia.easing-library-1.0.1_d8e464e22e168f2251997447529a06e63d6c8d5a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_90e54af2bdd56078f3a86e87791d620b7e7ccdb9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\picasso-2.5.2_0cfcd3ff03873aabc3a3cac95486f4dcc4c0db21\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.github.rey5137\material\1.2.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8419191d25f4105772fc16b55a005a270cb4d4c8">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.github.rey5137-material-1.2.4_aca0c885f87a8bb896fc9e761280e28f228aeea5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-common-9.4.0_f0cda3c80e4a47ce90ba37af3b2cb786ed60393d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\retrofit-1.9.0_10f77ad32f49a8b410c3ed1b94b872cab11e9dad\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\gson-2.6.2_1ebb7adff8d5bbb8c244da365221d810e682df0a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-base\r03\251db72895ba5745e6810334075095832f12f437\guava-base-r03.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="251db72895ba5745e6810334075095832f12f437">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\guava-base-r03_3c37637aed801512315e9549e1d31df642946b29\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-primitives\r03\7c7ae5136b57e412516b089559d0eaac92f1df83\guava-primitives-r03.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7c7ae5136b57e412516b089559d0eaac92f1df83">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\guava-primitives-r03_9930cfdd2ef18cc21b4358c96aca32faf5e074ae\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_ad8fd4da9f48e82dd8cab437cf22375dd7a3a930\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.0_4d716226eac1bbfa003851b699b55428e03dcb80\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.android.support-cardview-v7-23.4.0_b1ef8c1fb50a92d898f89152493e1c05f0150b45\classes.dex" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2f9a9b21b70965cde70f6eb8f2ee68794fb482e6">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.10_4b2de2632e7941225ae1080bb9d0d00402044d38\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Developer\SourceTree\LiveloAutomationApp\app\build\intermediates\transforms\dex\sit\folders\1000\10\okio-1.6.0_8000090bc7ddb03caba0026ae024b7efea423a28\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_activate_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f5f5f5"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activate_device_image_margin_top"
+        android:src="@drawable/token_cel" />
+
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        android:layout_marginTop="@dimen/activate_device_description_margin_top"
+        android:gravity="center"
+        android:text="@string/token_title_activation" />
+
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/et_code"
+        style="@style/LiveloPontosTheme.EditText.Activation.Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/token_hint_activation"
+        app:et_dividerHeight="1dp" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/token_activation"
+        style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
+        android:textColor="@color/gray_888888"
+        android:text="@string/token_btn_activation" />
+
+
+    <TextView
+        android:id="@+id/send_code_again"
+        style="@style/LiveloPontosTheme.TextView.Token.Pink"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/token_send_code_again" />
+
+</LinearLayout>

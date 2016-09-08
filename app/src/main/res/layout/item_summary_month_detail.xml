@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/summary_item_month_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/summary_month_detail_item_date_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/summary_month_detail_item_date_content_margin_top"
+            android:layout_marginBottom="@dimen/summary_month_detail_item_date_content_margin_bottom"
+            android:layout_marginLeft="@dimen/summary_month_detail_item_date_content_margin_left"
+            android:background="@drawable/calendario">
+
+            <TextView
+                android:id="@+id/summary_month_detail_item_date_number"
+                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Number"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/summary_month_detail_item_date_desc"
+                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Desc"
+                android:layout_below="@+id/summary_month_detail_item_date_number"
+                android:text="QUI" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/extract_item_store_margin_left"
+            android:layout_marginRight="@dimen/extract_item_store_margin_left"
+            android:layout_toRightOf="@+id/summary_month_detail_item_date_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/summary_month_detail_item_store"
+                android:layout_width="match_parent"
+                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Store"
+                android:text="Padaria Juliet Padaria Juliet Padaria Juliet Padaria Juliet" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/summary_item_month_points_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/summary_month_detail_item_points"
+                android:layout_width="wrap_content"
+                style="@style/LiveloPontosTheme.TextView.Summary.Item.Points"
+                android:layout_toLeftOf="@+id/iv_arrow"
+                tools:text="0" />
+
+            <TextView
+                android:id="@+id/summary_month_detail_item_pts"
+                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                android:layout_below="@+id/summary_month_detail_item_points"
+                android:layout_toLeftOf="@+id/iv_arrow"
+                android:text="PONTOS" />
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible"
+                android:src="@drawable/arrow" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/summary_month_detail_item_date_content"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/list_divider_color" />
+
+    </RelativeLayout>
+
+</LinearLayout>

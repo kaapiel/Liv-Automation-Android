@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphicBar">
+        <attr name="barra_month" format="string" />
+        <attr name="barra_amount" format="string" />
+    </declare-styleable>
+
+
+</resources>

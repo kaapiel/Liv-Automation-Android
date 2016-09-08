@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/historic_filter_by_all"
+        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Filter"
+        android:text="@string/historic_filter_filter_by_all"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/historic_filter_by_partner_name"
+        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Filter"
+        android:text="@string/historic_filter_filter_by_partner_name"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/historic_filter_by_points_accumulated"
+        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Filter"
+        android:text="@string/historic_filter_filter_by_points_accumulated"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/historic_filter_by_points_rescued"
+        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Filter"
+        android:text="@string/historic_filter_filter_by_points_rescued"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/historic_filter_by_points_expired"
+        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Filter"
+        android:text="@string/historic_filter_filter_by_points_expired"
+        android:layout_marginBottom="@dimen/summary_month_filtro_itens_margin_bottom"
+        android:visibility="invisible" />
+
+</LinearLayout>

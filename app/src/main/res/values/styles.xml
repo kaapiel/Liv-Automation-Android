@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="LiveloPontosTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_color_primary</item>
+        <item name="colorPrimaryDark">@color/app_color_primary_dark</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_voltar</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Black" parent="@style/LiveloPontosTheme">
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Pink" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/pink_ed037c</item>
+        <item name="colorPrimaryDark">@color/blue_150958</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_voltar</item>
+        <item name="colorControlNormal">#ffffff</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.ActivateDeviceActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/blue_150958</item>
+        <item name="colorPrimaryDark">@color/blue_150958</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_voltar</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Toolbar" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/toolbar_title</item>
+        <item name="android:textSize">@dimen/toolbar_title</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Fullscreen.Splash" parent="LiveloPontosTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Fullscreen.BrandingBank" parent="LiveloPontosTheme.Fullscreen.Splash"></style>
+
+    <style name="LiveloPontosTheme.TextView" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Home" parent="@style/LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/blue_150958</item>
+        <item name="android:textSize">18.5sp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.EditText" parent="android:TextAppearance.Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button" parent="android:TextAppearance.Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_livelo</item>
+        <item name="android:enabled">false</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.Enabled" parent="android:TextAppearance.Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/login_button_join_margin_top</item>
+        <item name="android:background">@drawable/bg_button_enable</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/login_button_activate_account</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Activation.Code" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:textColor">@color/register_user_info</item>
+        <item name="android:textSize">@dimen/login_password</item>
+        <item name="android:textColorHint">@color/register_user_info</item>
+        <item name="android:maxLength">6</item>
+        <item name="et_dividerColor">@color/register_user_info</item>
+        <item name="et_labelTextColor">@color/register_user_info</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextAppeareance.Error" parent="android:TextAppearance">
+        <item name="colorControlNormal">#cb3e33</item>
+        <item name="colorControlActivated">#cb3e33</item>
+        <item name="colorControlHighlight">#cb3e33</item>
+
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Code" parent="Material.Widget.EditText.Light">
+        <item name="android:textColor">@color/blue_53529a</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:background">@color/gray_e5e5e5</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.JoinNow" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tutorial_join_now</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_join_now_margin_bottom</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <!--<item name="android:layout_alignParentLeft">true</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/tutorial_join_now_margin_left</item>-->
+        <item name="android:padding">@dimen/tutorial_join_now_padding</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.ActivateAccount" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tutorial_activate_account</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_activate_account_margin_bottom
+        </item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/tutorial_activate_account_margin_right</item>
+        <item name="android:padding">@dimen/tutorial_activate_account_padding</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.Title.Header" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/tutorial_title</item>
+        <item name="android:textColor">@color/tutorial_title</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_title_margin_top</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.Title.Footer" parent="LiveloPontosTheme.TextView.Tutorial.Title.Header">
+        <item name="android:layout_marginTop">@dimen/tutorial_title_footer_margin_top</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.SubTitle.Header" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/tutorial_subtitle</item>
+        <item name="android:textColor">@color/tutorial_subtitle</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_subtitle_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/tutorial_subtitle_margin_right</item>
+        <item name="android:layout_marginLeft">@dimen/tutorial_subtitle_margin_left</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Tutorial.SubTitle.Footer" parent="LiveloPontosTheme.TextView.Tutorial.SubTitle.Header">
+        <item name="android:layout_marginTop">@dimen/tutorial_subtitle_margin_top</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Banner.Error" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/banner_error</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Login.Cpf.Email" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textColor">@color/login_cpf_email</item>
+        <item name="android:textSize">@dimen/login_cpf_email</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="et_dividerColor">#ed037c</item>
+        <item name="et_labelTextColor">#b3ffffff</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Login.Cpf.Email.Off" parent="LiveloPontosTheme.EditText.Login.Cpf.Email">
+        <item name="et_dividerColor">#73ed037c</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Login.Password" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:textColor">@color/login_password</item>
+        <item name="android:textSize">@dimen/login_password</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:maxLength">6</item>
+        <item name="et_dividerColor">#ed037c</item>
+        <item name="et_labelTextColor">#b3ffffff</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Acctivate.Account.Cpf" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">@dimen/activate_account_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activate_account_content_margin_right</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textColor">@color/activate_account_cpf</item>
+        <item name="android:textSize">@dimen/activate_account_cpf</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="et_dividerColor">#ed037c</item>
+        <item name="et_labelTextColor">#b3ffffff</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Acctivate.Account.Activation.Code" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">@dimen/activate_account_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activate_account_content_margin_right</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textColor">@color/activate_account_activation_code</item>
+        <item name="android:textSize">@dimen/activate_account_activation_code</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:maxLength">6</item>
+        <item name="et_dividerColor">#ed037c</item>
+        <item name="et_labelTextColor">#b3ffffff</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:singleLine">true</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Login.Forgot.Password" parent="LiveloPontosTheme.EditText">
+        <item name="android:layout_marginTop">@dimen/login_forgot_password_margin_top</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/login_forgot_password</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.Login.Join" parent="LiveloPontosTheme.Button">
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/login_button_join_margin_top</item>
+        <item name="android:textColor">@color/login_buttons_enable</item>
+        <item name="android:textSize">@dimen/login_button_join</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.Login.Activate.Account" parent="LiveloPontosTheme.Button">
+        <item name="android:layout_marginLeft">@dimen/login_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/login_content_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/login_button_activate_account_margin_top</item>
+        <item name="android:textColor">@color/login_buttons_disable</item>
+        <item name="android:textSize">@dimen/login_button_activate_account</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.Activate.Account.Activate" parent="LiveloPontosTheme.Button">
+        <item name="android:layout_marginLeft">@dimen/activate_account_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activate_account_content_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/activate_account_button_margin_top</item>
+        <item name="android:textSize">@dimen/activate_account_button_activate</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Custom.Dialog.Alert.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/custom_alert_dialog_title_margin_top</item>
+        <item name="android:textSize">@dimen/custom_alert_dialog_title</item>
+        <item name="android:textColor">@color/custom_alert_dialog_title</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Token.Title.Blue" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/summary_item_title_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Title.White" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.MuseoSans.Blue" parent="LiveloPontosTheme.TextView.Token.Title.Blue">
+        <item name="android:textColor">@color/summary_item_title_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Token.Pink" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/pink_ed037c</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Token.Description.Blue" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/blue_53529a</item>
+        <item name="android:textSize">14.3sp</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Custom.Dialog.Alert.Description" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/custom_alert_dialog_description_margin_top
+        </item>
+        <item name="android:layout_marginRight">
+            @dimen/custom_alert_dialog_description_margin_right
+        </item>
+        <item name="android:layout_marginLeft">@dimen/custom_alert_dialog_description_margin_left
+        </item>
+        <item name="android:textSize">@dimen/custom_alert_dialog_description</item>
+        <item name="android:textColor">@color/custom_alert_dialog_description</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Custom.Dialog.Alert.Button" parent="LiveloPontosTheme.EditText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/custom_alert_dialog_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Custom.Dialog.Password" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_marginLeft">46dp</item>
+        <item name="android:layout_marginRight">46dp</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#b3ffffff</item>
+        <item name="android:maxLength">6</item>
+        <item name="et_dividerColor">#73ed037c</item>
+        <item name="et_labelTextColor">#b3ffffff</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Activate.Account.Header" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/activate_account_header</item>
+        <item name="android:textColor">@color/activate_account_header</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/activate_account_header_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/activate_account_header_margin_right</item>
+        <item name="android:layout_marginLeft">@dimen/activate_account_header_margin_left</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Activate.Account.Footer" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/activate_account_footer</item>
+        <item name="android:textColor">@color/activate_account_footer</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/activate_account_footer_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/activate_account_content_margin_right</item>
+        <item name="android:layout_marginLeft">@dimen/activate_account_content_margin_left</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+    <!-- Register User -->
+    <style name="LiveloPontosTheme.TextView.Register.Info" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_user_info</item>
+        <item name="android:textColor">@color/register_user_info</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/register_user_info_background</item>
+        <item name="android:paddingTop">@dimen/register_user_info_padding_top</item>
+        <item name="android:paddingBottom">@dimen/register_user_info_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/register_user_info_padding_left</item>
+        <item name="android:paddingRight">@dimen/register_user_info_padding_right</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Register.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_user_title</item>
+        <item name="android:textColor">@color/register_user_title</item>
+        <item name="android:layout_marginTop">@dimen/register_user_title_margin_top</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Register.SubTitle" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_user_subtitle</item>
+        <item name="android:textColor">@color/register_user_subtitle</item>
+        <item name="android:layout_marginBottom">@dimen/register_user_subtitle_margin_bottom</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Switch.Description" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_user_switch_desciption</item>
+        <item name="android:textColor">@color/register_user_text</item>
+        <item name="android:layout_marginBottom">@dimen/register_user_subtitle_margin_bottom</item>
+        <item name="android:layout_marginRight">@dimen/register_user_switch_margin_bottom</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.ImageView.Register" parent="android:Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.Register" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/register_user_text</item>
+        <item name="android:textSize">@dimen/register_user_edit_text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color_blue</item>
+        <item name="android:textColorHint">@color/register_user_hint</item>
+        <item name="et_dividerColor">@color/register_user_line</item>
+        <item name="et_labelTextColor">@color/register_user_hint</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="et_supportMode">helper</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Spinner" parent="Material.Widget.Spinner.Light">
+        <item name="spn_labelEnable">true</item>
+        <item name="spn_dividerColor">@color/pink_ed037c</item>
+        <item name="spn_arrowSwitchMode">true</item>
+        <item name="spn_arrowAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="spn_arrowInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="spn_arrowColor">@color/pink_ed037c</item>
+        <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Spinner.Item" parent="Material.Drawable.Ripple.Wave">
+        <item name="rd_maskType">rectangle</item>
+        <item name="rd_cornerRadius">0dp</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Spinner.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/register_user_text</item>
+        <item name="android:textSize">@dimen/register_user_edit_text</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Switch" parent="Material.Widget.Switch">
+        <item name="sw_trackColor">@drawable/color_track</item>
+        <item name="sw_thumbColor">@drawable/color_thumb</item>
+    </style>
+
+    <style name="LiveloPontosTheme.CheckBox" parent="Material.Drawable.CheckBox">
+        <item name="cbd_strokeColor">@drawable/color_switch</item>
+        <item name="android:textAppearance">@style/LiveloPontosTheme.Spinner.TextAppearance</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.register.Activate.Account" parent="LiveloPontosTheme.Button">
+        <item name="android:textColor">@color/register_button_disable</item>
+        <item name="android:textSize">@dimen/register_button_activated</item>
+        <item name="android:layout_marginTop">@dimen/register_user_edittext_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/register_user_edittext_margin_bottom</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Address" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginLeft">@dimen/register_user_address_margin_left</item>
+        <item name="android:textSize">@dimen/register_user_address</item>
+        <item name="android:textColor">@color/register_user_address_enable</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Register.Confirmation.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_confirmation_title</item>
+        <item name="android:textColor">@color/register_confirmation_title</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/account_activated_title_margin_top</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Register.Confirmation.Subtitle" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/register_confirmation_subtitle</item>
+        <item name="android:textColor">@color/register_confirmation_subtitle</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/register_confirmation_subtitle_margin_top
+        </item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.Register.Confirmation" parent="LiveloPontosTheme.Button">
+        <item name="android:layout_marginLeft">@dimen/register_confirmation_button_margin_left
+        </item>
+        <item name="android:layout_marginRight">@dimen/register_confirmation_button_margin_right
+        </item>
+        <item name="android:layout_marginBottom">@dimen/register_confirmation_button_margin_bottom
+        </item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/register_confirmation_button</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <!-- MENU -->
+    <style name="LiveloPontosTheme.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:listDivider">@color/home_menu_divider_color</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:itemBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="LiveloPontosTheme.NavigationView.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/home_navigationview_text_size</item>
+    </style>
+
+    <style name="LiveloPontosTheme.NavigationView.TextAppearance.MyAccount" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/home_menu_group_divider_color</item>
+        <item name="android:textSize">@dimen/home_navigationview_text_size</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Menu.Header.Greet" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/menu_header_name_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/menu_header_content_margin_left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/menu_header_name_text_size</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Menu.Header.Name" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginLeft">@dimen/menu_header_content_margin_left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/menu_header_name_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- My Info -->
+    <style name="LiveloPontosTheme.TextView.MyInfo.Banner" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/my_account_banner_padding_top</item>
+        <item name="android:paddingLeft">@dimen/my_account_banner_padding_left</item>
+        <item name="android:paddingRight">@dimen/my_account_banner_padding_right</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/my_info_banner_text_size</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.MyInfo.Banner.Site" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/my_account_banner_padding_bottom</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/my_info_banner_site_text_size</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <!-- My Points -->
+    <style name="LiveloPontosTheme.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/my_points_tab_text_color_selected</item>
+        <item name="tabTextAppearance">@style/LiveloPontosTheme.TabLayout.TextAppearance</item>
+        <item name="tabSelectedTextColor">@color/my_points_tab_text_color_selected</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TabLayout.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/my_points_tab_text_size</item>
+        <item name="android:textColor">@color/my_points_tab_text_color_unselected</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+
+    <!-- Summary -->
+    <style name="LiveloPontosTheme.TextView.Summary.Top.Points" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_top_points_text_size</item>
+        <item name="android:textColor">@color/summary_top_points_text_color</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Summary.Top.Pts" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_top_pts_text_size</item>
+        <item name="android:textColor">@color/summary_top_pts_text_color</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Top.Description" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_top_description_text_size</item>
+        <item name="android:textColor">@color/summary_top_description_text_color</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Item.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/summary_item_title_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/summary_item_title_margin_left</item>
+        <item name="android:textSize">@dimen/summary_item_title_text_size</item>
+        <item name="android:textColor">@color/summary_item_title_color</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Item.Subtitle" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginLeft">@dimen/summary_item_subtitle_margin_left</item>
+        <item name="android:textSize">@dimen/summary_item_subtitle_text_size</item>
+        <item name="android:textColor">@color/summary_item_subtitle_color</item>
+        <item name="android:layout_marginBottom">@dimen/summary_item_subtitle_margin_bottom</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Item.Points" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_item_points_text_size</item>
+        <item name="android:textColor">@color/summary_item_points_color</item>
+        <item name="android:layout_marginRight">@dimen/summary_item_points_margin_right</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Item.Pts" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_item_pts_text_size</item>
+        <item name="android:textColor">@color/summary_item_pts_color</item>
+        <item name="android:layout_marginRight">@dimen/summary_item_points_margin_right</item>
+    </style>
+
+    <!-- Extract -->
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Points" parent="LiveloPontosTheme.TextView.Summary.Top.Points"/>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Pts" parent="LiveloPontosTheme.TextView.Summary.Top.Pts"/>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Description" parent="LiveloPontosTheme.TextView.Summary.Top.Description">
+        <item name="android:background">@drawable/extract_historic_bg</item>
+        <item name="android:paddingTop">@dimen/extract_historic_padding_top</item>
+        <item name="android:paddingBottom">@dimen/extract_historic_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/extract_historic_padding_left</item>
+        <item name="android:paddingRight">@dimen/extract_historic_padding_right</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TabLayout.Extract" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabTextAppearance">@style/LiveloPontosTheme.TabLayout.Extract.TextAppearance
+        </item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TabLayout.Extract.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/my_points_tab_extract_text_size</item>
+        <item name="android:textColor">@color/my_points_tab_text_color_unselected</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TabLayout.TextAppearance.Extact" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/extract_tablayout_text_size</item>
+        <item name="android:textColor">@color/extract_tablayout_item_unselected</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Minimized.Points" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginRight">@dimen/extract_top_minimized_points_margin_right
+        </item>
+        <item name="android:textSize">@dimen/extract_top_minimized_points_text_size</item>
+        <item name="android:textColor">@color/extract_top_minimized_points</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Months" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingBottom">@dimen/item_extract_mont_padding</item>
+        <item name="android:paddingTop">@dimen/item_extract_mont_padding</item>
+        <item name="android:textSize">@dimen/extract_item_month_text_size</item>
+        <item name="android:textColor">@color/extract_tablayout_item_unselected</item>
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Minimized.Pts" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/extract_top_minimized_pts</item>
+        <item name="android:textSize">@dimen/extract_top_minimized_pts_text_size</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Top.Minimized.Month" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/extract_top_minimized_month_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/extract_top_minimized_month_text_size</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Footer.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/extract_footer_title_text_color</item>
+        <item name="android:textSize">@dimen/extract_footer_title_text_size</item>
+        <item name="android:layout_marginTop">@dimen/extract_footer_title_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/extract_footer_title_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/extract_footer_title_margin_left</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Footer.Points" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/extract_footer_points_negative_text_color</item>
+        <item name="android:textSize">@dimen/extract_footer_points_text_size</item>
+        <item name="android:layout_marginRight">@dimen/extract_footer_points_margin_right</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Clean.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/extract_clean_title_text_color</item>
+        <item name="android:textSize">@dimen/extract_clean_title_text_size</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Clean.Description" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/extract_clean_description_text_color</item>
+        <item name="android:textSize">@dimen/extract_clean_description_text_size</item>
+        <item name="android:layout_marginTop">@dimen/extract_clean_description_margin_top</item>
+        <item name="android:gravity">center</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+
+    <!-- Extract Item -->
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Date.Number" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/extract_item_date_number_text_size</item>
+        <item name="android:textColor">@color/extract_item_date_number_text_color</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/extract_item_date_number_margin_top</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Date.Desc" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/extract_item_date_desc_text_size</item>
+        <item name="android:textColor">@color/extract_item_date_desc_text_color</item>
+        <item name="android:layout_marginBottom">@dimen/extract_item_date_desc_margin_bottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:maxLength">3</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Store" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/extract_item_store_text_size</item>
+        <item name="android:textColor">@color/extract_item_store_text_color</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Store.Type" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/extract_item_store_type_text_size</item>
+        <item name="android:textColor">@color/extract_item_store_type_text_color</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Points" parent="LiveloPontosTheme.TextView.Summary.Item.Points">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Extract.Item.Pts" parent="LiveloPontosTheme.TextView.Summary.Item.Pts"/>
+
+
+    <!-- Last Update -->
+    <style name="LiveloPontosTheme.TextView.LastUpdate.Label" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/last_update_label_text_color</item>
+        <item name="android:textSize">@dimen/last_update_label_text_size</item>
+        <item name="android:layout_marginTop">@dimen/last_update_label_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/last_update_label_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/last_update_label_margin_left</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.LastUpdate.Date" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/last_update_date_text_color</item>
+        <item name="android:textSize">@dimen/last_update_date_text_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/last_update_date_margin_right</item>
+    </style>
+
+    <!-- Summary Month -->
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Filter" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/summary_month_filtro_first_margin_top</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/summary_month_filtro_text_size</item>
+        <item name="android:textColor">@color/summary_month_filtro_text_color</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <!-- Rescue Filter -->
+    <style name="LiveloPontosTheme.TextView.Rescue.Filter.Title" parent="LiveloPontosTheme.TextView.Summary.Month.Filter"/>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Filter" parent="LiveloPontosTheme.TextView">
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textSize">@dimen/summary_month_filtro_text_size</item>
+        <item name="android:textColor">@color/summary_month_filtro_text_color</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields.Order" parent="@style/LiveloPontosTheme.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/gray_888888</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields" parent="@style/LiveloPontosTheme.TextView">
+        <item name="android:textSize">14.3sp</item>
+        <item name="android:textColor">@color/blue_150958</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields.Blue" parent="@style/LiveloPontosTheme.TextView.Rescue.Fields">
+        <item name="android:textColor">@color/blue_53529a</item>
+        <item name="android:layout_marginBottom">@dimen/rescue_status_margin_bottom</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields.Bold" parent="@style/LiveloPontosTheme.TextView.Rescue.Fields">
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields.Bold500" parent="@style/LiveloPontosTheme.TextView.Rescue.Fields">
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500" parent="@style/LiveloPontosTheme.TextView.Rescue.Fields">
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+        <item name="android:textColor">@color/pink_ed037c</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Product.Detail.Title" parent="@style/LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/blue_150958</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/gray_f5f5f5</item>
+        <item name="android:padding">@dimen/last_update_label_margin_left</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Rescue.Status" parent="@style/LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/rescued_status_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/rescue_status_padding_top</item>
+        <item name="android:paddingBottom">@dimen/rescue_status_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/rescue_status_padding_left</item>
+        <item name="android:paddingRight">@dimen/rescue_status_padding_right</item>
+        <item name="android:background">@drawable/bg_order_process</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.NothingToShow.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/summary_month_nothingtoshow_title_margin_top
+        </item>
+        <item name="android:textSize">@dimen/summary_month_nothingtoshow_title_text_size</item>
+        <item name="android:textColor">@color/summary_month_nothingtoshow_title_text_color</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.NothingToShow.Subtitle" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">
+            @dimen/summary_month_nothingtoshow_subtitle_margin_top
+        </item>
+        <item name="android:textSize">@dimen/summary_month_nothingtoshow_subtitle_text_size</item>
+        <item name="android:textColor">@color/summary_month_nothingtoshow_subtitle_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Item.Month" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/summary_month_item_month_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/summary_month_item_month_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/summary_month_item_month_margin_bottom
+        </item>
+        <item name="android:textSize">@dimen/summary_month_item_month_text_size</item>
+        <item name="android:textColor">@color/summary_month_item_month_color</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Item.Points" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_month_item_points_text_size</item>
+        <item name="android:textColor">@color/summary_month_item_points_color</item>
+        <item name="android:layout_marginRight">@dimen/summary_month_item_points_margin_right</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Item.Pts" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/summary_month_item_pts_text_size</item>
+        <item name="android:textColor">@color/summary_month_item_pts_color</item>
+        <item name="android:layout_marginRight">@dimen/summary_month_item_pts_margin_right</item>
+    </style>
+
+
+    <!-- Summary Month Detail Item -->
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Number" parent="LiveloPontosTheme.TextView.Extract.Item.Date.Number"/>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Desc" parent="LiveloPontosTheme.TextView.Extract.Item.Date.Desc"/>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Store" parent="LiveloPontosTheme.TextView.Extract.Item.Store"/>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Store.Type" parent="LiveloPontosTheme.TextView.Extract.Item.Store.Type"/>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Points" parent="LiveloPontosTheme.TextView.Summary.Item.Points"/>
+
+    <style name="LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Pts" parent="LiveloPontosTheme.TextView.Summary.Item.Pts"/>
+
+    <!-- Historic Extract -->
+    <style name="LiveloPontosTheme.TextView.Historic.Filter" parent="LiveloPontosTheme.TextView.Summary.Month.Filter">
+        <item name="android:layout_weight">.5</item>
+    </style>
+
+
+    <style name="LiveloPontosTheme.TextView.Historic.Filter.Order" parent="LiveloPontosTheme.TextView.Historic.Filter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:drawableLeft">@drawable/ic_recentes</item>
+        <item name="android:drawablePadding">26.4dp</item>
+        <item name="android:layout_marginTop">@dimen/summary_month_filtro_itens_margin_top</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Historic.Filter.Filter" parent="LiveloPontosTheme.TextView.Historic.Filter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:drawableLeft">@drawable/filtro_enviados_off</item>
+        <item name="android:drawablePadding">28.3dp</item>
+        <item name="android:layout_marginTop">@dimen/summary_month_filtro_itens_margin_top</item>
+        <item name="fontPath">fonts/MuseoSans_100.otf</item>
+    </style>
+
+
+    <style name="CircularProgressDrawableStyle" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColor">@color/loading_circular_color</item>
+        <item name="cpd_strokeSize">2dp</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Historic.Title.Month" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/historic_extract_title_month_text_size</item>
+        <item name="android:textColor">@color/historic_extract_title_month_text_color</item>
+        <item name="android:paddingTop">@dimen/historic_extract_title_month_padding_top</item>
+        <item name="android:paddingBottom">@dimen/historic_extract_title_month_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/historic_extract_title_month_padding_left</item>
+        <item name="android:background">@color/historic_extract_title_month_text_background</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+
+    <!-- My Account -->
+    <style name="LiveloPontosTheme.TextView.MyAccount.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginLeft">@dimen/my_account_title_margin_left</item>
+        <item name="android:textColor">@color/my_accout_title_color</item>
+        <item name="android:textSize">@dimen/my_account_title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Loading -->
+    <style name="LiveloPontosTheme.TextView.Loading" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">@dimen/loading_text_margin_top</item>
+        <item name="android:textColor">@color/loading_text_color</item>
+        <item name="android:textSize">@dimen/loading_text_size</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.Mini.Loading" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginLeft">@dimen/mini_loading_text_margin_left</item>
+        <item name="android:textColor">@color/mini_loading_text_color</item>
+        <item name="android:textSize">@dimen/loading_text_size</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="SimpleDialog" parent="Material.App.Dialog.Simple.Light">
+        <item name="di_inAnimation">@anim/anim_scale_in</item>
+        <item name="di_outAnimation">@anim/anim_scale_out</item>
+    </style>
+
+
+    <!-- Forgot Password -->
+    <style name="LiveloPontosTheme.Button.ForgorPassword.Send" parent="LiveloPontosTheme.Button">
+        <item name="android:textColor">@color/button_disable</item>
+        <item name="android:textSize">@dimen/register_button_activated</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginBottom">@dimen/register_user_edittext_margin_bottom</item>
+        <item name="fontPath">fonts/Signika-Light.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.EditText.ForgotPassword.Cpf" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/register_user_text</item>
+        <item name="android:textSize">@dimen/register_user_edit_text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color_blue</item>
+        <item name="android:textColorHint">@color/register_user_hint</item>
+        <item name="et_dividerColor">@color/register_user_line</item>
+        <item name="et_labelTextColor">@color/register_user_hint</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:inputType">number</item>
+        <item name="et_supportMode">helper</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ForgotPassword.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/forgot_password_title_background</item>
+        <item name="android:paddingBottom">@dimen/forgot_password_title_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/forgot_password_title_padding_left</item>
+        <item name="android:paddingTop">@dimen/forgot_password_title_padding_top</item>
+        <item name="android:textColor">@color/forgot_password_title_text_color</item>
+        <item name="android:textSize">@dimen/forgot_password_title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <!-- Change Password -->
+    <style name="LiveloPontosTheme.EditText.ChangePassword" parent="Material.Widget.EditText.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/register_user_text</item>
+        <item name="android:textSize">@dimen/register_user_edit_text</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color_pink</item>
+        <item name="android:textColorHint">@color/register_user_hint</item>
+        <item name="et_dividerColor">@color/register_user_line</item>
+        <item name="et_labelTextColor">@color/register_user_hint</item>
+        <item name="et_supportTextErrorColor">#FFFF0000</item>
+        <item name="et_dividerErrorColor">#FFFF0000</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:maxLength">6</item>
+        <item name="et_supportMode">helper</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ChangePassword.Title" parent="LiveloPontosTheme.TextView.ForgotPassword.Title"/>
+
+
+    <style name="LiveloPontosTheme.TextView.ChangePassword.Description" parent="LiveloPontosTheme.TextView">
+        <item name="android:textSize">@dimen/change_password_descripton_text_size</item>
+        <item name="android:textColor">@color/change_password_description_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/change_password_description_margin_top</item>
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Button.ChangePassword.Save" parent="LiveloPontosTheme.Button.ForgorPassword.Send">
+        <item name="android:layout_marginTop">@dimen/change_password_save_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/change_password_save_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/change_password_save_margin_right</item>
+    </style>
+
+    <!-- Password Settings -->
+    <style name="LiveloPontosTheme.TextView.PasswordSettings" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/my_accout_title_color</item>
+        <item name="android:textSize">@dimen/my_account_title_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <!-- Branding Bank -->
+    <style name="LiveloPontosTheme.TextView.BrandingBank.Title" parent="LiveloPontosTheme.TextView">
+        <item name="android:textColor">@color/branding_bank_title_color</item>
+        <item name="android:textSize">@dimen/branding_bank_title_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/branding_bank_title_margin_top</item>
+        <item name="fontPath">fonts/Signika-Bold.ttf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.Dialog.Loading" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@color/loading_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <!-- Product Detail -->
+    <style name="LiveloPontosTheme.TextView.ProductDetail" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/product_name_color</item>
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+        <item name="android:layout_marginTop">@dimen/product_name_margin_top_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/product_name_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/product_name_margin_left_right</item>
+        <item name="android:layout_marginBottom">@dimen/product_name_margin_top_bottom</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.ProductName" parent="LiveloPontosTheme.TextView.ProductDetail">
+        <item name="android:textSize">@dimen/product_name_text_size</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Title" parent="LiveloPontosTheme.TextView.ProductDetail">
+        <item name="android:textSize">@dimen/product_provider_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Subtitle" parent="LiveloPontosTheme.TextView.ProductDetail">
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+        <item name="android:textColor">@color/product_color_color</item>
+        <item name="android:textSize">@dimen/product_color_text_size</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Text" parent="LiveloPontosTheme.TextView.ProductDetail">
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+        <item name="android:textColor">@color/product_description_text</item>
+        <item name="android:textSize">@dimen/product_description_text_size</item>
+        <item name="android:layout_marginTop">@dimen/product_description_text_margin_top</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.ProductsAmount.Text" parent="android:TextAppearance.Widget.TextView">
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+        <item name="android:textColor">@color/products_amount_text</item>
+        <item name="android:textSize">@dimen/products_amount_text</item>
+        <item name="android:layout_marginLeft">@dimen/products_amount_text_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/products_amount_text_margin_left_right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/product_amount_bg</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.ProductsVariation.SpinnerText" parent="LiveloPontosTheme.TextView.ProductDetail">
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+        <item name="android:textColor">@color/products_variation_text</item>
+        <item name="android:textSize">@dimen/product_variation_spinner_text_size</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Partner" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/products_partner_enabled_text</item>
+        <item name="android:textSize">@dimen/product_partner_description_text</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Partner.Name" parent="LiveloPontosTheme.TextView.ProductDetail.Partner">
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Partner.Unavailable" parent="LiveloPontosTheme.TextView.ProductDetail.Partner">
+        <item name="fontPath">fonts/MuseoSans_500.otf</item>
+        <item name="android:textColor">@color/products_partner_unavailable_text</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Partner.Values" parent="LiveloPontosTheme.TextView.ProductDetail.Partner">
+        <item name="fontPath">fonts/MuseoSans_300.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.Partner.Values.Value" parent="LiveloPontosTheme.TextView.ProductDetail.Partner">
+        <item name="fontPath">fonts/MuseoSans_700.otf</item>
+    </style>
+
+    <style name="LiveloPontosTheme.TextView.ProductDetail.AddToCart" parent="android:TextAppearance.Widget.Button">
+        <item name="android:background">@drawable/button_livelo</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/add_to_cart_text</item>
+        <item name="android:text">@string/product_add_to_chart</item>
+        <item name="fontPath">fonts/Signika-Regular.ttf</item>
+        <item name="android:layout_marginLeft">@dimen/add_to_cart_drawable_padding</item>
+        <item name="android:layout_marginTop">@dimen/add_to_cart_text_margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/add_to_cart_text_margin_top_bottom</item>
+        <item name="android:layout_marginRight">@dimen/product_amount_button_margin_right</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:drawableLeft">@drawable/ic_carrinho</item>
+        <item name="android:drawablePadding">@dimen/add_to_cart_drawable_padding</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">@dimen/product_add_to_cart_padding_left</item>
+    </style>
+
+    <style name="LiveloPontosTheme.DialogConfirmation" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:width">310dp</item>
+    </style>
+
+</resources>

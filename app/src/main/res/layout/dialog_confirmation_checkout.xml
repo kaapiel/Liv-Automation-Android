@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="299dp"
+              android:layout_height="412dp"
+              android:background="@drawable/bg_dialog_cart"
+              android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="71dp"
+        android:src="@drawable/pontos_vazio"
+        android:id="@+id/dr_img_dialog"
+        android:layout_gravity="left" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        android:layout_marginTop="@dimen/activate_device_description_margin_top"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tv_key"
+        android:text="LIV-9999"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_summary"
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Automation - SIT - Carrinho page"/>
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Priority: "
+        android:layout_gravity="left"
+        android:id="@+id/tv_priority" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Issue Type: "
+        android:layout_gravity="left"
+        android:id="@+id/tv_issueType" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Component: "
+        android:layout_gravity="left"
+        android:id="@+id/tv_component" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Created: "
+        android:layout_gravity="left"
+        android:id="@+id/tv_created" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Assignee: "
+        android:id="@+id/tv_assignee"
+        android:layout_gravity="left" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Status:"
+        android:id="@+id/tv_status"
+        android:layout_gravity="left" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Sprint:"
+        android:id="@+id/tv_sprint"
+        android:layout_gravity="left" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Resolution: "
+        android:id="@+id/tv_resolution"
+        android:layout_gravity="left" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/checkout_confirm"
+        style="@style/LiveloPontosTheme.Button.Enabled"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/enable_fingerprint_option_positive" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/gray_f5f5f5"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activate_device_image_margin_top"
+        android:src="@drawable/token_cel" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        android:layout_marginTop="@dimen/activate_device_title_margin_top"
+        android:gravity="center"
+        android:text="@string/token_subtitle_rescue" />
+
+    <TextView
+        android:id="@+id/generate_code"
+        style="@style/LiveloPontosTheme.EditText.Code"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@drawable/ic_token_gerador"
+        android:paddingLeft="28dp"
+        android:drawablePadding="-30dp"
+        tools:text="88888"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activate_device_margin_top"
+        android:layout_marginLeft="@dimen/login_content_margin_left"
+        android:layout_marginRight="@dimen/login_content_margin_right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/time_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="7dp"
+            android:layout_weight="0.9"
+            android:max="30"
+            android:progressDrawable="@drawable/bg_progress"/>
+
+        <TextView
+            android:id="@+id/tv_seconds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="right"
+            android:textColor="@color/gray_cccccc"
+            android:textSize="15sp"
+            android:text="0"/>
+        
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/generate_code_rescue"
+        style="@style/LiveloPontosTheme.Button.Enabled"
+        android:layout_marginTop="@dimen/activate_device_margin_top"
+        android:text="@string/token_btn_generate_code"  />
+
+</LinearLayout>

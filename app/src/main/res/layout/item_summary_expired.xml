@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/summary_month_item_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/summary_expired_item_month"
+        android:layout_centerVertical="true"
+        style="@style/LiveloPontosTheme.TextView.Summary.Month.Item.Month"
+        tools:text="Sumary expired item month"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/summary_expired_item_points"
+            style="@style/LiveloPontosTheme.TextView.Summary.Item.Points"
+            android:layout_toLeftOf="@+id/iv_arrow"
+            tools:text="summary_item_points" />
+
+        <TextView
+            android:id="@+id/summary_expired_item_pts"
+            style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+            android:layout_below="@+id/summary_expired_item_points"
+            android:layout_toLeftOf="@+id/iv_arrow"
+            android:text="PONTOS" />
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:src="@drawable/arrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/summary_item_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider_color" />
+</RelativeLayout>

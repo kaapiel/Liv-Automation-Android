@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/last_update_date_height"
+                android:background="@color/last_update_content_color">
+
+    <ImageView
+        android:id="@+id/refresh_data"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/last_update_label_margin_left"
+        android:src="@drawable/ic_refresh"/>
+
+    <RelativeLayout
+        android:id="@+id/last_update_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/last_update_date_height"
+        android:layout_toRightOf="@+id/refresh_data"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/last_update_label"
+            style="@style/LiveloPontosTheme.TextView.LastUpdate.Label"
+            android:layout_centerVertical="true"
+            android:text="@string/last_update_label"/>
+
+        <TextView
+            android:id="@+id/last_update_date_hour"
+            style="@style/LiveloPontosTheme.TextView.LastUpdate.Date"
+            android:layout_centerVertical="true"
+            android:text="20/05/2015 10:30"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/last_update_loading_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/refresh_data"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/LiveloPontosTheme.TextView.Mini.Loading"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/mini_loading_text"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

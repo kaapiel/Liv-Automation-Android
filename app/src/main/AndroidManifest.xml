@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.pontomobi.livelopontos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <permission
+        android:name="br.com.pontomobi.livelopontos.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="br.com.pontomobi.livelopontos.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".LiveloPontosApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/LiveloPontosTheme">
+
+        <uses-library android:required="false" android:name="com.sec.android.app.multiwindow" />
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w" />
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h" />
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Fullscreen.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.brandingbank.BrandingBankActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Fullscreen.BrandingBank"/>
+        <activity
+            android:name=".ui.tutorial.TutorialActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.activateAccount.ActivateAccountActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.registerUser.RegisterUserActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Black"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.registerUser.RegisterConfirmation"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+        <activity
+            android:name=".ui.myPoints.summaryMonth.SummaryMonthActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myPoints.summaryExpired.SummaryExpiredActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myPoints.summaryMonthDetail.SummaryMonthDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myPoints.historic.HistoricActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myPoints.historicdetail.HistoricDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.webview.WebViewActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myInfo.MyInfoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.myPoints.MyPointsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.orderHistory.RescueHistoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.orderHistory.OrderDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.productsCatalog.products.ProductsListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme" />
+        <activity
+            android:name=".ui.productsCatalog.search.ProductsSearchListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+        <activity
+            android:name=".ui.productsCatalog.subcategory.SubcategoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.activateDevice.ActivateDeviceActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.ActivateDeviceActivity" />
+
+        <activity
+            android:name=".ui.forgotPassword.ForgotPasswordActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.changePassword.ChangePasswordActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.myAccount.PasswordFingerPrintActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.productsCatalog.products.ProductDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.productsCatalog.checkout.CheckoutActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <activity
+            android:name=".ui.cart.CartActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LiveloPontosTheme.Pink" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--
+         Optionally, register AnalyticsReceiver and AnalyticsService to support background
+         dispatching on non-Google Play devices
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".service.wear.WearListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <receiver
+            android:name=".notification.LiveloBroadcastReceive"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="br.com.pontomobi.livelopontos" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3d11dbe6b614ae4b1ce0487094896282789916f5" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+        <!-- SETUP LISTENER SMS -->
+        <receiver android:name=".broadcast.SMSReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

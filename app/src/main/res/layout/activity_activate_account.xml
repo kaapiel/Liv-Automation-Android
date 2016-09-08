@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/activate_account_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:minHeight="?attr/actionBarSize"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo_login" />
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.Activate.Account.Header"
+                    android:text="@string/activate_account_header" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activate_account_cpf_margin_top">
+
+                    <com.rey.material.widget.EditText
+                        android:id="@+id/activate_account_cpf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/activate_account_hint_cpf"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        style="@style/LiveloPontosTheme.EditText.Acctivate.Account.Cpf" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/activate_account_clean_cpf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:layout_marginRight="@dimen/login_content_margin_right"
+                        android:padding="7dp"
+                        android:src="@drawable/edit_text_button" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activate_account_activation_code_margin_top">
+
+                    <com.rey.material.widget.EditText
+                        android:id="@+id/activate_account_activation_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/activate_account_hint_activation_code"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        style="@style/LiveloPontosTheme.EditText.Acctivate.Account.Activation.Code" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/activate_account_clean_activation_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="@dimen/login_content_margin_right"
+                        android:padding="7dp"
+                        android:src="@drawable/edit_text_button" />
+                </FrameLayout>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/activate_account_activate"
+                    style="@style/LiveloPontosTheme.Button.Activate.Account.Activate"
+                    android:text="@string/activate_account_button_activate" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_request_code"
+                    style="@style/LiveloPontosTheme.Button.Activate.Account.Activate"
+                    android:layout_marginTop="17dp"
+                    android:textSize="@dimen/activate_account_button_footer"
+                    android:text="@string/activate_account_btn_footer" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/loading" />
+
+</RelativeLayout>

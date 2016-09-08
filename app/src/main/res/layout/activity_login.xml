@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/login_image_logo_margin_top"
+                android:src="@drawable/logo_login" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_cpf_email_margin_top">
+
+                <com.rey.material.widget.EditText
+                    android:id="@+id/login_cpf"
+                    style="@style/LiveloPontosTheme.EditText.Login.Cpf.Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/login_hint_cpf"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    app:et_dividerHeight="1dp"
+                    app:et_inputId="@+id/login_cpf_input" />
+
+                <ImageView
+                    android:id="@+id/login_clean_cpf_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="@dimen/login_content_margin_right"
+                    android:padding="7dp"
+                    android:src="@drawable/edit_text_button"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_password_margin_top">
+
+                <com.rey.material.widget.EditText
+                    android:id="@+id/login_password"
+                    style="@style/LiveloPontosTheme.EditText.Login.Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/login_hint_password"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    app:et_dividerHeight="1dp" />
+
+                <ImageView
+                    android:id="@+id/login_clean_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="@dimen/login_content_margin_right"
+                    android:padding="7dp"
+                    android:src="@drawable/edit_text_button"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/login_join"
+                style="@style/LiveloPontosTheme.Button.Login.Join"
+                android:text="@string/login_button_join"
+                android:textColor="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/login_activate_account"
+                style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
+                android:text="@string/login_button_activate_account" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_content_margin_left"
+                android:layout_marginRight="@dimen/login_content_margin_right"
+                android:layout_marginTop="@dimen/login_container_action_footer_margin_top">
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_enter_without_login"-->
+                <!--style="@style/LiveloPontosTheme.EditText.Login.Forgot.Password"-->
+                <!--android:gravity="left"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:paddingRight="10dp"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:visibility="gone"-->
+                <!--android:text="@string/login_enter_whithout" />-->
+
+                <TextView
+                    android:id="@+id/login_forgot_password"
+                    style="@style/LiveloPontosTheme.EditText.Login.Forgot.Password"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/login_forgot_password" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <br.com.pontomobi.livelopontos.ui.widget.BannerError
+        android:id="@+id/login_banner_error"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_banner_error_height"
+        android:visibility="gone"
+        app:banner_text="@string/login_wrong_user_ou_password" />
+
+    <include layout="@layout/loading" />
+
+</RelativeLayout>

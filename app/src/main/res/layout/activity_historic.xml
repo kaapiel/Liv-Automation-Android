@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/historic_filter_title"
+        android:id="@+id/historic_nothing_to_show"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <include layout="@layout/nothing_to_show" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view_historic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/historic_filter_title" />
+
+    <View
+        android:id="@+id/historic_backgound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/historic_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/historic_extract_img_toolbar_margin_top"
+        android:background="@drawable/bg_toolbar_6"
+        android:orientation="vertical" />
+
+    <include layout="@layout/toolbar_transparent" />
+
+    <LinearLayout
+        android:id="@+id/historic_filter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/historic_order_by_title"
+            style="@style/LiveloPontosTheme.TextView.Historic.Filter"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/drop_down"
+            android:gravity="center"
+            android:text="@string/historic_filter_order_by_title" />
+
+        <TextView
+            android:id="@+id/historic_filter_by_title"
+            style="@style/LiveloPontosTheme.TextView.Historic.Filter"
+            android:drawableRight="@drawable/drop_down"
+            android:gravity="center"
+            android:text="@string/historic_filter_filter_by_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historic_filter_title"
+        android:orientation="vertical">
+
+        <include layout="@layout/historic_order_by" />
+
+        <include layout="@layout/historic_filter_by" />
+    </RelativeLayout>
+
+    <include layout="@layout/loading" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fontPath" format="string" />
+
+    <declare-styleable name="BannerError">
+        <attr name="banner_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchCustom">
+        <attr name="switch_custom_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LastUpdate">
+        <attr name="last_update_label" format="string" />
+        <attr name="last_update_date" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ExtractFooter">
+        <attr name="title_footer" format="string" />
+        <attr name="points_footer" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ItemSummary">
+        <attr name="title_summary" format="string" />
+        <attr name="subtitle_summary" format="string" />
+        <attr name="points_summary" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ComponentPassword">
+        <attr name="hint_pass" format="string" />
+    </declare-styleable>
+
+</resources>

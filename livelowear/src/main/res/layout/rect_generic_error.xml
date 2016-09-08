@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <android.support.wearable.view.WearableHeaderTextView
+        style="@style/LiveloWearTheme.TextView.Generic.Erro.Title"
+        android:id="@+id/generic_error_title"
+        android:text="@string/generic_error_login_title" />
+
+    <android.support.wearable.view.WearableHeaderTextView
+        style="@style/LiveloWearTheme.TextView.Generic.Erro.Desc"
+        android:id="@+id/generic_error_desc"
+        android:text="@string/generic_error_login_desc" />
+
+    <RelativeLayout
+        android:id="@+id/generic_error_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/generic_erro_button_margin_top"
+        android:background="@drawable/button_generic_error">
+
+        <TextView
+            style="@style/LiveloWearTheme.TextView.Generic.Erro.Text.Button"
+            android:text="@string/generic_erro_button" />
+
+    </RelativeLayout>
+
+</LinearLayout>

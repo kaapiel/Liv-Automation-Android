@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/summary_main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_points_banner_top_height"
+            android:background="@drawable/bg_saldo">
+
+            <LinearLayout
+                android:id="@+id/summary_content_points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/summary_top_points"
+                    style="@style/LiveloPontosTheme.TextView.Summary.Top.Points"
+                    android:text="0" />
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.Summary.Top.Pts"
+                    android:text="PTS" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/LiveloPontosTheme.TextView.Summary.Top.Description"
+                android:layout_below="@+id/summary_content_points"
+                android:layout_marginTop="10dp"
+                android:text="SEU SALDO LIVELO" />
+        </RelativeLayout>
+
+        <br.com.pontomobi.livelopontos.ui.widget.LastUpdate
+            android:id="@+id/summary_last_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <br.com.pontomobi.livelopontos.ui.widget.ItemSummary
+            android:id="@+id/summary_accumulated_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:title_summary="@string/summary_points_accumulated_title"
+            app:subtitle_summary="@string/summary_points_accumulated_subtitle"
+            app:points_summary="0" />
+
+        <br.com.pontomobi.livelopontos.ui.widget.ItemSummary
+            android:id="@+id/summary_expire_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:title_summary="@string/summary_points_expire_title"
+            app:subtitle_summary="@string/summary_points_expire_subtitle"
+            app:points_summary="0" />
+
+        <br.com.pontomobi.livelopontos.ui.widget.ItemSummary
+            android:id="@+id/summary_rescued_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:title_summary="@string/summary_points_rescued_title"
+            app:subtitle_summary="@string/summary_points_rescued_subtitle"
+            app:points_summary="0" />
+
+    </LinearLayout>
+</ScrollView>

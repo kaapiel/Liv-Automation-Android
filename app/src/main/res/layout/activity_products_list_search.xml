@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/toolbar_not_status" />
+
+    <LinearLayout
+        android:id="@+id/container_search_product"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@+id/include_toolbar"
+        android:background="@drawable/bg_toolbar_1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:padding="5dp"
+            android:src="@drawable/ic_busca"/>
+
+        <EditText
+            android:id="@+id/product_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@null"
+            android:hint="@string/product_catalog_search"
+            android:imeOptions="actionDone"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/clear_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:padding="5dp"
+            android:src="@drawable/limpar_busca"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_search_product"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/total_products"
+                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold500"
+                android:textAllCaps="false"
+                tools:text="543 produtos"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_productsre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/empty_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_search_product"/>
+
+    <br.com.pontomobi.livelopontos.ui.widget.BannerError
+        android:id="@+id/search_banner_error"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_banner_error_height"
+        android:visibility="gone"
+        tools:banner_text="@string/search_error_minimum_letters"/>
+
+</RelativeLayout>

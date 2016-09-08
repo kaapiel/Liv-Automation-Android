@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom">
+
+    <ImageView
+        android:id="@+id/register_user_address_item_check"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/register_check" />
+
+    <TextView
+        android:layout_toRightOf="@+id/register_user_address_item_check"
+        android:layout_centerVertical="true"
+        android:id="@+id/register_user_address_item_address"
+        style="@style/LiveloPontosTheme.TextView.Address" />
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_historic_monthYear"
+        style="@style/LiveloPontosTheme.TextView.Historic.Title.Month"
+        android:layout_below="@+id/historic_filter_title"
+        android:text="JULHO/2015" />
+
+    <RelativeLayout
+        android:id="@+id/item_historic_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/item_historic_date_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/extract_item_date_content_margin_bottom"
+            android:layout_marginLeft="@dimen/extract_item_date_content_margin_left"
+            android:layout_marginTop="@dimen/extract_item_date_content_margin_top"
+            android:layout_centerVertical="true"
+            android:background="@drawable/calendario">
+
+            <TextView
+                android:id="@+id/item_historic_date_number"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Number"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/item_historic_date_desc"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Desc"
+                android:layout_below="@+id/item_historic_date_number"
+                android:text="QUI" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/extract_item_date_content_margin_top"
+            android:layout_marginBottom="@dimen/extract_item_date_content_margin_bottom"
+            android:layout_marginLeft="@dimen/extract_item_store_margin_left"
+            android:layout_toRightOf="@+id/item_historic_date_content"
+            android:layout_toLeftOf="@+id/historic_points"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_historic_store"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store"
+                android:text="Padaria Juliet" />
+
+            <TextView
+                android:id="@+id/item_historic_type"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store.Type"
+                android:text="Resgatado" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/historic_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/item_historic_points"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:minWidth="@dimen/min_size_points"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Points"
+                android:layout_toLeftOf="@+id/item_historic_arrow"
+                tools:text="0" />
+
+            <TextView
+                android:id="@+id/item_historic_pts"
+                style="@style/LiveloPontosTheme.TextView.Extract.Item.Pts"
+                android:layout_alignRight="@+id/item_historic_points"
+                android:layout_marginRight="0dp"
+                android:minWidth="@dimen/min_size_points"
+                android:gravity="right"
+                android:layout_below="@+id/item_historic_points"
+                android:text="PONTOS" />
+
+            <ImageView
+                android:id="@+id/item_historic_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/extract_item_arrow_margin_right"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/view_extract_footer_title"
+        android:background="@color/list_divider_color" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "889687079784",
+    "firebase_url": "https://livelo-automation-app.firebaseio.com",
+    "project_id": "livelo-automation-app",
+    "storage_bucket": "livelo-automation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889687079784:android:28b5b0317988a696",
+        "android_client_info": {
+          "package_name": "br.com.pontomobi.livelopontos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889687079784-nd8d6eri3uhhvtgo8dmkf63bkic403lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfjYMg9eDvQNBPjiqrPP9bbywjWm5VB3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

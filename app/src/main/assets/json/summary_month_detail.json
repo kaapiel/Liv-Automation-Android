@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "4",
+      "dayDesc": "SAB",
+      "store": "Padaria Juliet",
+      "points": "+26"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    },
+    {
+      "dayNumber": "2",
+      "dayDesc": "QUI",
+      "store": "Padaria Juliet",
+      "points": "+7"
+    }
+  ]
+}

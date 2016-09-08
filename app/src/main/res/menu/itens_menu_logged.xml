@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_options">
+
+        <item
+            android:id="@+id/menu_relatorioGeral"
+            android:icon="@drawable/ic_pontos"
+            android:title="Relatório geral" />
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_configuracoes"
+            android:title="Executar testes" />
+
+        <item
+            android:id="@+id/menu_my_account"
+            android:icon="@drawable/ic_dados"
+            android:title="Performance" />
+
+        <item
+            android:id="@+id/menu_product_catalog"
+            android:icon="@drawable/ic_historico"
+            android:title="Regressivo" />
+
+        <item
+            android:id="@+id/menu_qr_code"
+            android:icon="@drawable/ic_qrcode"
+            android:title="Regressivo Neg." />
+
+        <item
+            android:id="@+id/menu_rescue_code"
+            android:icon="@drawable/ic_token"
+            android:title="BVT" />
+
+        <item
+            android:id="@+id/menu_contact_us"
+            android:icon="@drawable/ic_catalogo"
+            android:title="Smoke Test" />
+
+        <item
+            android:id="@+id/menu_servicos"
+            android:icon="@drawable/ic_fingerprint"
+            android:title="Serviços" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_cadeado_menu"
+            android:title="Sair" />
+    </group>
+
+</menu>

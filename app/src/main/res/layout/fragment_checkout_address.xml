@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkout_background" >
+
+    <ScrollView
+        android:id="@+id/scroll_content"
+        android:layout_below="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/my_account_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/my_account_banner"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                    android:gravity="left"
+                    android:text="@string/checkout_address_info"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <br.com.pontomobi.livelopontos.ui.widget.ExpandableList
+                android:id="@+id/checkout_address_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="1dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/checkout_send_order"
+                style="@style/LiveloPontosTheme.Button.Enabled"
+                android:layout_marginTop="25dp"
+                android:text="@string/checkout_address_send_order"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

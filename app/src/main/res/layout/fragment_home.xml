@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/extract_main_content"
+    android:background="@drawable/splash_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/execution_spinner"
+        style="@style/LiveloPontosTheme.Spinner"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:text="Executar Testes!"
+        android:backgroundTint="#000066"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/login_join"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/login_join"
+        style="@style/LiveloPontosTheme.Button.Enabled"
+        android:text="Executar Testes!"
+        android:backgroundTint="#000066"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp" />
+
+</RelativeLayout>

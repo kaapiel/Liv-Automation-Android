@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:id="@+id/container_product">
+
+    <ImageView
+        android:id="@+id/iv_image_product"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_margin="20dp"
+        android:background="@color/gray_f5f5f5"
+        android:src="@drawable/placeholder"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            android:layout_marginBottom="2dp"
+            android:text="@string/product_detail_title_name_product"/>
+
+        <TextView
+            android:id="@+id/tv_name_product"
+            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500"
+            android:lines="2"
+            android:ellipsize="end"
+            tools:text="Furadeira Black&amp;Decker Imp. 3/8 Tm500"/>
+
+        <TextView
+            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/product_detail_title_value_product"/>
+
+        <TextView
+            android:id="@+id/tv_points"
+            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold500"
+            tools:text="899 pts"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

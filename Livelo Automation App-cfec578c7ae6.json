@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "livelo-automation-app",
+  "private_key_id": "cfec578c7ae6342de2ce3fd3fa159a28d1abac29",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDnDU0SUgrvHnXy\nVQ7PR7B37pekFoQRNBQDx2xgRj/Uin9SB4CtMMZR4IzTHnlfXvoAkh1nyxwTPC4r\n+J+1Pa6PtH7h2nfrF4g3JCfszT/h+nNQ00qNnf6p7zs481BeNkZuUCn1BupGkwEk\n0Kzb5IEfSjeD+fveGLyYYQjanyKSoudmBCd7AqxuzMWz8ejSGBvQDw2sd4gxN9bS\n+kj4yxHamxA9D34MIl5jYzXYVJLW6WaJ+gWLRivKYFh9dqyClUTh0yLwGRxvQzSN\nLtN5sDDex8e6k1xY6bLTg/77EzGv1+yFTpK/RSGYI3SxwHQ4beFn62SKtRWatDGY\ni76d63S9AgMBAAECggEAe6ol1ylsSsGt9U9LRuwi6n4cUanvc9nA4KjrO7g9z791\nF+2GFKxnaUlbdl/4LHCENKv/6x7N3wm12LkQmgvyk13TD4VD6+NDd+f1KoxMpeHL\nuLXuUFABDulJdFjeah54ofBsFIZn+/AQi6jY7DSoW5v4jL3O7felcZV2DLVh5sMf\nyHrYgEyvofYyq/XXZapBK8lyBMMnRQ8d14KPaqUL4s7s8iznW7XKNUdBqKeM9Rg7\nUZzfSk2AyqF3vTp/OMmrdTloMABxw2eK19bsWbT0O3EDoUa4sYsum1bq3unt8yx+\njW6YO3+ErnxRie6fzz2zcwTaZjySooRUosti0vp6oQKBgQD661OrPLz6qx07PQam\nUvfjlGwY/e+ZG9EpziShmf2sKZRzJdhOEeeGgd6xkFxMjAcDOKTJSJZ79YX1LDLe\nZWaSSIvOfKEbJrEK1NTrSH9yK+OIPtglrg7G/JxZ5nJ4rzBx8X7tfhthX/Duzr0C\nRRiebW+iwnIra1CceKU5MRC+dQKBgQDruv1QXYAAHQvlNaWtArNtF/6qsNfg5PAh\npba9MMa8xIrszvqSXEQRn7/50dxtaAR5l9FfJuzhvjoHT5Wk6dU2VwEgDdf2vvXp\n0kL5fd0HAbuJtiTN9w6P+ur06sndIMccgPVuUBM/xUlnG7oQNND7xYwSn8Vg/gni\n222mlBKkKQKBgGwuygQqS9BHtnKz/Qn4+6fDdlfQJF1/AM9lcaW7HwP7aWW8C2ad\nkZUMqVclRqY6OUvKQEIIadlIIllylPwN/AtV+/ErCssKA4sH+ET5HPm8sn0rm0Wj\npftlLoQUN4aRAfIejPsYQ/XXx6kuuY8g+1xTEq655z+RJVBRM+tUnEOBAoGBAJpX\n3k/mSE7KteUnkQiMgipl0Yq1K0PG4itFszaAXz9teIDArHN0EeVwMWRCsg64UmXC\nr4WbmPHdeWUcCKDnsYBYyxXPup2GPsEPuGZesH9L9Ryfs81fe5tt8LTXncA5G+Vf\n0lKd/1x7sinej57Y1hRjLelrzvJIovR0M4Ej5mixAoGBAOBaEbv6VKkgvTh9wsz1\nzVjtKQGZfhiRT0VwMVQniy8mymEbe4Rsmr5MgiLV9/pBMIXlK7cBgpJ1XugAycWr\ny+iSOEKTG5hiQVETGQBdLe5GJcoJsPY1it16K/qKVwAPRBEKS8vaNSrr2W8VvpmA\nXL9JWBQelLfwED5kQKuftP2K\n-----END PRIVATE KEY-----\n",
+  "client_email": "livelo-automation-app@livelo-automation-app.iam.gserviceaccount.com",
+  "client_id": "106324132379131722599",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/livelo-automation-app%40livelo-automation-app.iam.gserviceaccount.com"
+}

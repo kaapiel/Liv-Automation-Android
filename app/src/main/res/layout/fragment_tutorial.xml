@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorial_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/tutorial_title_header"
+        style="@style/LiveloPontosTheme.TextView.Tutorial.Title.Header" />
+
+    <TextView
+        android:layout_below="@+id/tutorial_title_header"
+        android:id="@+id/tutorial_description_header"
+        style="@style/LiveloPontosTheme.TextView.Tutorial.SubTitle.Header" />
+
+    <ImageView
+        android:id="@+id/tutorial_image_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/tutorial_image_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tutorial_image_footer_margin_top"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_below="@id/tutorial_image_footer"
+        android:id="@+id/tutorial_title_footer"
+        style="@style/LiveloPontosTheme.TextView.Tutorial.Title.Footer" />
+
+    <TextView
+        android:layout_below="@id/tutorial_title_footer"
+        android:id="@+id/tutorial_description_footer"
+        style="@style/LiveloPontosTheme.TextView.Tutorial.SubTitle.Footer" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login">
+
+    <TextView
+        android:id="@+id/register_confirmation_title"
+        style="@style/LiveloPontosTheme.TextView.Register.Confirmation.Title"
+        android:text="@string/account_activated_title" />
+
+    <TextView
+        android:layout_below="@+id/register_confirmation_title"
+        style="@style/LiveloPontosTheme.TextView.Register.Confirmation.Subtitle"
+        android:text="@string/account_activated_description" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/conta_ativada" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/register_confirmation_button"
+        style="@style/LiveloPontosTheme.Button.Register.Confirmation"
+        android:text="@string/account_activated_button"
+        android:layout_alignParentBottom="true" />
+
+    <include layout="@layout/loading" />
+
+</RelativeLayout>

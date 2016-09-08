@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_divider_color">#d6d6d6</color>
+
+    <color name="black_alpha_32000000">#32000000</color>
+    <color name="blue_150958">#150958</color>
+    <color name="blue_27bdbe">#27bdbe</color>
+    <color name="blue_60c8ca">#60c8ca</color>
+    <color name="blue_53529a">#53529a</color>
+    <color name="gray_f2f2f2">#f2f2f2</color>
+    <color name="gray_f8f8f8">#f8f8f8</color>
+    <color name="gray_888888">#888888</color>
+    <color name="gray_cccccc">#cccccc</color>
+    <color name="gray_e5e5e5">#e5e5e5</color>
+    <color name="gray_f5f5f5">#f5f5f5</color>
+    <color name="green_bed747">#bed747</color>
+    <color name="pink_ed037c">#ed037e</color>
+    <color name="purple_a52868">#a52868</color>
+    <color name="red_cb3e3e">#cb3e3e</color>
+    <color name="yellow_ffd530">#ffd530</color>
+
+    <color name="button_disable">#999999</color>
+    <color name="button_enable">#ffffff</color>
+    <color name="error_color">#FFFF0000</color>
+
+    <!-- Toolbar Title -->
+    <color name="toolbar_title">#f8f8f8</color>
+
+    <!-- Tutorial -->
+    <color name="app_color_primary">#000000</color>
+    <color name="app_color_primary_dark">#0f0445</color>
+    <color name="tutorial_title">#f8f8f8</color>
+    <color name="tutorial_subtitle">#b3ffffff</color>
+    <color name="tutorial_pager_indicator_background">#66ffffff</color>
+
+    <color name="button_background_collor">#ed037c</color>
+    <color name="button_stroke_collor">#ed037c</color>
+
+    <!-- Login -->
+    <color name="login_banner_error_color">#cb3e3e</color>
+    <color name="login_cpf_email">#f8f8f8</color>
+    <color name="login_password">#f8f8f8</color>
+    <color name="login_buttons_disable">#4dffffff</color>
+    <color name="login_buttons_enable">#ffffff</color>
+
+    <!-- Custom Alert Dialog -->
+    <color name="custom_alert_dialog_title">#f8f8f8</color>
+    <color name="custom_alert_dialog_description">#b3ffffff</color>
+    <color name="custom_alert_dialog_button_negative_background">#14ffffff</color>
+    <color name="custom_alert_dialog_button_positive_background">#1fffffff</color>
+
+    <!-- Activate Account -->
+    <color name="activate_account_header">#b3ffffff</color>
+    <color name="activate_account_footer">#d6d4d4</color>
+    <color name="activate_account_cpf">#b3ffffff</color>
+    <color name="activate_account_activation_code">#b3ffffff</color>
+    <color name="activate_account_button_disable">#4dffffff</color>
+    <color name="activate_account_button_enable">#ffffff</color>
+
+
+    <!-- Register User -->
+    <color name="register_user_info">#706f82</color>
+    <color name="register_user_info_background">#f2f2f2</color>
+    <color name="register_user_title">#282781</color>
+    <color name="register_user_subtitle">#706f82</color>
+    <color name="register_user_text">#BE444444</color>
+    <color name="register_user_hint">#b3565563</color>
+    <color name="register_user_line">#e2e2e2</color>
+    <color name="register_switch_disable">#4d27bdbe</color>
+    <color name="register_switch_enable">#27bdbe</color>
+    <color name="register_check_enable">#27bdbe</color>
+    <color name="register_button_disable">#999999</color>
+    <color name="register_button_enable">#ffffff</color>
+    <color name="register_user_address_enable">#B3444444</color>
+    <color name="register_user_address_disable">#9a9aa7</color>
+    <color name="register_confirmation_title">#f8f8f8</color>
+    <color name="register_confirmation_subtitle">#706f82</color>
+
+    <!-- Home Menu -->
+    <color name="home_menu_divider_color">#24ffffff</color>
+    <color name="home_menu_group_divider_color">#b3ffffff</color>
+
+    <!-- My Account -->
+    <color name="my_account_banner_bg">#27bdbe</color>
+
+    <color name="toolbar_bg_alpha">#E6150958</color>
+
+    <!-- My Points -->
+    <color name="my_points_toolbar_bg">#150958</color>
+    <color name="my_points_tab_text_color_unselected">#80ffffff</color>
+    <color name="my_points_tab_text_color_selected">#60c8ca</color>
+    <color name="my_points_tabbar_bg">#150958</color>
+
+    <!--Summary -->
+    <color name="summary_top_points_text_color">#f8f8f8</color>
+    <color name="summary_top_pts_text_color">#B3f8f8f8</color>
+    <color name="summary_top_description_text_color">#27bdbe</color>
+
+    <!--Summary Item -->
+    <color name="summary_item_title_color">#282781</color>
+    <color name="summary_item_subtitle_color">#a9a9cd</color>
+    <color name="summary_item_points_color">#27bdbe</color>
+    <color name="summary_item_pts_color">#a9a9cd</color>
+    <color name="summary_item_pts_negative_text_color">#53529a</color>
+
+    <!--Summary Month -->
+    <color name="summary_month_filtro_text_color">#f8f8f8</color>
+    <color name="summary_month_nothingtoshow_bg_color">#f8f8f8</color>
+    <color name="summary_month_nothingtoshow_title_text_color">#282781</color>
+    <color name="summary_month_nothingtoshow_subtitle_text_color">#53529a</color>
+
+    <!--Summary Month Item -->
+    <color name="summary_month_item_month_color">#444444</color>
+    <color name="summary_month_item_points_color">#27bdbe</color>
+    <color name="summary_month_item_pts_color">#a9a9cd</color>
+
+    <!-- Extract -->
+    <color name="extract_historic_bg">#4226bdbe</color>
+    <color name="extract_tablayout_item_unselected">#33ffffff</color>
+    <color name="extract_top_minimized_bg">#150958</color>
+    <color name="extract_top_minimized_points">#f8f8f8</color>
+    <color name="extract_top_minimized_pts">#b3f8f8f8</color>
+    <color name="extract_footer_background">#f5f5f5</color>
+    <color name="extract_footer_title_text_color">#53529a</color>
+    <color name="extract_footer_points_positive_text_color">#27bdbe</color>
+    <color name="extract_footer_points_negative_text_color">#53529a</color>
+    <color name="extract_clean_title_text_color">#282781</color>
+    <color name="extract_clean_description_text_color">#b353529a</color>
+
+
+    <!-- Extract Item -->
+    <color name="extract_item_date_number_text_color">#53529a</color>
+    <color name="extract_item_date_desc_text_color">#a9a9cd</color>
+    <color name="extract_item_store_text_color">#444444</color>
+    <color name="extract_item_store_type_text_color">#a9a9cd</color>
+    <color name="extract_item_points_color1">#27bdbe</color>
+    <color name="extract_item_points_color2">#53529a</color>
+
+    <!-- Historic Extract -->
+    <color name="historic_extract_title_month_text_color">#282781</color>
+    <color name="historic_extract_title_month_text_background">#f2f2f2</color>
+    <color name="filter_by_title_text_color">#f8f8f8</color>
+    <color name="filter_by_title_selected_text_color">#60c8ca</color>
+    <color name="order_by_title_enable_text_color">#f8f8f8</color>
+    <color name="order_by_title_disable_text_color">#80f8f8f8</color>
+
+    <!-- Last Update -->
+    <color name="last_update_label_text_color">#cc53529a</color>
+    <color name="last_update_date_text_color">#53529a</color>
+    <color name="last_update_content_color">#f2f2f2</color>
+
+    <!-- Loading -->
+    <color name="loading_background_color">#CC140858</color>
+    <color name="loading_circular_color">#ed037c</color>
+
+    <!-- My Account -->
+    <color name="my_accout_title_color">#150958</color>
+
+    <!-- Loading -->
+    <color name="loading_text_color">#B3f8f8f8</color>
+    <color name="mini_loading_text_color">#150958</color>
+
+    <!-- Fingerprint -->
+    <color name="fingerprint_warning_color">#f4511e</color>
+    <color name="fingerprint_success_color">#009688</color>
+    <color name="fingerprint_hint_color">#42000000</color>
+
+    <!-- Forgot Password -->
+    <color name="forgot_password_title_background">#f2f2f2</color>
+    <color name="forgot_password_title_text_color">#706f82</color>
+
+    <!-- Change Password -->
+    <color name="change_password_description_text_color">#282781</color>
+
+    <!-- My Account -->
+    <color name="branding_bank_title_color">#282781</color>
+
+    <!-- Product Detail -->
+    <color name="product_detail_background">#e2e2e2</color>
+    <color name="product_gallery_background">#ffffff</color>
+    <color name="product_gallery_pager_indicator_selected_background">#60c8ca</color>
+    <color name="product_gallery_pager_indicator_background">#e2e2e2</color>
+    <color name="product_name_color">#282781</color>
+    <color name="product_color_color">#53529a</color>
+    <color name="product_description_text">@color/product_name_color</color>
+    <color name="product_read_more_background">#60c8ca</color>
+    <color name="session_divider">#e2e2e2</color>
+    <color name="products_amount_text">#282781</color>
+    <color name="products_variation_text">#282781</color>
+    <color name="products_partner_enabled_text">#282781</color>
+    <color name="products_partner_disabled_text">#cccccc</color>
+    <color name="products_partner_unavailable_text">#888888</color>
+    <color name="product_variant_arrow_color">#cccccc</color>
+    <color name="products_amount_button_text">#fefefe</color>
+    <color name="products_amount_button_text_disabled">#fefefe</color>
+    <color name="products_amount_button_enabled">@color/blue_27bdbe</color>
+    <color name="products_amount_button_disabled">#e2e2e2</color>
+
+    <!-- Checkout -->
+    <color name="checkout_background">#f2f2f2</color>
+
+    <color name="divider_light_blue">#CC53529A</color>
+
+    <!--Order Status-->
+    <color name="order_status_canceled">#a52868</color>
+    <color name="order_status_finalized">#bed747</color>
+    <color name="order_status_process">#ffd530</color>
+    <color name="order_status_send">#27bdbe</color>
+
+
+    <color name="vermelho">#ff0000</color>
+    <color name="verde">#00cc00</color>
+    <color name="transparente">#00000000</color>
+
+
+    <color name="generalchart_5">#27bdbe</color>
+    <color name="generalchart_1">#4d27bdbe</color>
+    <color name="generalchart_3">#0f5995</color>
+    <color name="generalchart_2">#0f1995</color>
+    <color name="generalchart_4">#0f0445</color>
+    <color name="generalchart_6">#FF000000</color>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Current Balance -->
+    <color name="current_balance_points_text_color">#e60379</color>
+    <color name="last_update_text_color">#c9ffffff</color>
+
+    <!-- Gereneric Erro -->
+    <color name="generic_error_title">#e60379</color>
+    <color name="generic_error_desc">#e6ffffff</color>
+
+    <!-- Validation Code -->
+    <color name="validation_code_title_text_color">#e60379</color>
+    <color name="validation_code_code_text_color">#f8f8f8</color>
+
+    <!-- Validation Code -->
+    <color name="graphic_points_empty_state">#e60379</color>
+
+</resources>

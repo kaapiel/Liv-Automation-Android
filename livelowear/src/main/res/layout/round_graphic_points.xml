@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_info_points"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:visibility="gone">
+
+        <android.support.wearable.view.WearableHeaderTextView
+            style="@style/LiveloWearTheme.TextView.Graphic.Points.Title"
+            android:text="@string/graphic_points_title" />
+
+        <android.support.wearable.view.WearableHeaderTextView
+            style="@style/LiveloWearTheme.TextView.Graphic.Points.Subtitle"
+            android:text="@string/graphic_points_subtitle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <br.com.pontomobi.livelowear.ui.widget.GraphicBar
+                    android:id="@+id/graphic_points_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <br.com.pontomobi.livelowear.ui.widget.GraphicBar
+                    android:id="@+id/graphic_points_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone" />
+
+                <br.com.pontomobi.livelowear.ui.widget.GraphicBar
+                    android:id="@+id/graphic_points_third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <android.support.wearable.view.WearableHeaderTextView
+                android:id="@+id/graphic_points_empty"
+                style="@style/LiveloWearTheme.TextView.Graphic.Points.Empty"
+                android:visibility="gone"
+                android:text="@string/graphic_points_empty" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/empty_view_accumulated_points" />
+
+</LinearLayout>

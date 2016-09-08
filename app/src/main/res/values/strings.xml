@@ -1,0 +1,440 @@
+<resources>
+    <string name="app_name">Livelo</string>
+    <string name="app_name_upper">LIVELO</string>
+    <string name="wait_updating_information">Aguarde, atualizando informações.</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_option_join_now">Entrar agora</string>
+    <string name="tutorial_option_activate_account">Ativar conta</string>
+    <string name="tutorial_option_login">Login</string>
+    <string name="tutorial_option_enter_without_login">Entrar sem login</string>
+
+    <!-- Tutorial First Page -->
+    <string name="tutorial_firts_page_title">Bem-vindo</string>
+    <string name="tutorial_firts_page_description">Aqui você pode acompanhar toda\na movimentação da sua conta.</string>
+
+    <!-- Tutorial Second Page -->
+    <string name="tutorial_second_page_title">Saldo de pontos</string>
+    <string name="tutorial_second_page_description">Uma maneira fácil de\nacompanhar seus pontos.</string>
+
+    <!-- Tutorial Third Page -->
+    <string name="tutorial_third_page_title">Extrato detalhado</string>
+    <string name="tutorial_third_page_description">Acompanhe aqui suas transações.</string>
+
+    <!-- Tutorial Fourth Page -->
+    <string name="tutorial_fourth_page_title">Tudo na sua mão</string>
+    <string name="tutorial_fourth_page_description">Tenha tudo ao alcance de um toque\nna palma de sua mão.</string>
+
+    <!-- Tutorial Fifth Page -->
+    <string name="tutorial_fifth_page_title">Começe a usar agora</string>
+    <string name="tutorial_fifth_page_description">Aproveite as vantagens\nde ser um cliente Livelo.</string>
+
+    <!-- Login -->
+    <string name="login_hint_cpf">CPF</string>
+    <string name="login_hint_password">Senha</string>
+    <string name="login_button_join">ENTRAR</string>
+    <string name="login_button_activate_account">ATIVAR CONTA</string>
+    <string name="login_enter_whithout">Entrar sem login</string>
+    <string name="login_forgot_password">Esqueceu sua senha?</string>
+    <string name="login_wrong_user_ou_password">Usuário ou senha inválidos.\nConfira seus dados e tente novamente</string>
+    <string name="login_wrong_cpf">CPF inválido.</string>
+
+    <!-- Geolocation -->
+    <string name="geolocation_title">GEOLOCALIZAÇÃO</string>
+    <string name="geolocation_description">Para oferecer uma experiência completa, precisamos saber onde você está, tudo bem?</string>
+    <string name="geolocation_option_no">Não</string>
+    <string name="geolocation_option_yes">Sim</string>
+
+    <!-- Connection Error -->
+    <string name="connection_error_title">ERRO DE CONEXÃO</string>
+    <string name="connection_error_option_no">Não</string>
+    <string name="connection_error_description">Ops, precisamos de internet para\nprosseguir e não detectamos nenhuma conexão.</string>
+    <string name="connection_error_option_try_again">Tentar Novamente</string>
+
+    <!-- Generic Error -->
+    <string name="generic_error_title">OPS</string>
+    <string name="generic_error_description">Ops, tivemos um problema.</string>
+    <string name="generic_error_option_try_again">Tentar Novamente</string>
+
+    <!-- Open URl -->
+    <string name="open_url_title">ATENÇÃO!</string>
+    <string name="open_url_description">Você será direcionado para o site mobile da Livelo. Deseja continuar?</string>
+    <string name="open_url_option_positive">Sim</string>
+    <string name="open_url_option_negative">Não</string>
+
+    <!-- Error Generic -->
+    <string name="error_generic_description">Algo deu errado.\nTente novamente mais tarde.</string>
+    <string name="error_generic_option_positive">Tentar novamente</string>
+    <string name="error_generic_option_negative">Cancelar</string>
+
+    <!-- Activate Account -->
+    <string name="activate_account_header">Para ativar sua conta Livelo, você precisa participar dos programas Fidelidade Bradesco Cartões ou Ponto pra Você, do Banco do Brasil.</string>
+    <string name="activate_account_btn_footer">SOLICITE SEU CÓDIGO DE ATIVAÇÃO</string>
+    <string name="activate_account_hint_cpf">CPF</string>
+    <string name="activate_account_hint_activation_code">Código de ativação</string>
+    <string name="activate_account_button_activate">Ativar</string>
+
+    <!-- Register -->
+    <string name="register_toolbar_title">Ativar Conta</string>
+    <string name="register_info">Você está a um passo de aproveitar todas as vantagens Livelo. Por favor, confira seus dados de cadastro e clique em salvar para ativar sua conta.</string>
+    <string name="register_title">Confirme seus dados</string>
+    <string name="register_subtitle">*Campos obrigatórios</string>
+    <string name="register_hint_cpf">CPF</string>
+    <string name="register_hint_rg">RG</string>
+    <string name="register_hint_name">Nome</string>
+    <string name="register_hint_nickname">Apelido</string>
+    <string name="register_hint_nationality">Nacionalidade</string>
+    <string name="register_hint_sex">Sexo</string>
+    <string name="register_hint_birth_date">Data de Nascimento</string>
+    <string name="register_hint_email">E-mail</string>
+    <string name="register_hint_confirm_email">Confirme seu e-mail</string>
+    <string name="register_hint_main_address">Endereço principal</string>
+    <string name="register_hint_phone_home">Telefone Residencial</string>
+    <string name="register_hint_phone_work">Telefone Comercial</string>
+    <string name="register_hint_celphone">Telefone Celular</string>
+    <string name="register_hint_password">Senha* (6 caracteres)</string>
+    <string name="register_hint_confirm_password">Confirmar senha</string>
+    <string name="register_switch_push">Desejo receber mensagens\ne notificações via push.</string>
+    <string name="register_switch_sms">Desejo receber ofertas por SMS</string>
+    <string name="register_switch_email">Desejo receber ofertas por e-mail.</string>
+    <string name="register_terms_and_conditions"><![CDATA[Ao clicar em salvar, você estará concordando com nossos <u>termos e condições.</u>]]></string>
+    <string name="register_button_activate_account">ATIVAR MINHA CONTA</string>
+    <string name="register_error_required_fields">Ops, é preciso preencher todos os campos obrigatórios.</string>
+    <string name="register_error_field">Campo obrigatório</string>
+    <string name="register_error_field_email">Os e-mails não são iguais</string>
+    <string name="register_error_field_password">As senhas não são iguais</string>
+
+    <!-- Menu -->
+    <string name="menu_item_home">Início</string>
+    <string name="menu_item_my_account">Minha Conta</string>
+    <string name="menu_item_product_catalog">Catálogo</string>
+    <string name="menu_item_qr_code">QR Code</string>
+    <string name="menu_item_rescue_code">Código de Autorização</string>
+    <string name="menu_item_contact_us">Fale conosco</string>
+    <string name="menu_item_my_points">Meus Pontos</string>
+    <string name="menu_item_my_data">Meus Dados</string>
+    <string name="menu_item_exit">Sair</string>
+    <string name="menu_header_greet">Olá,</string>
+
+    <!-- Logout -->
+    <string name="logout_descrition">Deseja sair\ndo aplicativo?</string>
+    <string name="logout_positive_option">Sim</string>
+    <string name="logout_negative_option">Não</string>
+
+    <string name="logout_session_expired_title">SESSÃO EXPIRADA</string>
+    <string name="logout_session_expired_desc">Sua sessão expirou.\nLogue novamente</string>
+    <string name="logout_session_expired_option">Login</string>
+
+    <!-- My Account -->
+    <string name="my_account_title">MINHA CONTA</string>
+    <string name="my_account_item_my_points">MEUS PONTOS</string>
+    <string name="my_account_item_my_data">MEUS DADOS</string>
+    <string name="my_account_item_rescue_history">MEUS PEDIDOS</string>
+    <string name="my_account_item_fingerprint">IMPRESSÃO DIGITAL</string>
+    <string name="my_account_item_change_password">ALTERAR SENHA</string>
+
+    <!-- Password Settings -->
+
+
+    <!-- Account Activated -->
+    <string name="account_activated_title">Ativação Concluída</string>
+    <string name="account_activated_description">A partir de agora, você pode aproveitar\ntodas as vantagens da Livelo</string>
+    <string name="account_activated_button">COMEÇAR A USAR</string>
+
+    <!-- My Account -->
+    <string name="my_account_toolbar_title">MEUS DADOS</string>
+    <string name="my_account_description">Para alterar seus dados, acesse o nosso site</string>
+    <string name="my_account_description_site">www.livelo.com.br</string>
+    <string name="my_account_button">EDITAR MEUS DADOS</string>
+
+    <!-- Summary Points -->
+    <string name="summary_points_title">RESUMO</string>
+    <string name="summary_points_subtitle">SEU SALDO LIVELO</string>
+    <string name="summary_points_no_points">Você ainda não/npossui pontos.</string>
+    <string name="summary_points_gain_points">Saiba como ganhar pontos Livelo.</string>
+    <string name="summary_points_accumulated_title">Pontos acumulados</string>
+    <string name="summary_points_accumulated_subtitle">Nos últimos 30 dias</string>
+    <string name="summary_points_expire_title">Pontos a expirar</string>
+    <string name="summary_points_expire_subtitle">Nos próximos 60 dias</string>
+    <string name="summary_points_rescued_title">Pontos resgatados</string>
+    <string name="summary_points_rescued_subtitle">Nos últimos 30 dias</string>
+    <string name="summary_loading_update_amount">Atualizando Total...</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">SEU SALDO LIVELO</string>
+    <string name="home_product_catalog">CATÁLOGO DE\nRECOMPENSAS</string>
+    <string name="home_qr_code">QR CODE</string>
+    <!--<string name="home_my_points">MEUS \nPONTOS</string>-->
+    <string name="home_my_account">MINHA\nCONTA</string>
+    <string name="home_rescue_code">CÓDIGO DE\nAUTORIZAÇÃO</string>
+
+    <!-- Extract Points -->
+    <string name="extract_points_title">EXTRATO</string>
+    <string name="extract_points_subtitle">VER TODO O HISTÓRICO</string>
+    <string name="extract_show_historic">@string/extract_points_subtitle</string>
+    <string name="extract_points_accumulated_title">Pontos acumulados</string>
+    <string name="extract_points_expire_title">Pontos a expirar</string>
+    <string name="extract_points_rescued_title">Pontos resgatados</string>
+    <string name="extract_points_downloads_title">Pontos transferidos</string>
+    <string name="extract_points_chargebacks_title">Pontos estornados</string>
+    <string name="extract_clean_title">Nada por aqui</string>
+    <string name="extract_clean_description">Você não possui\ntransações nesse mês.</string>
+
+    <!-- Historical Extract -->
+    <string name="historical_extract_title_toolbar">HISTÓRICO DO EXTRATO</string>
+    <string name="historical_extract_organize">ORGANIZAR POR</string>
+    <string name="historical_extract_organize_by_most_recent">Mais recentes</string>
+    <string name="historical_extract_organize_by_most_old">Mais antigos</string>
+    <string name="historical_extract_filter">FILTRAR POR</string>
+    <string name="historical_extract_filter_by_all">Todos</string>
+    <string name="historical_extract_filter_by_patern">Nome do parceiro</string>
+    <string name="historical_extract_filter_by_accumulated">Pontos acumulados</string>
+    <string name="historical_extract_filter_by_rescued">Pontos resgatados</string>
+    <string name="historical_extract_filter_by_expirados">Pontos expirados</string>
+    <string name="historical_extract_nothing_to_show">Você não possui\ntransações nesse período.</string>
+
+    <!-- Summary Details -->
+    <string name="summary_month_expire_title_toolbar">PONTOS A EXPIRAR</string>
+    <string name="summary_month_accumulated_title_toolbar">PONTOS ACUMULADOS</string>
+    <string name="summary_month_rescued_title_toolbar">PONTOS RESGATADOS</string>
+    <string name="summary_month_filter_last_month">ÚLTIMOS 30 DIAS</string>
+    <string name="summary_month_filter_last_three_month">3 ÚLTIMOS MESES</string>
+    <string name="summary_month_filter_last_six_month">6 ÚLTIMOS MESES</string>
+
+    <!-- Summary Expired -->
+    <string name="summay_expired_filter_all">TODOS</string>
+    <string name="summay_expired_filter_next_month">PRÓXIMO MÊS</string>
+    <string name="summay_expired_filter_next_three_month">PRÓXIMOS 3 MESES</string>
+    <string name="summay_expired_filter_next_six_month">PRÓXIMOS 6 MESES</string>
+
+    <!-- Rescue History -->
+    <string name="rescue_history_title">MEUS PEDIDOS</string>
+    <string name="rescue_history_filter">FILTRAR POR</string>
+    <string name="rescue_history_filter_order_proccess">Pedidos em processamento</string>
+    <string name="rescue_history_filter_order_send">Pedidos enviados</string>
+    <string name="rescue_history_filter_order_finalized">Pedidos finalizados</string>
+    <string name="rescue_history_filter_order_canceled">Pedidos cancelados</string>
+    <string name="rescue_history_filter_order_all">Todos</string>
+    <string name="rescue_field_date">Data</string>
+    <string name="rescue_number_order">Nº pedido</string>
+    <string name="rescue_receiver">Destinatário</string>
+    <string name="rescue_total">Total</string>
+    <string name="rescue_status">Status</string>
+    <string name="rescue_address">Nome e Endereço de Entrega</string>
+    <string name="rescue_payment">Método de Pagamento</string>
+    <string name="rescue_history_label_order_proccess">EM ANÁLISE</string>
+    <string name="rescue_history_label_order_send">ENVIADO</string>
+    <string name="rescue_history_label_order_finalized">CONCLUÍDO</string>
+    <string name="rescue_history_label_order_canceled">CANCELADO</string>
+    <string name="rescue_history_no_rescue_to_show_title">Você ainda não realizou \nnenhum resgate!</string>
+    <string name="rescue_history_nothing_to_show">Comece agora e troque seus \npontos Livelo por experiências</string>
+    <string name="rescue_history_nothing_to_show_filter">Nenhum pedido encontrado!</string>
+    <string name="rescue_history_go_catalog">IR PARA O CATÁLOGO</string>
+
+    <!-- Product Detail -->
+    <string name="product_detail_title">DETALHES DO PEDIDO</string>
+    <string name="product_detail_subtitle">RESUMO DO PEDIDO</string>
+    <string name="product_detail_title_info_geral">INFORMAÇÕES GERAIS</string>
+    <string name="product_detail_title_info_order">INFORMAÇÕES DO PEDIDO</string>
+    <string name="product_detail_partner">Nome do Parceiro</string>
+    <string name="product_detail_name_product">Nome do Produto</string>
+    <string name="product_detail_value">Valor</string>
+    <string name="product_detail_amount">Quantidade</string>
+    <string name="product_detail_total">Total</string>
+    <string name="product_detail_total_order">Total do pedido</string>
+    <string name="product_detail_title_value_product">VALOR DO PRODUTO</string>
+    <string name="product_detail_title_name_product">NOME DO PRODUTO</string>
+    <string name="Voltage">VOLTAGEM</string>
+    <string name="Color">COR</string>
+    <string name="Partner">PARCEIRO</string>
+    <string name="Size">TAMANHO</string>
+    <string name="Other">OUTROS</string>
+
+    <!-- QR Code -->
+    <string name="qr_code_title">QR CODE</string>
+    <string name="qr_code_info">Centralize o QR code \nna área demarcada.</string>
+    <string name="qr_code_info_bottom">Evite reflexos e sombras.</string>
+    <string name="qr_code_access_external">Você está sendo direcionado \npara um site externo. \nDeseja continuar?</string>
+
+    <!-- Token -->
+    <string name="token_title">CÓDIGO DE AUTORIZAÇÃO</string>
+    <string name="token_subtitle_start">Quase lá. Agora só falta associar \num dispositivo à sua conta.</string>
+    <string name="token_subtitle_rescue">Código de autorização</string>
+    <string name="token_description">É só clicar no botão abaixo que enviaremos \num código de confirmação por SMS.</string>
+    <string name="token_btn_request_activation">Solicitar Ativação</string>
+    <string name="token_title_activation">Digite aqui o código de ativação</string>
+    <string name="token_hint_activation">Código de ativação</string>
+    <string name="token_btn_activation">Ativar</string>
+    <string name="token_btn_generate_code">Gerar Código de Autorização</string>
+    <string name="token_send_code_again">Não recebi. Enviar novamente.</string>
+
+    <!-- Product Catalog -->
+    <string name="product_catalog_title">CATÁLOGO</string>
+    <string name="shopping_cart">Carrinho</string>
+    <string name="product_catalog_search">Digite o nome do produto</string>
+
+    <!-- No Points to Show -->
+    <string name="no_points_to_show_title">Nada por aqui</string>
+    <string name="no_points_to_show_subtitle_accumulated">Você não acumulou pontos nesse\nperíodo. Comece a acumular agora\ne troque por experiências!</string>
+    <string name="no_points_to_show_subtitle_expired">Você não tem pontos a\nexpirar nesse período.</string>
+    <string name="no_points_to_show_subtitle_rescued">Ainda não resgatou seus pontos?\nAproveite já as vantagens Livelo!</string>
+
+    <string name="drawer_open_desc">open</string>
+    <string name="drawer_close_desc">close</string>
+
+    <!-- Last Update -->
+    <string name="last_update_label">Última atualização</string>
+
+    <!-- Historic Extract -->
+    <string name="historic_title_toolbar">HISTÓRICO DO EXTRATO</string>
+    <string name="historic_filter_order_by_title">ORGANIZAR POR</string>
+    <string name="historic_filter_order_by_most_recent">Mais recentes</string>
+    <string name="historic_filter_order_by_most_old">Mais antigos</string>
+    <string name="historic_filter_filter_by_title">FILTRAR POR</string>
+    <string name="historic_filter_filter_by_all">Todos</string>
+    <string name="historic_filter_filter_by_partner_name">Nome do parceiro</string>
+    <string name="historic_filter_filter_by_points_accumulated">Pontos acumulados</string>
+    <string name="historic_filter_filter_by_points_rescued">Pontos resgatados</string>
+    <string name="historic_filter_filter_by_points_expired">Pontos expirados</string>
+
+    <!-- My Data -->
+    <string name="my_data_title_toolbar">MEUS DADOS</string>
+
+    <!-- Loading -->
+    <string name="loading_text">Carregando...</string>
+    <string name="mini_loading_text">Atualizando Informações...</string>
+
+    <!-- WebView - Forgot Password -->
+    <string name="webview_forgot_password_toolbar_title">Livelo</string>
+
+    <!-- Activate device -->
+    <string name="activate_device_text_send_sms">O Código foi solicitado.</string>
+    <string name="activate_device_error_code">Por favor entre com o código de 6 dígitos.</string>
+
+    <!-- Fingerprint -->
+    <string name="fingerprint_fail">Não foi possível carregar suas informações. Tente novamente.</string>
+    <string name="fingerprint_sucess">Informações carregadas com sucesso. Aguarde o login.</string>
+    <string name="fingerprint_sign_in">Login</string>
+    <string name="fingerprint_hint">Toque no sensor</string>
+    <string name="enable_fingerprint_get_password">Confirme sua senha para habilitar o\nlogin por impressão digital.</string>
+    <string name="enable_fingerprint_option_positive">OK</string>
+    <string name="enable_fingerprint_option_negative">Cancelar</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_msg_error">Verifique o CPF e tente novamente.</string>
+    <string name="forgot_password_title">Informe o CPF cadastrado para receber\nsua senha.</string>
+    <string name="forgot_password_btn_send">Enviar</string>
+    <string name="forgot_password_titlle_toolbar">RECUPERAÇÃO DE SENHA</string>
+    <string name="forgot_password_dialog_title">Sua solicitação está\nsendo processada</string>
+    <string name="forgot_password_dialog_descrioption">Verifique seu e-mail cadastrado e siga\nas instuções para realizar login.</string>
+    <string name="forgot_password_dialog_positive">OK</string>
+
+    <!-- Password Settings-->
+    <string name="password_settings_toolbar_title">CONFIGURAÇÕES DE SENHA</string>
+
+    <!-- Change Password -->
+    <string name="change_password_different_passwords">As senhas devem ser iguais. Por favor, digite novamente.</string>
+    <string name="change_password_title_toolbar">ALTERAR SENHA</string>
+    <string name="change_password_title">Digite sua senha atual e a nova senha.</string>
+    <string name="change_password_actual_pass">Senha atual*</string>
+    <string name="change_password_new_pass">Nova senha*</string>
+    <string name="change_password_confirm_pass">Confirmar nova senha*</string>
+    <string name="change_password_btn_save">SALVAR NOVA SENHA</string>
+    <string name="change_password_description">*A senha deve conter seis caracteres numéricos.</string>
+    <string name="change_password_invalid">A senha deve conter 6 dígitos, não pode possuir sequências, números repetidos ou ser igual as 3 últimas.</string>
+    <string name="change_password_invalid_register">A senha deve conter 6 dígitos e não pode possuir sequências ou números repetidos.</string>
+    <string name="change_password_old_equal">A nova senha deve ser diferente da atual.</string>
+    <string name="change_password_success_title">Senha Alterada</string>
+    <string name="change_password_success_description">Senha alterada com sucesso</string>
+    <string name="change_password_success_positive">OK</string>
+    <string name="branding_bank_banco_do_brasil">BANCO DO BRASIL</string>
+    <string name="branding_bank_banco_bradesco">BRADESCO</string>
+    <string name="create_password">Senha inválida.</string>
+
+    <!-- Contact US-->
+    <string name="contact_use_title">FALE CONOSCO</string>
+
+    <!-- Product Detail-->
+    <string name="product_detail_toolbar_title">PRODUTO</string>
+    <string name="product_description">DESCRIÇÃO</string>
+    <string name="product_id">ID</string>
+    <string name="product_gtin">GTIN</string>
+    <string name="product_supplier">FORNECEDOR</string>
+    <string name="product_amount">QUANTIDADE</string>
+    <string name="product_add_to_chart">ADICIONAR AO CARRINHO</string>
+    <string name="product_amount_decrease">-</string>
+    <string name="product_amount_increase">+</string>
+    <string name="product_unavailable">FORA DE ESTOQUE</string>
+    <string name="product_value">Valor:\u0020</string>
+    <string name="product_single_price">%1$s pts\u0020</string>
+    <string name="product_list_price">De %1$s pts\u0020</string>
+    <string name="product_by">Por\u0020</string>
+    <string name="product_sales_price">Por %1$s pts</string>
+
+    <!-- Dialog Cart Confirmation -->
+    <string name="dialog_cart_info">Produto adicionado ao carrinho</string>
+    <string name="dialog_cart_btn_finish">CONCLUIR RESGATE</string>
+    <string name="dialog_cart_btn_continue">Continuar comprando</string>
+
+
+    <!-- Checkout Password -->
+    <string name="checkout_password_title_toolbar">CONFIRMAR</string>
+    <string name="checkout_password_info">Digite sua senha para confirmar o pedido.</string>
+    <string name="checkout_password_hint">Senha</string>
+    <string name="checkout_password_confirm">CONFIRMAR</string>
+    <string name="checkout_password_back_to_cart">Voltar para o carrinho</string>
+
+    <!-- Checkout Address -->
+    <string name="checkout_address_title_toolbar">ENDEREÇO</string>
+    <string name="checkout_address_info">Você pode adicionar, editar ou remover endereços na sua Lista de Endereços do site Livelo. Lembre-se de manter seus dados atualizados!</string>
+    <string name="checkout_address_send_order">ENVIAR PEDIDO</string>
+
+    <!-- Search -->
+    <string name="search_error_minimum_letters">O termo de busca deve ter no mínimo três caracteres. Tente novamente.</string>
+    <string name="search_empty_title">Nada encontrado</string>
+    <string name="search_empty_description">Não foram encontrados resultados para a\nsua busca. Acesse nosso catálogo completo\npara ver mais produtos.</string>
+    <string name="search_empty_catalog">IR PARA O CATÁLOGO</string>
+    <string name="search_subtitle" formatted="false">%s resultados encontrados</string>
+
+
+    <string name="product_empty_description"> Não foram encontrados resultados nessa categoria.</string>
+
+    <!-- Cart Activity -->
+    <string name="cart_title_toolbar">CARRINHO</string>
+    <string name="cart_coupon_discount">INSIRA SEU CUPOM DE DESCONTO</string>
+    <string name="cart_coupon_hint">Cupom de desconto</string>
+    <string name="cart_add">ADICIONAR</string>
+    <string name="cart_delete">EXCLUIR</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_discount">Desconto</string>
+    <string name="cart_total">Total do pedido</string>
+    <string name="cart_points">PONTOS</string>
+    <string name="cart_points_remaining">Saldo depois de\nutilizar os pontos</string>
+    <string name="cart_update_points" formatted="false">Seu saldo atual é de %s pontos.</string>
+    <string name="cart_update_time" formatted="false">Última atualização em %s</string>
+    <string name="cart_complete">CONCLUIR RESGATE</string>
+    <string name="cart_complete_pay_more">PAGAR COM PONTOS + DINHEIRO</string>
+    <string name="cart_value_from">De %s pts</string>
+    <string name="cart_value_to">Por %s pts</string>
+    <string name="cart_error_banner_coupon">O número do cupom de desconto é inválido.</string>
+    <string name="cart_error_banner_update">Ocorreu um erro ao tentar adicionar o produto no carrinho. Por favor, tente novamente.</string>
+    <string name="cart_error_banner_points">Você ainda não tem pontos suficientes para realizar o resgate. Pague com Pontos+Dinheiro e finalize o pedido.</string>
+    <string name="cart_error_banner_delete">Não foi possível excluir o produto do carinho. Por favor, tente novamente.</string>
+    <string name="cart_error_banner_order">Não foi possível processar o carinho. Por favor, tente novamente.</string>
+    <string name="cart_title_empty">Seu carrinho está vazio</string>
+    <string name="cart_title_description">Navegue pelo catálogo de produtos\ne boas compras!</string>
+
+    <string name="cart_credit_description">Seu saldo é insuficiente para resgatar apenas\ncom pontos. Complete com Pontos + Dinheiro\nno site Livelo para concluir\nseu resgate.</string>
+
+    <!-- Checkout Activity -->
+    <string name="checkout_error_banner_generic">Não foi possível processar sua informação. Por favor, tente novamente.</string>
+    <string name="checkout_dialog_confirmation_title">Pedido realizado com sucesso!</string>
+    <string name="checkout_dialog_confirmation_description">Acompanhe o status da entrega.</string>
+
+    <string name="product_out_of_stock">Fora de estoque</string>
+
+    <string name="error_add_product">Não foi possível adicionar o produto ao carrinho. Por favor, tente novamente.</string>
+
+    <string name="point_not_expire">NÃO EXPIRA</string>
+
+</resources>

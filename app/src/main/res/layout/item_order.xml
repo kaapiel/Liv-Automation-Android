@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_order"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:id="@+id/order_border"
+            android:layout_height="match_parent"
+            android:background="@color/black_alpha_32000000" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        android:text="@string/rescue_number_order" />
+
+                    <TextView
+                        android:id="@+id/tv_order_number"
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        android:layout_weight="0.9"
+                        tools:text="ABC 123.456.789.000" />
+
+                    <TextView
+                        android:id="@+id/tv_order_date"
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        android:layout_weight="0.1"
+                        tools:text="27/07/2015" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        android:text="@string/rescue_receiver" />
+
+                    <TextView
+                        android:id="@+id/tv_order_receiver"
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        android:layout_weight="0.9"
+                        tools:text="Roberto Zimmerman" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/arrow" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray_f8f8f8"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        android:text="@string/rescue_total" />
+
+                    <TextView
+                        android:id="@+id/tv_order_total"
+                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        android:layout_weight="0.9"
+                        tools:text="1.999pts + R$ 100,00" />
+
+                    <RelativeLayout
+                        android:id="@+id/containter_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black_alpha_32000000" />
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,172 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'com.neenbedankt.android-apt'
+
+apply plugin: 'com.google.gms.google-services'
+
+apply from: "../artifacts.gradle"
+
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url 'https://maven.fabric.io/public' }
+}
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "br.com.pontomobi.livelopontos"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 10006
+        versionName "1.0.10"
+
+        ndk {
+            moduleName "Criptohelper"
+        }
+
+        sourceSets.main {
+            jni.srcDirs = []
+            jniLibs.srcDir 'src/main/libs'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../pmobi.keystore')
+            storePassword "aortaqwerty01"
+            keyAlias "android_apps"
+            keyPassword "aortaqwerty01"
+        }
+
+        debug {
+            storeFile file('../pmobi.keystore')
+            storePassword "aortaqwerty01"
+            keyAlias "android_apps"
+            keyPassword "aortaqwerty01"
+        }
+    }
+
+    tasks.whenTaskAdded { task ->
+        if (task.name.contains("lint") || task.name.contains("test")) {
+            println 'EXCLUDED ' + task.name
+            task.enabled = false
+        }
+    }
+
+    buildTypes {
+        debug {
+            versionNameSuffix '-DEBUG'
+            debuggable true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            buildConfigField "String", "ENDPOINT", ENDPOINT_HMG
+            buildConfigField "boolean", "ENABLE_RETROFIT_LOG", "true"
+        }
+
+        release {
+            versionNameSuffix '-PROD'
+            minifyEnabled false
+//            shrinkResources true verificar se com a minificação as coisas rolam de boa
+            debuggable false
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            buildConfigField "String", "ENDPOINT", ENDPOINT_PROD
+            buildConfigField "boolean", "ENABLE_RETROFIT_LOG", "false"
+        }
+
+        sit {
+            versionNameSuffix '-SIT'
+            debuggable true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            buildConfigField "String", "ENDPOINT", ENDPOINT_SIT
+            buildConfigField "boolean", "ENABLE_RETROFIT_LOG", "true"
+        }
+
+        sit_not_ssl {
+            versionNameSuffix '-SIT'
+            debuggable true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            buildConfigField "String", "ENDPOINT", ENDPOINT_SIT_NOT_SSL
+            buildConfigField "boolean", "ENABLE_RETROFIT_LOG", "true"
+        }
+
+        uat {
+            versionNameSuffix '-UAT'
+            debuggable true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            buildConfigField "String", "ENDPOINT", ENDPOINT_UAT
+            buildConfigField "boolean", "ENABLE_RETROFIT_LOG", "true"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+ext {
+    libSupportVersion = '23.3.0'
+    playServiceVersion = '9.0.0'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    wearApp project(':livelowear')
+    compile "com.android.support:appcompat-v7:${libSupportVersion}"
+    compile "com.android.support:design:${libSupportVersion}"
+    compile "com.android.support:cardview-v7:${libSupportVersion}"
+    compile "com.android.support:recyclerview-v7:${libSupportVersion}"
+    compile "com.google.android.gms:play-services-wearable:${playServiceVersion}"
+    compile "com.google.android.gms:play-services-analytics:${playServiceVersion}"
+    compile "com.google.android.gms:play-services-gcm:${playServiceVersion}"
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.1@aar') {
+        transitive = true;
+    }
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.squareup:otto:1.3.8'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.okhttp:okhttp:2.6.0'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    compile 'com.inkapplications.viewpageindicator:library:2.4.3'
+    compile 'com.github.rey5137:material:1.2.4'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    compile 'com.dlazaro66.qrcodereaderview:qrcodereaderview:1.0.0'
+    compile 'com.scottyab:aescrypt:0.0.1'
+    compile 'com.google.guava:guava-collections:r03'
+    compile 'com.google.firebase:firebase-core:9.0.0'
+
+    compile project(':MPChartLib')
+    compile 'com.google.firebase:firebase-database:9+'
+
+}
+
+//task setXmlCrashlytics(type: Exec) {
+//    commandLine 'sh', './script/create_config_crashlytics.sh'
+//}
+
+//preBuild.dependsOn(setXmlCrashlytics)

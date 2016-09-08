@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/extract_main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/extract_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/extract_top_expanded"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_extrato">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_months"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/img_month"
+                android:layout_width="92dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rectangle"
+                android:textColor="@android:color/white"
+                android:textSize="19sp" />
+
+
+        </RelativeLayout>
+
+        <br.com.pontomobi.livelopontos.ui.widget.LastUpdate
+            android:id="@+id/extract_last_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/extract_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/extract_header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <br.com.pontomobi.livelopontos.ui.widget.ExpandableList
+                android:id="@+id/extract_list_transactions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/list_divider_color"
+                android:dividerHeight="1dp" />
+
+            <RelativeLayout
+                android:id="@+id/extract_footer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="100dp"
+                android:visibility="gone">
+
+                <br.com.pontomobi.livelopontos.ui.widget.ExtractFooter
+                    android:id="@+id/extract_footer_accumulated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:points_footer="0"
+                    app:title_footer="@string/extract_points_accumulated_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sombra" />
+
+                <br.com.pontomobi.livelopontos.ui.widget.ExtractFooter
+                    android:id="@+id/extract_footer_rescued"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/extract_footer_accumulated"
+                    app:points_footer="0"
+                    app:title_footer="@string/extract_points_rescued_title" />
+
+                <br.com.pontomobi.livelopontos.ui.widget.ExtractFooter
+                    android:id="@+id/extract_footer_expire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/extract_footer_rescued"
+                    app:points_footer="0"
+                    app:title_footer="@string/extract_points_expire_title" />
+
+                <br.com.pontomobi.livelopontos.ui.widget.ExtractFooter
+                    android:id="@+id/extract_footer_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/extract_footer_expire"
+                    app:points_footer="0"
+                    app:title_footer="@string/extract_points_downloads_title" />
+
+                <br.com.pontomobi.livelopontos.ui.widget.ExtractFooter
+                    android:id="@+id/extract_footer_chargebacks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/extract_footer_download"
+                    app:points_footer="0"
+                    app:title_footer="@string/extract_points_chargebacks_title" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/extract_nothing_to_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/extract_header"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/extract_empty_img"
+            android:layout_height="@dimen/extract_empty_img"
+            android:src="@drawable/pontos_vazio" />
+
+        <TextView
+            style="@style/LiveloPontosTheme.TextView.Extract.Clean.Title"
+            android:layout_marginTop="10dp"
+            android:text="@string/extract_clean_title" />
+
+        <TextView
+            style="@style/LiveloPontosTheme.TextView.Extract.Clean.Description"
+            android:text="@string/extract_clean_description" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/extract_show_historic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#27bdbe"
+        android:gravity="center"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp"
+        android:text="@string/extract_show_historic"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+
+    <!--<include layout="@layout/extract_top_minimized" />-->
+
+</RelativeLayout>

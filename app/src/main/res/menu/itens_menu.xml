@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_options">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_item_home" />
+
+        <item
+            android:id="@+id/menu_my_account"
+            android:icon="@drawable/ic_conta"
+            android:title="@string/menu_item_my_account" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_cadeado_menu"
+            android:title="@string/menu_item_exit" />
+    </group>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rescue_nothing_to_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/rescue_topo_filter"
+    android:background="@color/summary_month_nothingtoshow_bg_color">
+
+    <ImageView
+        android:id="@+id/nothing_rescue_to_show_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/summary_month_nothingtoshow_image_margin_top"
+        android:src="@drawable/resgate_vazio" />
+
+    <TextView
+        android:id="@+id/nothing_to_show_title"
+        style="@style/LiveloPontosTheme.TextView.Summary.Month.NothingToShow.Title"
+        android:layout_below="@+id/nothing_rescue_to_show_image"
+        android:gravity="center"
+        android:text="@string/rescue_history_no_rescue_to_show_title" />
+
+    <TextView
+        android:id="@+id/nothing_to_show_subtitle"
+        style="@style/LiveloPontosTheme.TextView.Summary.Month.NothingToShow.Subtitle"
+        android:layout_below="@+id/nothing_to_show_title"
+        android:text="@string/rescue_history_nothing_to_show" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_go_catalog"
+        android:layout_below="@+id/nothing_to_show_subtitle"
+        style="@style/LiveloPontosTheme.Button.Enabled"
+        android:text="@string/rescue_history_go_catalog"  />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <br.com.pontomobi.livelopontos.ui.widget.LastUpdate
+                android:id="@+id/my_info_last_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/my_account_content_margin_left"
+            android:layout_marginRight="@dimen/my_account_content_margin_right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/my_account_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/my_account_banner_margin_bottom"
+                android:layout_marginTop="@dimen/my_account_banner_margin_top"
+                android:background="@drawable/my_account_banner"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                    android:text="@string/my_account_description" />
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner.Site"
+                    android:text="@string/my_account_description_site" />
+
+            </LinearLayout>
+
+
+            <include layout="@layout/register_fields" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/my_account_change"
+                style="@style/LiveloPontosTheme.Button.register.Activate.Account"
+                android:text="@string/my_account_button" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,1 @@
+JNIEXPORT jstring JNICALL Java_br_com_pontomobi_livelopontos_ui_rescuecode_CriptoHelper_getSeed(JNIEnv *, jobject, jobject, jstring, jstring);

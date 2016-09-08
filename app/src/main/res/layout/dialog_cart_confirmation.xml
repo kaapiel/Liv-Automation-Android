@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="310dp"
+    android:layout_height="412dp"
+    android:background="@drawable/bg_dialog_cart"
+    android:gravity="center_horizontal"
+    android:backgroundTint="#CCFFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="213dp"
+        android:layout_height="169dp"
+        android:src="@drawable/tut_comece"
+        android:id="@+id/dr_img_dialog"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        android:layout_marginTop="@dimen/activate_device_description_margin_top"
+        android:gravity="center"
+        android:text="Deseja realizar a execução?" />
+
+    <TextView
+        android:id="@+id/cart_description_product"
+        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="Bugs em aberto: "
+        android:text="Bugs em aberto:" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listBugs"
+        android:layout_gravity="center_horizontal" />
+
+    <include layout="@layout/loading" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/cart_confirm"
+        style="@style/LiveloPontosTheme.Button.Enabled"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:text="Executar Testes" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/cart_continue"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="@dimen/login_content_margin_left"
+        android:layout_marginRight="@dimen/login_content_margin_right"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Cancelar"
+        android:textAppearance="@style/LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500"
+        android:textColor="@color/pink_ed037c" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_below="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LiveloPontosTheme.TextView.Register.Info"
+                android:text="@string/register_info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/register_user_content_margin_left"
+                android:layout_marginRight="@dimen/register_user_content_margin_right"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.Register.Title"
+                    android:text="@string/register_title" />
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.Register.SubTitle"
+                    android:text="@string/register_subtitle" />
+
+                <include layout="@layout/register_fields" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/register_user_activate"
+                    style="@style/LiveloPontosTheme.Button.register.Activate.Account"
+                    android:text="@string/register_button_activate_account" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <br.com.pontomobi.livelopontos.ui.widget.BannerError
+        android:layout_below="@+id/main_content"
+        android:id="@+id/register_banner_error"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_user_banner_error_height"
+        android:visibility="gone" />
+
+    <include layout="@layout/loading" />
+
+</RelativeLayout>

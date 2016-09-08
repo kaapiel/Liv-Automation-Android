@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Toolbar Title -->
+    <dimen name="toolbar_title">20sp</dimen>
+
+
+    <!--  Tutorial -->
+    <dimen name="tutorial_join_now">13sp</dimen>
+    <dimen name="tutorial_activate_account">13sp</dimen>
+    <dimen name="tutorial_title">22sp</dimen>
+    <dimen name="tutorial_subtitle">15sp</dimen>
+
+    <!--  Banner Erro -->
+    <dimen name="banner_error">14.3sp</dimen>
+
+    <!--  Login -->
+    <dimen name="login_cpf_email">19sp</dimen>
+    <dimen name="login_password">19sp</dimen>
+    <dimen name="login_button_join">18.7sp</dimen>
+    <dimen name="login_button_activate_account">18.7sp</dimen>
+    <dimen name="login_forgot_password">13.3sp</dimen>
+
+    <!-- Custom Alert Dialog -->
+    <dimen name="custom_alert_dialog_title">20sp</dimen>
+    <dimen name="custom_alert_dialog_description">13.3sp</dimen>
+    <dimen name="custom_alert_dialog_button">13.3sp</dimen>
+
+    <!-- Activate Account -->
+    <dimen name="activate_account_header">13.3sp</dimen>
+    <dimen name="activate_account_cpf">19sp</dimen>
+    <dimen name="activate_account_activation_code">19sp</dimen>
+    <dimen name="activate_account_button_activate">18.7sp</dimen>
+    <dimen name="activate_account_footer">14.7sp</dimen>
+
+    <!-- Register User -->
+    <dimen name="register_user_info">14.3sp</dimen>
+    <dimen name="register_user_title">23.7sp</dimen>
+    <dimen name="register_user_subtitle">13.3sp</dimen>
+    <dimen name="register_user_edit_text">17.3sp</dimen>
+    <dimen name="register_user_switch_desciption">15sp</dimen>
+    <dimen name="register_user_address">15sp</dimen>
+    <dimen name="register_button_activated">18.7sp</dimen>
+    <dimen name="register_confirmation_title">20sp</dimen>
+    <dimen name="register_confirmation_subtitle">13.3sp</dimen>
+    <dimen name="register_confirmation_button">18.7sp</dimen>
+
+    <!-- Home -->
+    <dimen name="menu_header_name_text_size">20dp</dimen>
+
+    <!-- Home -->
+    <dimen name="home_navigationview_text_size">18.7sp</dimen>
+
+    <!-- My Info -->
+    <dimen name="my_info_banner_text_size">13.3sp</dimen>
+    <dimen name="my_info_banner_site_text_size">16.7sp</dimen>
+
+    <!-- My Points -->
+    <dimen name="my_points_tab_text_size">13.3sp</dimen>
+    <dimen name="my_points_tab_extract_text_size">18.7sp</dimen>
+
+    <!-- Summary -->
+    <dimen name="summary_top_points_text_size">90sp</dimen>
+    <dimen name="summary_top_points_text_size_5">93.3sp</dimen>
+    <dimen name="summary_top_points_text_size_6">86.7sp</dimen>
+    <dimen name="summary_top_points_text_size_7">70sp</dimen>
+    <dimen name="summary_top_points_text_size_8">65sp</dimen>
+    <dimen name="summary_top_points_text_size_9">60sp</dimen>
+    <dimen name="summary_top_points_text_size_10">53sp</dimen>
+    <dimen name="summary_top_points_text_size_11">48sp</dimen>
+    <dimen name="summary_top_points_text_size_before_11">35sp</dimen>
+
+    <dimen name="summary_top_pts_text_size">20.7sp</dimen>
+    <dimen name="summary_top_description_text_size">18.7sp</dimen>
+
+    <!-- Summary Item -->
+    <dimen name="summary_item_title_text_size">18sp</dimen>
+    <dimen name="summary_item_subtitle_text_size">13.3sp</dimen>
+    <dimen name="summary_item_points_text_size">21.3sp</dimen>
+    <dimen name="summary_item_pts_text_size">13.3sp</dimen>
+
+    <!-- Summary Month -->
+    <dimen name="summary_month_filtro_text_size">14.7sp</dimen>
+    <dimen name="summary_month_nothingtoshow_title_text_size">20.7sp</dimen>
+    <dimen name="summary_month_nothingtoshow_subtitle_text_size">16.7sp</dimen>
+
+    <!-- Summary Month Item -->
+    <dimen name="summary_month_item_month_text_size">17sp</dimen>
+    <dimen name="summary_month_item_points_text_size">21.3sp</dimen>
+    <dimen name="summary_month_item_pts_text_size">13.3sp</dimen>
+
+    <!-- Extract -->
+    <dimen name="extract_tablayout_text_size">18.7sp</dimen>
+    <dimen name="extract_top_minimized_points_text_size">23.3sp</dimen>
+    <dimen name="extract_top_minimized_pts_text_size">11.7sp</dimen>
+    <dimen name="extract_top_minimized_month_text_size">15.3sp</dimen>
+    <dimen name="extract_footer_title_text_size">15.3sp</dimen>
+    <dimen name="extract_footer_points_text_size">21.3sp</dimen>
+    <dimen name="extract_clean_title_text_size">20.7sp</dimen>
+    <dimen name="extract_clean_description_text_size">16.7sp</dimen>
+
+    <!-- Extract Item -->
+    <dimen name="extract_item_date_number_text_size">19.3sp</dimen>
+    <dimen name="extract_item_date_desc_text_size">10.3sp</dimen>
+    <dimen name="extract_item_store_text_size">17sp</dimen>
+    <dimen name="extract_item_store_type_text_size">11sp</dimen>
+    <dimen name="extract_item_month_text_size">19sp</dimen>
+
+    <!-- Historic Extract -->
+    <dimen name="historic_extract_title_month_text_size">18.3sp</dimen>
+
+    <!-- Last Update -->
+    <dimen name="last_update_label_text_size">13.3sp</dimen>
+    <dimen name="last_update_date_text_size">13.3sp</dimen>
+
+    <!-- My Account -->
+    <dimen name="my_account_title_text_size">18.5sp</dimen>
+
+    <!-- Loading -->
+    <dimen name="loading_text_size">13.3sp</dimen>
+
+    <!-- Rescued -->
+    <dimen name="rescued_status_text_size">14.3sp</dimen>
+
+    <!-- Forgot Password -->
+    <dimen name="forgot_password_title_text_size">14sp</dimen>
+
+    <!-- Change Password -->
+    <dimen name="change_password_descripton_text_size">15sp</dimen>
+
+    <!-- Branding Bank -->
+    <dimen name="branding_bank_title_text_size">22sp</dimen>
+
+</resources>

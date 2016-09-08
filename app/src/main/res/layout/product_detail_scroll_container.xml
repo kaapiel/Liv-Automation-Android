@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="RtlHardcoded,RelativeOverlap,ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- GALLERY -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:focusableInTouchMode="true">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/product_gallery_pager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/product_gallery_pager_height" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/product_gallery_pager_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="@dimen/product_gallery_pager_indicator_margin_bottom"
+                app:fillColor="@color/product_gallery_pager_indicator_selected_background"
+                app:pageColor="@color/product_gallery_pager_indicator_background"
+                app:radius="@dimen/product_gallery_pager_indicator_radius"
+                app:strokeColor="@android:color/transparent" />
+
+            <ImageView
+                android:id="@+id/product_picture_empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/product_picture_margin_bottom"
+                android:layout_marginLeft="@dimen/product_picture_margin_left_right"
+                android:layout_marginRight="@dimen/product_picture_margin_left_right"
+                android:layout_marginTop="@dimen/product_picture_margin_top"
+                android:src="@drawable/product_placeholder"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+        </FrameLayout>
+
+        <!-- NAME -->
+        <TextView
+            android:id="@+id/product_name"
+            style="@style/LiveloPontosTheme.TextView.ProductDetail.ProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- VARIATIONS -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/product_variations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@android:color/white" />
+
+        <!--DESCRIPTION CONTAINER-->
+        <LinearLayout
+            android:id="@+id/product_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <!-- DESCRIPTION-->
+            <LinearLayout
+                android:id="@+id/product_description_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2.7dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/id_description"
+                        style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/product_description" />
+
+                    <ImageButton
+                        android:id="@+id/expand_collapse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/bt_expand"
+                        android:layout_marginRight="@dimen/product_read_more_margin_right"
+                        android:background="@drawable/product_description_read_more_bg" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/expandable_text"
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp" />
+
+                <include
+                    layout="@layout/product_detail_session_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/product_description_session_divider_height"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <!-- PRODUCT ID -->
+            <LinearLayout
+                android:id="@+id/product_id_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/product_single_text_container_height"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/product_id" />
+
+                <TextView
+                    android:id="@+id/product_id"
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/product_id_gtin_margin_top" />
+            </LinearLayout>
+
+            <include
+                layout="@layout/product_detail_session_divider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/product_description_session_divider_height"
+                android:layout_gravity="bottom" />
+
+            <!-- GTIN -->
+            <LinearLayout
+                android:id="@+id/product_gtin_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/product_single_text_container_height"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/product_gtin" />
+
+                <TextView
+                    android:id="@+id/product_gtin"
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/product_id_gtin_margin_top" />
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/product_detail_session_divider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/product_description_session_divider_height"
+                android:layout_gravity="bottom" />
+
+        </LinearLayout>
+
+        <!-- PARTNER-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_supplier_container_height"
+            android:background="#F5F5F5"
+            android:gravity="center_vertical"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LiveloPontosTheme.TextView.ProductDetail.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/product_supplier" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/product_partners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@android:color/white" />
+
+        <include
+            layout="@layout/product_detail_session_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_description_session_divider_height"
+            android:layout_gravity="bottom" />
+
+        <!-- NUMBER PICKER-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_amount_container_height"
+            android:background="@android:color/white"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:text="@string/product_amount" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/product_amount_button_margin_top"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/product_amount_decrease"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/product_amount_button_height"
+                    android:layout_marginLeft="@dimen/product_amount_button_margin_left"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_bg_product_amount"
+                    android:enabled="false"
+                    android:text="@string/product_amount_decrease"
+                    android:textColor="@color/products_amount_button_text"
+                    android:textSize="@dimen/products_amount_button_text" />
+
+                <TextView
+                    android:id="@+id/product_amount"
+                    style="@style/LiveloPontosTheme.TextView.ProductDetail.ProductsAmount.Text"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/product_amount_increase"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/product_amount_button_height"
+                    android:layout_marginRight="@dimen/product_amount_button_margin_right"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_bg_product_amount"
+                    android:enabled="false"
+                    android:text="@string/product_amount_increase"
+                    android:textColor="@color/products_amount_button_text"
+                    android:textSize="@dimen/products_amount_button_text" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            layout="@layout/product_detail_session_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_description_session_divider_height" />
+
+        <Button
+            android:id="@+id/bt_add_to_cart"
+            style="@style/LiveloPontosTheme.TextView.ProductDetail.AddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</ScrollView>

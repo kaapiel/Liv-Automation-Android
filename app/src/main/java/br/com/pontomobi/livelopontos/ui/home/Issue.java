@@ -22,6 +22,36 @@ public class Issue implements Parcelable {
     private String sprint;
     private String status;
 
+    public Issue(Parcel in) {
+        key = in.readString();
+        summary = in.readString();
+        issueType = in.readString();
+        component = in.readString();
+        created = in.readString();
+        displayName = in.readString();
+        assignee = in.readString();
+        priority = in.readString();
+        resolution = in.readString();
+        sprint = in.readString();
+        status = in.readString();
+    }
+
+    public Issue(){
+
+    }
+
+    public static final Creator<Issue> CREATOR = new Creator<Issue>() {
+        @Override
+        public Issue createFromParcel(Parcel in) {
+            return new Issue(in);
+        }
+
+        @Override
+        public Issue[] newArray(int size) {
+            return new Issue[size];
+        }
+    };
+
     public String getKey() {
         return key;
     }
@@ -122,6 +152,16 @@ public class Issue implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-
+        dest.writeString(key);
+        dest.writeString(summary);
+        dest.writeString(issueType);
+        dest.writeString(component);
+        dest.writeString(created);
+        dest.writeString(displayName);
+        dest.writeString(assignee);
+        dest.writeString(priority);
+        dest.writeString(resolution);
+        dest.writeString(sprint);
+        dest.writeString(status);
     }
 }

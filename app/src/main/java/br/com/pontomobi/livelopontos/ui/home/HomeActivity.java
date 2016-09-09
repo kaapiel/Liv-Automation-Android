@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -29,10 +28,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.listener.ChartTouchListener;
 import com.github.mikephil.charting.listener.OnChartGestureListener;
 import com.google.firebase.database.DataSnapshot;
@@ -50,11 +45,8 @@ import br.com.pontomobi.livelopontos.R;
 import br.com.pontomobi.livelopontos.listener.OnChangeFragmentListener;
 import br.com.pontomobi.livelopontos.model.Alert;
 import br.com.pontomobi.livelopontos.service.livelo.LiveloException;
-import br.com.pontomobi.livelopontos.service.livelo.brandingbank.model.PartnerPartyEnrollment;
 import br.com.pontomobi.livelopontos.service.livelo.userprofile.model.ProfileResponse;
 import br.com.pontomobi.livelopontos.service.livelo.userprofile.model.UserProfileResponse;
-import br.com.pontomobi.livelopontos.ui.activateDevice.ActivateDeviceBusiness;
-import br.com.pontomobi.livelopontos.ui.cart.CartActivity;
 import br.com.pontomobi.livelopontos.ui.dialog.DialogCustomAlert;
 import br.com.pontomobi.livelopontos.ui.login.LoginActivity;
 import br.com.pontomobi.livelopontos.ui.myInfo.MyInfoBusiness;
@@ -64,7 +56,6 @@ import br.com.pontomobi.livelopontos.util.LoginUtil;
 import br.com.pontomobi.livelopontos.util.gcm.GCMUtil;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class HomeActivity extends LiveloPontosActivity implements OnChangeFragmentListener, OnChartGestureListener {
 
@@ -102,11 +93,7 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
     private MyInfoBusiness myInfoBusiness;
     private boolean loadInfoFromCache = false;
 
-    private ActivateDeviceBusiness mActivateDeviceBusiness;
-
     private int menuIdCurrent = -1;
-    private boolean gotToCatalog;
-    private BarChart mChart;
     private String lastIndex;
     private DatabaseReference myRef = FirebaseDatabase.getInstance().getReference().child("execucoes");
     private String pacote_regressivo, qtdTestesOK_regressivo, qtdTestesNOK_regressivo,
@@ -169,11 +156,6 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
     protected void onResume() {
         super.onResume();
         GCMUtil.checkPlayServices(this);
-    }
-
-    @OnClick(R.id.cart_menu)
-    public void openCart() {
-        startActivity(new Intent(this, CartActivity.class));
     }
 
     @Override
@@ -529,65 +511,16 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
             @Override
             public void onMyInfoBusinessSuccess(ProfileResponse userProfileResponse) {
                 setNickName();
-                checkActiveDevice();
+
             }
 
             @Override
             public void onMyInfoBusinessFail(LiveloException exception) {
-                getUserProfileFail(exception);
+                //getUserProfileFail(exception);
             }
         };
 
         return onMyInfoBusinessListener;
-    }
-
-    private void getUserProfileFail(final LiveloException exception) {
-        loadingContent.setVisibility(View.GONE);
-        if (loadInfoFromCache) {
-            checkActiveDevice();
-            return;
-        }
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                loadingContent.setVisibility(View.GONE);
-                if (exception.getErrorCode() == LiveloException.EXCEPTION_REFRESH_TOKEN_ERROR) {
-                    sessionExpired();
-                } else {
-                    showDialogNoConnection(exception.getAlertToShow(getBaseContext()));
-                }
-            }
-        }, 500);
-    }
-
-
-    private void sessionExpired() {
-        final DialogCustomAlert dialogCustom = new DialogCustomAlert();
-
-        if (isAlive()) {
-            dialogCustom.showCustomDialog(HomeActivity.this, LiveloPontosApp.getInstance().getExpiredSession(), false,
-                    new DialogCustomAlert.AlertDialogClickListener() {
-                        @Override
-                        public void onPositiveClick() {
-                            LoginUtil.clearLogin(getBaseContext());
-                            Intent intent = new Intent(getBaseContext(), LoginActivity.class);
-                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            startActivity(intent);
-                            finish();
-                        }
-
-                        @Override
-                        public void onNegativeClick() {
-                            Log.d("DIALOG", "NEGATIVE");
-                        }
-
-                        @Override
-                        public void onBackPressedInDialog() {
-
-                        }
-                    });
-        }
     }
 
     private void showDialogNoConnection(Alert alert) {
@@ -615,19 +548,6 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
         }
     }
 
-    public void showBannerErro(String msg) {
-        bannerError.setBannerText(msg);
-        bannerError.setVisibility(View.VISIBLE);
-        bannerError.showAndAnimBannerError();
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                bannerError.hideAndAnimBannerError();
-            }
-        }, 3000);
-    }
-
     private void setNickName() {
         if (LiveloPontosApp.getInstance().getProfileResponse() == null) {
             return;
@@ -649,28 +569,6 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
         Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
         startActivity(intent);
         finish();
-    }
-
-    private void checkActiveDevice() {
-        UserProfileResponse userProfileResponse = LiveloPontosApp.getInstance().getProfileResponse().getUserProfileResponse();
-        mActivateDeviceBusiness.retrieveDevices(userProfileResponse.getCpf());
-    }
-
-    private ActivateDeviceBusiness.OnActiveDevice getOnActiveDevice() {
-        return new ActivateDeviceBusiness.OnActiveDevice() {
-            @Override
-            public void onActiveSuccess(boolean hasActiveDevice) {
-                Log.i("OnActiveDevice", "onActiveSuccess: hasActiveDevice - " + hasActiveDevice);
-                if (!hasActiveDevice) {
-                    callActivityLogin();
-                }
-            }
-
-            @Override
-            public void onActiveFail(LiveloException exception) {
-                Log.e("OnActiveDevice", "onActiveFail: " + exception.getMessage());
-            }
-        };
     }
 
     private void closeKeyboard() {

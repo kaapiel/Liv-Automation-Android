@@ -1,7 +1,6 @@
 package br.com.pontomobi.livelopontos.ui.dialog;
 
 import android.app.Dialog;
-import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -21,23 +20,14 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.squareup.okhttp.Call;
-
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.InetAddress;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
-import java.util.Properties;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
@@ -48,17 +38,12 @@ import javax.net.ssl.X509TrustManager;
 
 import br.com.pontomobi.livelopontos.Constants;
 import br.com.pontomobi.livelopontos.R;
-import br.com.pontomobi.livelopontos.service.livelo.login.LoginService;
-import br.com.pontomobi.livelopontos.service.livelo.login.model.LoginResponse;
 import br.com.pontomobi.livelopontos.ui.home.Issue;
 import br.com.pontomobi.livelopontos.util.Util;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnItemClick;
-import retrofit.Callback;
-import retrofit.http.Field;
-import retrofit.http.Header;
 
 /**
  * Created by vilmar.filho on 5/17/16.
@@ -82,6 +67,7 @@ public class DialogCartConfirmation extends DialogFragment {
 
     private String nameProduct;
     private OnDialogListener onDialogListener;
+    private String PROJECT_NAME = "AUTOMATION_LIVELO";
 
     public static DialogCartConfirmation newInstance(String product) {
         DialogCartConfirmation d = new DialogCartConfirmation();
@@ -140,7 +126,7 @@ public class DialogCartConfirmation extends DialogFragment {
                     });
 
                 } catch (IOException e) {
-                   Log.e("ERROR: ", e.getMessage());
+                    Log.e("ERROR: ", e.getMessage());
                 }
             }
         });
@@ -153,6 +139,45 @@ public class DialogCartConfirmation extends DialogFragment {
     public void onConfirmButtonClick() {
 
         //EXECUTAR TESTES NO SILK
+
+//        //http://10.150.6.233:19120/Services1.0/services/tmplanning?wsdl
+//        String url = "http://10.150.6.233:19120/Services1.0/services/";
+//
+//        sccService = new SystemServiceServiceLocator().getsccsystem(new URL(url + "sccsystem"));
+//        planningService = new PlanningServiceServiceLocator().gettmplanning(new URL(url + "tmplanning"));
+//        mainEntities = (MainEntities) (new MainEntitiesServiceLocator()).getsccentities(new URL(url + "sccentities"));
+//        executionService = new ExecutionWebServiceServiceLocator().gettmexecution(new URL(url + "tmexecution"));
+//
+//        ((SccsystemSoapBindingStub) sccService).setTimeout(10000);
+//
+//        //LOGIN
+//        sessionId = sccService.logonUser("admin", "admin");
+//
+//        //OBTEM OS PROJETOS
+//        projects = mainEntities.getAllProjects(sessionId, PROJECT_NAME);
+//
+//        //DEFINE O PROJETO QUE IREMOS TRABALHAR
+//        executionService.setCurrentProject(sessionId, projects[0].getId());
+//
+//        //OBTEM O NÓ RAIZ DO PROJETO
+//        ExecutionNode root = executionService.getExecutionRootNode(sessionId, projects[0].getId());
+//
+//        //OBTEM OS CONTAINERS DO TESTE
+//        NamedEntity testContainer = planningService.getTestContainers(sessionId, projects[0].getId())[0];
+//
+//
+////		int nodeId = executionService.addNode(sessionId, getNewFolder("Folder1", "first folder"), root.getId());
+////
+////		 executionService.addNode(sessionId, getNewExecutionNode("ExecDef1.1", "child execDef", BUILD, VERSION,
+////		           testContainer.getId()), nodeId);
+////		 nodeId = executionService.addNode(sessionId, getNewExecutionNode("ExecDef1", "first execDef", BUILD, VERSION,
+////		           testContainer.getId()), root.getId());
+////
+////		 assignTestDefs(nodeId);
+//
+//
+//        Log.e("SESSIONID LOGIN", String.valueOf(sessionId));
+
 
     }
 
@@ -184,7 +209,7 @@ public class DialogCartConfirmation extends DialogFragment {
 
         wr.writeBytes("{\"jql\":\"project=Livelo\",\"startAt\":2,\"maxResults\":5,\"fields\":[\"key\",\"summary\",\"issuetype\",\"created\",\"priority\",\"status\",\"customfield_10015\",\"components\",\"resolution\",\"reporter\",\"assignee\"]}");
 
-        if(con.getResponseCode() != 200){
+        if (con.getResponseCode() != 200) {
 
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getErrorStream()));
             String inputLine;
@@ -195,7 +220,7 @@ public class DialogCartConfirmation extends DialogFragment {
             }
             in.close();
 
-            Log.e("RESPONSE == "+con.getResponseCode(), response.toString());
+            Log.e("RESPONSE == " + con.getResponseCode(), response.toString());
 
         } else {
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
@@ -261,7 +286,7 @@ public class DialogCartConfirmation extends DialogFragment {
     }
 
     @OnItemClick(R.id.listBugs)
-    public void onItemClickIssue(AdapterView<?> adapter, int position){
+    public void onItemClickIssue(AdapterView<?> adapter, int position) {
 
         Issue issueSelecionado = (Issue) adapter.getItemAtPosition(position);
         DialogConfirmationCheckout dcc = new DialogConfirmationCheckout().newInstance(issueSelecionado);
@@ -271,9 +296,9 @@ public class DialogCartConfirmation extends DialogFragment {
 
     private static void trustAllHosts() {
         // Create a trust manager that does not validate certificate chains
-        TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
+        TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager() {
             public java.security.cert.X509Certificate[] getAcceptedIssuers() {
-                return new java.security.cert.X509Certificate[] {};
+                return new java.security.cert.X509Certificate[]{};
             }
 
             public void checkClientTrusted(X509Certificate[] chain,
@@ -283,7 +308,7 @@ public class DialogCartConfirmation extends DialogFragment {
             public void checkServerTrusted(X509Certificate[] chain,
                                            String authType) throws CertificateException {
             }
-        } };
+        }};
 
         // Install the all-trusting trust manager
         try {

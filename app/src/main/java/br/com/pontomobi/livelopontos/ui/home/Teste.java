@@ -15,6 +15,31 @@ public class Teste implements Parcelable{
     private String resultado;
     private String status;
 
+    protected Teste(Parcel in) {
+        horaFim = in.readString();
+        horaInicio = in.readString();
+        mensagem = in.readString();
+        nome = in.readString();
+        resultado = in.readString();
+        status = in.readString();
+    }
+
+    public static final Creator<Teste> CREATOR = new Creator<Teste>() {
+        @Override
+        public Teste createFromParcel(Parcel in) {
+            return new Teste(in);
+        }
+
+        @Override
+        public Teste[] newArray(int size) {
+            return new Teste[size];
+        }
+    };
+
+    public Teste() {
+
+    }
+
     public String getHoraFim() {
         return horaFim;
     }
@@ -70,6 +95,11 @@ public class Teste implements Parcelable{
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-
+        dest.writeString(horaFim);
+        dest.writeString(horaInicio);
+        dest.writeString(mensagem);
+        dest.writeString(nome);
+        dest.writeString(resultado);
+        dest.writeString(status);
     }
 }

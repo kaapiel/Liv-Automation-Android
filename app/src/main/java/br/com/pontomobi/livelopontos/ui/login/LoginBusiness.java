@@ -11,26 +11,19 @@ import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
-import java.util.List;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 
-import br.com.pontomobi.livelopontos.Constants;
 import br.com.pontomobi.livelopontos.LiveloPontosApp;
-import br.com.pontomobi.livelopontos.helper.SharedPreferencesHelper;
 import br.com.pontomobi.livelopontos.service.livelo.LiveloException;
 import br.com.pontomobi.livelopontos.service.livelo.LiveloRepository;
-import br.com.pontomobi.livelopontos.service.livelo.activatedevice.model.retrievemobile.MobileDevice;
-import br.com.pontomobi.livelopontos.service.livelo.activatedevice.model.retrievemobile.RetrieveDeviceResponse;
 import br.com.pontomobi.livelopontos.service.livelo.login.model.LoginRequest;
 import br.com.pontomobi.livelopontos.service.livelo.login.model.LoginResponse;
 import br.com.pontomobi.livelopontos.service.livelo.userprofile.model.ProfileResponse;
-import br.com.pontomobi.livelopontos.ui.activateDevice.ActivateDeviceBusiness;
 import br.com.pontomobi.livelopontos.ui.home.HomeActivity.OnMyInfoBusinessListener;
 import br.com.pontomobi.livelopontos.ui.myInfo.MyInfoBusiness;
-import br.com.pontomobi.livelopontos.util.DeviceManager;
 import br.com.pontomobi.livelopontos.util.LoginUtil;
 
 /**
@@ -45,17 +38,12 @@ public class LoginBusiness {
     private LoginActivity.OnLoginBusinessListener onLoginBusinessListener;
     private Context context;
     private MyInfoBusiness myInfoBusiness;
-    private ActivateDeviceBusiness mActivateDeviceBusiness;
 
     private String mLogin;
 
     public LoginBusiness(LoginActivity.OnLoginBusinessListener onLoginBusinessListener, Context context) {
         this.onLoginBusinessListener = onLoginBusinessListener;
-
         this.context = context;
-
-        myInfoBusiness = new MyInfoBusiness(context, getOnMyInfoBusinessListener());
-        mActivateDeviceBusiness = new ActivateDeviceBusiness(context, getActiveDevice());
     }
 
     public void callServiceLogin(String login, String password) {
@@ -81,37 +69,6 @@ public class LoginBusiness {
 
         return onServiceLoginListener;
     }
-
-    private OnMyInfoBusinessListener getOnMyInfoBusinessListener() {
-        OnMyInfoBusinessListener onMyInfoBusinessListener = new OnMyInfoBusinessListener() {
-            @Override
-            public void onMyInfoBusinessSuccess(ProfileResponse userProfileResponse) {
-                mActivateDeviceBusiness.retrieveDevices(mLogin);
-            }
-
-            @Override
-            public void onMyInfoBusinessFail(LiveloException exception) {
-                onLoginBusinessListener.onLoginFail(exception);
-            }
-        };
-
-        return onMyInfoBusinessListener;
-    }
-
-    private ActivateDeviceBusiness.OnActiveDevice getActiveDevice(){
-        return new ActivateDeviceBusiness.OnActiveDevice() {
-            @Override
-            public void onActiveSuccess(boolean hasActiveDevice) {
-                onLoginBusinessListener.onLoginSuccess();
-            }
-
-            @Override
-            public void onActiveFail(LiveloException exception) {
-                onLoginBusinessListener.onLoginFail(exception);
-            }
-        };
-    }
-
 
     @TargetApi(Build.VERSION_CODES.M)
     public FingerprintManager getFingerprintManager() {

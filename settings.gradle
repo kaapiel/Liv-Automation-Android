@@ -1,2 +1,2 @@
-include ':app', ':livelowear'
+include ':app'
 include 'MPChartLib'

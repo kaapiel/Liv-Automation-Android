@@ -1,7 +1,6 @@
 package br.com.pontomobi.livelopontos.ui.login;
 
 import android.app.KeyguardManager;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.hardware.fingerprint.FingerprintManager;
@@ -21,12 +20,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.rey.material.widget.EditText;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.KeyStore;
@@ -48,12 +44,7 @@ import br.com.pontomobi.livelopontos.helper.SharedPreferencesHelper;
 import br.com.pontomobi.livelopontos.model.Alert;
 import br.com.pontomobi.livelopontos.model.User;
 import br.com.pontomobi.livelopontos.service.livelo.LiveloException;
-import br.com.pontomobi.livelopontos.ui.activateAccount.ActivateAccountActivity;
-import br.com.pontomobi.livelopontos.ui.activateDevice.ActivateDeviceActivity;
-import br.com.pontomobi.livelopontos.ui.brandingbank.BrandingBankActivity;
 import br.com.pontomobi.livelopontos.ui.dialog.DialogCustomAlert;
-import br.com.pontomobi.livelopontos.ui.fingerPrint.FingerprintAuthenticationDialogFragment;
-import br.com.pontomobi.livelopontos.ui.forgotPassword.ForgotPasswordActivity;
 import br.com.pontomobi.livelopontos.ui.home.HomeActivity;
 import br.com.pontomobi.livelopontos.ui.widget.BannerError;
 import br.com.pontomobi.livelopontos.util.*;
@@ -98,7 +89,6 @@ public class LoginActivity extends LiveloPontosActivity {
     private boolean activityEnable = false;
     private KeyguardManager mKeyguardManager;
     private FingerprintManager mFingerprintManager;
-    private FingerprintAuthenticationDialogFragment mFragment;
     private KeyStore mKeyStore;
     private KeyGenerator mKeyGenerator;
     private Cipher mCipher;
@@ -121,39 +111,6 @@ public class LoginActivity extends LiveloPontosActivity {
         setTypefaceInEditText();
         textChangedListeners();
         maskCpf();
-        initFingerPrints();
-    }
-
-    private void initFingerPrints() {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            return;
-        }
-
-        if (!Util.checkFingerPrintIsEnalbe(getBaseContext())) {
-            return;
-        }
-
-        //mFingerprintManager = loginBusiness.getFingerprintManager();
-        mKeyguardManager = loginBusiness.getKeyguardManager();
-
-        if (!mKeyguardManager.isKeyguardSecure()) {
-            return;
-        }
-        if (!mFingerprintManager.hasEnrolledFingerprints()) {
-            return;
-        }
-
-        mKeyStore = loginBusiness.getKeystore();
-        mKeyGenerator = loginBusiness.getKeyGenerator();
-        mCipher = loginBusiness.getCipher(mKeyStore);
-        mFragment = new FingerprintAuthenticationDialogFragment();
-
-        createKey();
-        initCipher();
-        mFragment.setmCryptoObject(new FingerprintManager.CryptoObject(mCipher));
-        mFragment.setOnLoginByFingerPrint(getOnLoginByFingerPrint());
-        mFragment.setFingerprintManager(mFingerprintManager);
-        mFragment.show(getFragmentManager(), DIALOG_FRAGMENT_TAG);
 
     }
 
@@ -214,7 +171,7 @@ public class LoginActivity extends LiveloPontosActivity {
             if (checkDeviceActive()) {
                 goToHome();
             } else {
-                goToActivateDevice();
+                //goToActivateDevice();
             }
         }
     }
@@ -285,57 +242,6 @@ public class LoginActivity extends LiveloPontosActivity {
         goToHome();
     }
 
-    @OnClick(R.id.login_activate_account)
-    public void onLoginActivateAccountClick() {
-        Util.hideKeyboard(this.getCurrentFocus(), getBaseContext());
-
-        //openUrl(LiveloPontosApp.getInstance().getOpenUrl(), Constants.URL_ACTIVATE_ACCOUNT, false);
-        Intent intent = new Intent(this, ActivateAccountActivity.class);
-        startActivity(intent);
-    }
-
-    private void openUrl(Alert alert, final String urlPage, final boolean isForgotPassword) {
-        final DialogCustomAlert dialogCustom = new DialogCustomAlert();
-
-        if (isAlive()) {
-            dialogCustom.showCustomDialog(LoginActivity.this, alert, true,
-                    new DialogCustomAlert.AlertDialogClickListener() {
-                        @Override
-                        public void onPositiveClick() {
-                            if (isForgotPassword) {
-                                LiveloPontosApp.getInstance().sendTrackerEvent(
-                                        Constants.GoogleAnalytisEvents.EVENT_SCREEN_LOGIN,
-                                        Constants.GoogleAnalytisEvents.EVENT_CATEGORY_LOGIN,
-                                        Constants.GoogleAnalytisEvents.EVENT_ACTION_RESCUED_PASSWORD,
-                                        ""
-                                );
-                            } else {
-                                LiveloPontosApp.getInstance().sendTrackerEvent(
-                                        Constants.GoogleAnalytisEvents.EVENT_SCREEN_LOGIN,
-                                        Constants.GoogleAnalytisEvents.EVENT_CATEGORY_LOGIN,
-                                        Constants.GoogleAnalytisEvents.EVENT_ACTION_ACTIVATE_ACCOUNT,
-                                        ""
-                                );
-                            }
-
-                            String url = urlPage;
-                            Intent i = new Intent(Intent.ACTION_VIEW);
-                            i.setData(Uri.parse(url));
-                            startActivity(i);
-                        }
-
-                        @Override
-                        public void onNegativeClick() {
-
-                        }
-
-                        @Override
-                        public void onBackPressedInDialog() {
-                        }
-                    });
-        }
-    }
-
     @OnClick(R.id.login_clean_cpf_email)
     public void onLoginCleanCpfEmailClick() {
         loginCpf.setText("");
@@ -344,11 +250,6 @@ public class LoginActivity extends LiveloPontosActivity {
     @OnClick(R.id.login_clean_password)
     public void onLoginCleanPasswordClick() {
         loginPassword.setText("");
-    }
-
-    @OnClick(R.id.login_forgot_password)
-    public void onLoginForgotPasswordClick() {
-        startActivity(new Intent(this, ForgotPasswordActivity.class));
     }
 
     private void checkCpfTextSizeAndPassword() {
@@ -473,7 +374,7 @@ public class LoginActivity extends LiveloPontosActivity {
             @Override
             public void onLoginSuccess() {
                 loadingContent.setVisibility(View.GONE);
-                openBrandingBank();
+
             }
 
             @Override
@@ -504,16 +405,6 @@ public class LoginActivity extends LiveloPontosActivity {
     private void goToHome() {
         Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
         startActivity(intent);
-        finish();
-    }
-
-    private void goToActivateDevice() {
-        startActivity(new Intent(LoginActivity.this, ActivateDeviceActivity.class));
-        finish();
-    }
-
-    private void openBrandingBank() {
-        startActivity(new Intent(this, BrandingBankActivity.class));
         finish();
     }
 

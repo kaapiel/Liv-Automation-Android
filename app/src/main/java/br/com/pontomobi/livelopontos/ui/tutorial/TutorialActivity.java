@@ -16,7 +16,6 @@ import br.com.pontomobi.livelopontos.LiveloPontosActivity;
 import br.com.pontomobi.livelopontos.R;
 import br.com.pontomobi.livelopontos.helper.SharedPreferencesHelper;
 import br.com.pontomobi.livelopontos.model.Tutorial;
-import br.com.pontomobi.livelopontos.ui.activateAccount.ActivateAccountActivity;
 import br.com.pontomobi.livelopontos.ui.login.LoginActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -110,12 +109,6 @@ public class TutorialActivity extends LiveloPontosActivity implements View.OnCli
                 finish();
                 break;
 
-            case R.id.tutorial_activate_account:
-                SharedPreferencesHelper.write(getBaseContext(), Constants.SharedPrefsKeys.SHOW_TUTORIAL, "showTutorial", false);
-                intent = new Intent(this, ActivateAccountActivity.class);
-                startActivity(intent);
-                finish();
-                break;
         }
     }
 }

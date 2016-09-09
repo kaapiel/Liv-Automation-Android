@@ -1,41 +1,23 @@
 package br.com.pontomobi.livelopontos.ui.home;
 
-import android.annotation.TargetApi;
-import android.content.Intent;
-import android.graphics.Typeface;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatSpinner;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.FrameLayout;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.listener.ChartTouchListener;
 import com.github.mikephil.charting.listener.OnChartGestureListener;
 
 import java.util.ArrayList;
 
 import br.com.pontomobi.livelopontos.LiveloPontoFragment;
-import br.com.pontomobi.livelopontos.LiveloPontosApp;
 import br.com.pontomobi.livelopontos.R;
-import br.com.pontomobi.livelopontos.model.Summary;
 import br.com.pontomobi.livelopontos.ui.dialog.DialogCartConfirmation;
-import br.com.pontomobi.livelopontos.ui.dialog.DialogCustomAlert;
-import br.com.pontomobi.livelopontos.ui.login.LoginActivity;
-import br.com.pontomobi.livelopontos.ui.myPoints.summary.SummaryBusiness;
-import br.com.pontomobi.livelopontos.util.LoginUtil;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

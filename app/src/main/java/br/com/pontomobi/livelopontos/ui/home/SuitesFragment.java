@@ -26,7 +26,6 @@ import br.com.pontomobi.livelopontos.R;
 import br.com.pontomobi.livelopontos.model.Summary;
 import br.com.pontomobi.livelopontos.ui.dialog.DialogCustomAlert;
 import br.com.pontomobi.livelopontos.ui.login.LoginActivity;
-import br.com.pontomobi.livelopontos.ui.myPoints.summary.SummaryBusiness;
 import br.com.pontomobi.livelopontos.util.LoginUtil;
 import butterknife.ButterKnife;
 
@@ -37,7 +36,6 @@ public class SuitesFragment extends LiveloPontoFragment implements SeekBar.OnSee
         OnChartValueSelectedListener {
 
 
-    private SummaryBusiness summaryBusiness;
     private Summary currentSummary;
     private boolean loadigDataFromChache = false;
     private boolean errorShow = false;

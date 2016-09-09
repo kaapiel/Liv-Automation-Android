@@ -10,7 +10,6 @@ import android.util.Log;
 
 import br.com.pontomobi.livelopontos.LiveloPontosActivity;
 import br.com.pontomobi.livelopontos.R;
-import br.com.pontomobi.livelopontos.ui.brandingbank.BrandingBankActivity;
 
 /**
  * Created by selem.gomes on 31/08/15.
@@ -23,21 +22,6 @@ public class SplashActivity extends LiveloPontosActivity {
         setContentView(R.layout.activity_splash);
         setupCrashlytics();
         printHashCodeLivelo();
-        openNextScreen();
-    }
-
-    private void openNextScreen() {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                openBrandingBank();
-            }
-        }, 2000);
-    }
-
-    private void openBrandingBank() {
-        startActivity(new Intent(this, BrandingBankActivity.class));
-        finish();
     }
 
     private void printHashCodeLivelo() {

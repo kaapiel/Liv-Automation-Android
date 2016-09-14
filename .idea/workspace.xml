@@ -2,331 +2,23 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <target>android-23</target>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_dialog_alerts.xml">
+        <config>
+          <theme>@style/LiveloPontosTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0634cc-4594-48db-8c4f-1c91a68c87ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/WearInterfaceFunctions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/WearListenerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/model/WearLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/model/WearPoints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/model/WearPointsPerMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/wear/model/WearRescueCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateAccount/ActivateAccountActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateAccount/ActivateBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateDevice/ActivateDeviceActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateDevice/ActivateDeviceBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateDevice/activatecode/ActivateCodeBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateDevice/activatecode/ActivateCodeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/activateDevice/requestcode/RequestCodeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/brandingbank/BrandingBankActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/CartActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/CartBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/adapter/CartAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/adapter/FooterViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/adapter/HeaderViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/cart/adapter/ProductViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/changePassword/ChangePasswordActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/changePassword/ChangePasswordBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/contactUs/ContactUsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/fingerPrint/FingerprintAuthenticationDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/fingerPrint/FingerprintUiHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/forgotPassword/ForgotPasswordActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/forgotPassword/ForgotPasswordBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myAccount/MyAccountAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myAccount/MyAccountFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myAccount/MyAccountRowRolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myAccount/PasswordFingerPrintActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myInfo/MyInfoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/MyPointsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/MyPointsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/extract/CenterLockListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/extract/ExtractAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/extract/ExtractBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/extract/ExtractFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/extract/ExtractMonthAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historic/HistoricActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historic/HistoricAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historic/HistoricBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historic/HistoricRowHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historicdetail/HistoricDetailActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historicdetail/HistoricDetailAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/historicdetail/HistoricDetailRowHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summary/SummaryBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summary/SummaryFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryExpired/SummaryExpiredActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryExpired/SummaryExpiredAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryExpired/SummaryExpiredBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryExpired/SummaryExpiredRowHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonth/SummaryMonthActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonth/SummaryMonthAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonth/SummaryMonthBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonth/SummaryMonthRowHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonthDetail/SummaryMonthDetailActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonthDetail/SummaryMonthDetailAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/myPoints/summaryMonthDetail/SummaryMonthDetailRowHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/EnumStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/OrderBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/OrderDetailActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/RescueHistoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/RescueHistoryAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/orderHistory/RescueViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/qrcode/QRCodeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/registerUser/RegisterConfirmation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/registerUser/RegisterConfirmationBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/registerUser/RegisterUserActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/registerUser/RegisterUserAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/registerUser/RegisterUserBusiness.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/rescuecode/CriptoHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/rescuecode/RescueCodeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/rescuecode/TokenGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/widget/ItemOrderProductDescriptionView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/util/RescueCodeUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/livelowear.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/assets/fonts/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/assets/fonts/RobotoCondensed-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/assets/fonts/RobotoCondensed-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/LiveloWearApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/helper/SharedPreferencesHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/PhoneListenerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/SendMessageThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/model/WearError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/model/WearLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/model/WearPoints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/model/WearPointsPerMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/service/model/WearRescueCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/LiveloWearBaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/LoadingActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/error/GenericErrorActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/gotoapp/GoToAppFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/graphicpoints/GraphicPointsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/home/HomeActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/home/HomeAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/mypointsaccumulated/MyPointsAccumulatedFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/mypointsbalance/MyPointsBalanceFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/validationcode/ValidationCodeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/widget/GraphicBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/ui/widget/LiveloLoading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/java/br/com/pontomobi/livelowear/utils/DateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/anim/slide_left.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable-hdpi/loading_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/bg_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/bg_square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/bt_codigo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/bt_smartphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/button_generic_error.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/circle_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/circular_progress_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/custom_progress_background.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/grafico.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/ic_codigo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/loading_animated.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/rect_circle_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/drawable/rect_circular_progress_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/activity_generic_error.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/activity_home.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/activity_loading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/empty_view_accumulated_points.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/fragment_go_to_app.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/fragment_graphic_points.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/fragment_my_points_accumulated.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/fragment_my_points_balance.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/fragment_validation_code.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/graphic_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_generic_error.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_go_to_app.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_graphic_points.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_my_points_accumulated.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_my_points_balance.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/rect_validation_code.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_generic_error.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_go_to_app.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_graphic_points.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_my_points_accumulated.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_my_points_balance.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/layout/round_validation_code.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/dimen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/fonts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/livelowear/src/main/res/values/style.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_MPChartLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo_login.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo_menu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tut_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tut_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_login.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_menu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/tut_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/tut_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_login.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_menu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tut_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tut_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_login.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_menu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tut_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tut_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_login.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/answers_1_3_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/answers_1_3_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/beta_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/beta_1_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/calligraphy_2_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/calligraphy_2_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/crashlytics_core_2_3_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/crashlytics_core_2_3_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/fabric_1_3_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/fabric_1_3_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_impl_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_impl_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_iid_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_iid_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_9_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_9_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" afterPath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/google-services.json" afterPath="$PROJECT_DIR$/app/google-services.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/cosine.txt" afterPath="$PROJECT_DIR$/app/src/main/assets/cosine.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sine.txt" afterPath="$PROJECT_DIR$/app/src/main/assets/sine.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/livelo/LiveloRepository.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/service/livelo/LiveloRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/dialog/DialogCartConfirmation.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/dialog/DialogCartConfirmation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/BarChartItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/BarChartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/ChartItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/ChartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/ExecucaoTestesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/ExecucaoTestesFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HorizontalBarChartItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HorizontalBarChartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/Issue.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/Issue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/LineChartItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/LineChartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/MyMarkerView.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/MyMarkerView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/PerformanceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/PerformanceFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/PieChartItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/PieChartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/SuiteDetalhadaFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/SuiteDetalhadaFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/SuitesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/SuitesFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/Teste.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/Teste.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/login/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/login/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/login/LoginBusiness.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/login/LoginBusiness.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/splash/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/splash/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/tutorial/TutorialActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/tutorial/TutorialActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fade_red.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fade_red.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_age_distribution.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_age_distribution.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_awesomedesign.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_awesomedesign.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart_sinus.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_barchart_sinus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bubblechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bubblechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bubblechart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bubblechart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_candlechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_candlechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_candlechart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_candlechart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_colored_lines.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_colored_lines.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_combined.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_combined.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_draw_chart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_draw_chart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_horizontalbarchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horizontalbarchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_horizontalbarchart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horizontalbarchart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart_time.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_linechart_time.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_listview_chart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_listview_chart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_performance_linechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_performance_linechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart_half.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart_half.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_piechart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_radarchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_radarchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_radarchart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_radarchart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_realm_wiki.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_realm_wiki.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_realtime_linechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_realtime_linechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scatterchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scatterchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scatterchart_noseekbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scatterchart_noseekbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scrollview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scrollview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_marker_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_marker_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_line.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_pie.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_pie.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_scatter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_simple_scatter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_barchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_barchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_horizontalbarchart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_horizontalbarchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_linechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_linechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_piechart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_piechart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/menu_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/radar_markerview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/radar_markerview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="1dcb3a33-265f-4665-a229-5154d86780b7" name="Default" comment="" />
     <ignored path="LivAutomationApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -341,21 +33,22 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="LivAutomationApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <leaf>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41643837">
+              <caret line="446" column="0" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -4253,111 +3946,6 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/livelowear">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.2/gradle-2.1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.2/gradle-core-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.2/builder-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.2/gradle-api-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.2/lint-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.2/compilerCommon-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.2/common-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.2/sdk-common-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.2/manifest-merger-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.2/builder-test-api-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.2/builder-model-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.2/ddmlib-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.2/sdklib-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.2/annotations-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.2/lint-checks-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.2/dvlib-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.2/layoutlib-api-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.2/repository-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.2/lint-api-25.1.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/support/wearable/1.3.0/wearable-1.3.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-wearable/8.3.0/play-services-wearable-8.3.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.1.0/5c02453c4578c778b54413bc6a08c202aece0136/calligraphy-2.1.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/22.0.0/recyclerview-v7-22.0.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-base/8.3.0/play-services-base-8.3.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.1.1/appcompat-v7-22.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-basement/8.3.0/play-services-basement-8.3.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$/livelowear" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
                 </map>
               </option>
               <option name="name" value="app" />
@@ -4492,9 +4080,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -4529,6 +4115,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -4537,19 +4126,80 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LivAutomationApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LivAutomationApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LivAutomationApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livelopontos" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LivAutomationApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livelopontos" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="Nexus_5X_API23" />
+    <property name="device.picker.selection" value="4924d81d" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -4695,43 +4345,8 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="livelowear" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="livelowear" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <Hybrid>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
-      <Native>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Native>
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
-      <item index="1" class="java.lang.String" itemvalue="Android Application.livelowear" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -4749,43 +4364,44 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e0634cc-4594-48db-8c4f-1c91a68c87ca" name="Default" comment="" />
-      <created>1473446935788</created>
+      <changelist id="1dcb3a33-265f-4665-a229-5154d86780b7" name="Default" comment="" />
+      <created>1473861620529</created>
       <option name="number" value="Default" />
-      <updated>1473446935788</updated>
+      <updated>1473861620529</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-59" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="1912" y="-59" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45221844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -4797,57 +4413,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state vertical-scroll-proportion="-0.37096775">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/util/LoginUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4516129">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36831683">
+          <caret line="972" column="17" selection-start-line="972" selection-start-column="17" selection-end-line="972" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_dialog_alerts.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2166998">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/splash/SplashActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/dialog/DialogCustomAlert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1569966">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/login/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33105803">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.1218638">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/pontomobi/livelopontos/ui/home/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6741573">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8020478">
-          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.41643837">
+          <caret line="446" column="0" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
           <folding />
         </state>
       </provider>

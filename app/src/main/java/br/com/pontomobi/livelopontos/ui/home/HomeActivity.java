@@ -450,14 +450,7 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
                     new DialogCustomAlert.AlertDialogClickListener() {
                         @Override
                         public void onPositiveClick() {
-                            LiveloPontosApp.getInstance().sendTrackerEvent(
-                                    Constants.GoogleAnalytisEvents.EVENT_SCREEN_ANY,
-                                    Constants.GoogleAnalytisEvents.EVENT_CATEGORY_MENU,
-                                    Constants.GoogleAnalytisEvents.EVENT_ACTION_EXIT,
-                                    ""
-                            );
 
-                            LoginUtil.clearLogin(getBaseContext());
                             Intent intent = new Intent(getBaseContext(), LoginActivity.class);
                             startActivity(intent);
                             finish();

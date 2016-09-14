@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Livelo</string>
-    <string name="app_name_upper">LIVELO</string>
+    <string name="app_name">Livelo Automation</string>
+    <string name="app_name_upper">LIVELO AUTOMATION</string>
     <string name="wait_updating_information">Aguarde, atualizando informações.</string>
 
     <!-- Tutorial -->

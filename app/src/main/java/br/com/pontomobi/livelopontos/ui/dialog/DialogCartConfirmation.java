@@ -38,6 +38,14 @@ import javax.net.ssl.X509TrustManager;
 
 import br.com.pontomobi.livelopontos.Constants;
 import br.com.pontomobi.livelopontos.R;
+import br.com.pontomobi.livelopontos.model.ExecutionNode;
+import br.com.pontomobi.livelopontos.model.NamedEntity;
+import br.com.pontomobi.livelopontos.service.silk.getAllProjects;
+import br.com.pontomobi.livelopontos.service.silk.getExecutionRootNode;
+import br.com.pontomobi.livelopontos.service.silk.getTestContainers;
+import br.com.pontomobi.livelopontos.service.silk.logonUser;
+import br.com.pontomobi.livelopontos.service.silk.startExecutionTMEXECUTION;
+import br.com.pontomobi.livelopontos.service.silk.startExecutionTMPLANNING;
 import br.com.pontomobi.livelopontos.ui.home.Issue;
 import br.com.pontomobi.livelopontos.util.Util;
 import butterknife.Bind;
@@ -67,14 +75,21 @@ public class DialogCartConfirmation extends DialogFragment {
 
     private String nameProduct;
     private OnDialogListener onDialogListener;
-    private String PROJECT_NAME = "AUTOMATION_LIVELO";
 
-    public static DialogCartConfirmation newInstance(String product) {
+    private String PROJECT_NAME = "Demo Project";
+    private long sessionId;
+    private Integer projectId;
+    private ExecutionNode rootNode;
+    private NamedEntity testContainer;
+    private static String host;
+
+    public static DialogCartConfirmation newInstance(String maquina) {
         DialogCartConfirmation d = new DialogCartConfirmation();
 
         Bundle args = new Bundle();
-        args.putString(PRODUCT_BUNDLE, product);
+        args.putString(PRODUCT_BUNDLE, maquina);
         d.setArguments(args);
+        host = maquina;
 
         return d;
     }
@@ -105,6 +120,8 @@ public class DialogCartConfirmation extends DialogFragment {
         View v = inflater.inflate(R.layout.dialog_cart_confirmation, container, false);
         ButterKnife.bind(this, v);
 
+        brnConfirm.setEnabled(false);
+
         textLoading = (TextView) loading.findViewById(R.id.loading_progress_text);
 
         loading.setVisibility(View.VISIBLE);
@@ -114,12 +131,14 @@ public class DialogCartConfirmation extends DialogFragment {
             @Override
             public void run() {
                 try {
+
                     issuesFromJIRA = getIssuesFromJIRA();
 
                     getActivity().runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             loading.setVisibility(View.GONE);
+                            brnConfirm.setEnabled(true);
                             ArrayAdapter<Issue> adapter = new ArrayAdapter<>(getContext(), R.layout.item_issues, issuesFromJIRA);
                             listBugs.setAdapter(adapter);
                         }
@@ -140,44 +159,25 @@ public class DialogCartConfirmation extends DialogFragment {
 
         //EXECUTAR TESTES NO SILK
 
-//        //http://10.150.6.233:19120/Services1.0/services/tmplanning?wsdl
-//        String url = "http://10.150.6.233:19120/Services1.0/services/";
-//
-//        sccService = new SystemServiceServiceLocator().getsccsystem(new URL(url + "sccsystem"));
-//        planningService = new PlanningServiceServiceLocator().gettmplanning(new URL(url + "tmplanning"));
-//        mainEntities = (MainEntities) (new MainEntitiesServiceLocator()).getsccentities(new URL(url + "sccentities"));
-//        executionService = new ExecutionWebServiceServiceLocator().gettmexecution(new URL(url + "tmexecution"));
-//
-//        ((SccsystemSoapBindingStub) sccService).setTimeout(10000);
-//
-//        //LOGIN
-//        sessionId = sccService.logonUser("admin", "admin");
-//
-//        //OBTEM OS PROJETOS
-//        projects = mainEntities.getAllProjects(sessionId, PROJECT_NAME);
-//
-//        //DEFINE O PROJETO QUE IREMOS TRABALHAR
-//        executionService.setCurrentProject(sessionId, projects[0].getId());
-//
-//        //OBTEM O NÓ RAIZ DO PROJETO
-//        ExecutionNode root = executionService.getExecutionRootNode(sessionId, projects[0].getId());
-//
-//        //OBTEM OS CONTAINERS DO TESTE
-//        NamedEntity testContainer = planningService.getTestContainers(sessionId, projects[0].getId())[0];
-//
-//
-////		int nodeId = executionService.addNode(sessionId, getNewFolder("Folder1", "first folder"), root.getId());
-////
-////		 executionService.addNode(sessionId, getNewExecutionNode("ExecDef1.1", "child execDef", BUILD, VERSION,
-////		           testContainer.getId()), nodeId);
-////		 nodeId = executionService.addNode(sessionId, getNewExecutionNode("ExecDef1", "first execDef", BUILD, VERSION,
-////		           testContainer.getId()), root.getId());
-////
-////		 assignTestDefs(nodeId);
-//
-//
-//        Log.e("SESSIONID LOGIN", String.valueOf(sessionId));
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
 
+                try {
+
+                    sessionId = new logonUser().executar();
+                    projectId = new getAllProjects().executar(sessionId, PROJECT_NAME);
+                    rootNode = new getExecutionRootNode().executar(sessionId, projectId);
+                    testContainer = new getTestContainers().executar(sessionId, projectId);
+                    new startExecutionTMPLANNING().executar(sessionId, rootNode.getId(), "VERSION", "BUILD", host.split(" ")[1], "PORT");
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+        });
+        t.start();
 
     }
 

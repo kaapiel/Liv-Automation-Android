@@ -92,7 +92,7 @@ public class ExecucaoTestesFragment extends LiveloPontoFragment implements OnCha
         sb.append("Sprint: ").append(spinnerSprint.getSelectedItem().toString());
 
         DialogCartConfirmation dcc = new DialogCartConfirmation().newInstance(sb.toString());
-        dcc.show(getFragmentManager(), "TESTE");
+        dcc.show(getFragmentManager(), "ABRE O MODAL DE BUGS");
 
     }
 

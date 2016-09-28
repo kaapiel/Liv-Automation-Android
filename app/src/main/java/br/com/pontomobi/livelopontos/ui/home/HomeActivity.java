@@ -201,7 +201,6 @@ public class HomeActivity extends LiveloPontosActivity implements OnChangeFragme
         navigationviewHome.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
-
                 changeFragment(menuItem.getItemId());
                 drawerLayout.closeDrawers();
                 return false;

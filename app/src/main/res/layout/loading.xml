@@ -7,7 +7,7 @@
     android:clickable="true"
     android:visibility="gone">
 
-    <br.com.pontomobi.livelopontos.ui.widget.LiveloLoading
+    <br.com.aguido.livautomation.ui.widget.LiveloLoading
         android:id="@+id/loading_progress"
         android:layout_width="@dimen/loading_progress_size"
         android:layout_height="@dimen/loading_progress_size"

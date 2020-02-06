@@ -1,4 +1,4 @@
-package br.com.pontomobi.livelopontos.ui.rescuecode;
+package br.com.aguido.livautomation.ui.rescuecode;
 
 /**
  * Created by vilmar.filho on 1/20/16.

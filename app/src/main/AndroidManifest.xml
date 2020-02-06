@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.pontomobi.livelopontos">
+    package="br.com.aguido.livautomation">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.READ_SMS" />
 
     <permission
-        android:name="br.com.pontomobi.livelopontos.permission.C2D_MESSAGE"
+        android:name="br.com.aguido.livautomation.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission android:name="br.com.pontomobi.livelopontos.permission.C2D_MESSAGE" />
 
@@ -23,11 +23,11 @@
 
 
     <application
-        android:name=".LiveloPontosApp"
+        android:name=".LivAutomationApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/LiveloPontosTheme">
+        android:theme="@style/LivAutomationTheme">
 
         <uses-library android:required="false" android:name="com.sec.android.app.multiwindow" />
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
@@ -52,17 +52,17 @@
             android:name=".ui.tutorial.TutorialActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/LiveloPontosTheme" />
+            android:theme="@style/LivAutomationTheme" />
         <activity
             android:name=".ui.home.HomeActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/LiveloPontosTheme.Pink" />
+            android:theme="@style/LivautomationTheme.Pink" />
        <activity
             android:name=".ui.webview.WebViewActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/LiveloPontosTheme" />
+            android:theme="@style/LivAutomationTheme" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="axis-jaxrpc-1.4">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/src/main/libs/axis-jaxrpc-1.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

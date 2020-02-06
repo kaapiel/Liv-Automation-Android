@@ -75,13 +75,13 @@
                     android:visibility="invisible" />
             </FrameLayout>
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login_join"
                 style="@style/LiveloPontosTheme.Button.Login.Join"
                 android:text="@string/login_button_join"
                 android:textColor="@android:color/white" />
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login_activate_account"
                 style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
                 android:text="@string/login_button_activate_account" />
@@ -121,7 +121,7 @@
 
     </ScrollView>
 
-    <br.com.pontomobi.livelopontos.ui.widget.BannerError
+    <br.com.aguido.livautomation.ui.widget.BannerError
         android:id="@+id/login_banner_error"
         android:layout_width="match_parent"
         android:layout_height="@dimen/login_banner_error_height"

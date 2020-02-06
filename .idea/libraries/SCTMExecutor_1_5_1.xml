@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="SCTMExecutor-1.5.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/src/main/libs/SCTMExecutor-1.5.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

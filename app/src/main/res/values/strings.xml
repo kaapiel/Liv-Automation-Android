@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Livelo Automation</string>
-    <string name="app_name_upper">LIVELO AUTOMATION</string>
+    <string name="app_name">LivAutomation</string>
+    <string name="app_name_upper">LIVAUTOMATION</string>
     <string name="wait_updating_information">Aguarde, atualizando informações.</string>
 
     <!-- Tutorial -->
@@ -27,7 +27,7 @@
 
     <!-- Tutorial Fifth Page -->
     <string name="tutorial_fifth_page_title">Começe a usar agora</string>
-    <string name="tutorial_fifth_page_description">Aproveite as vantagens\nde ser um cliente Livelo.</string>
+    <string name="tutorial_fifth_page_description">Aproveite as vantagens\nde ser um cliente.</string>
 
     <!-- Login -->
     <string name="login_hint_cpf">CPF</string>
@@ -58,7 +58,7 @@
 
     <!-- Open URl -->
     <string name="open_url_title">ATENÇÃO!</string>
-    <string name="open_url_description">Você será direcionado para o site mobile da Livelo. Deseja continuar?</string>
+    <string name="open_url_description">Você será direcionado para o site mobile da empresa. Deseja continuar?</string>
     <string name="open_url_option_positive">Sim</string>
     <string name="open_url_option_negative">Não</string>
 
@@ -68,7 +68,7 @@
     <string name="error_generic_option_negative">Cancelar</string>
 
     <!-- Activate Account -->
-    <string name="activate_account_header">Para ativar sua conta Livelo, você precisa participar dos programas Fidelidade Bradesco Cartões ou Ponto pra Você, do Banco do Brasil.</string>
+    <string name="activate_account_header">Para ativar sua conta, você precisa participar dos programas Fidelidade Bradesco Cartões ou Ponto pra Você, do Banco do Brasil.</string>
     <string name="activate_account_btn_footer">SOLICITE SEU CÓDIGO DE ATIVAÇÃO</string>
     <string name="activate_account_hint_cpf">CPF</string>
     <string name="activate_account_hint_activation_code">Código de ativação</string>
@@ -76,7 +76,7 @@
 
     <!-- Register -->
     <string name="register_toolbar_title">Ativar Conta</string>
-    <string name="register_info">Você está a um passo de aproveitar todas as vantagens Livelo. Por favor, confira seus dados de cadastro e clique em salvar para ativar sua conta.</string>
+    <string name="register_info">Você está a um passo de aproveitar todas as vantagens. Por favor, confira seus dados de cadastro e clique em salvar para ativar sua conta.</string>
     <string name="register_title">Confirme seus dados</string>
     <string name="register_subtitle">*Campos obrigatórios</string>
     <string name="register_hint_cpf">CPF</string>
@@ -138,20 +138,20 @@
 
     <!-- Account Activated -->
     <string name="account_activated_title">Ativação Concluída</string>
-    <string name="account_activated_description">A partir de agora, você pode aproveitar\ntodas as vantagens da Livelo</string>
+    <string name="account_activated_description">A partir de agora, você pode aproveitar\ntodas as vantagens</string>
     <string name="account_activated_button">COMEÇAR A USAR</string>
 
     <!-- My Account -->
     <string name="my_account_toolbar_title">MEUS DADOS</string>
     <string name="my_account_description">Para alterar seus dados, acesse o nosso site</string>
-    <string name="my_account_description_site">www.livelo.com.br</string>
+    <string name="my_account_description_site">www.empresa.com.br</string>
     <string name="my_account_button">EDITAR MEUS DADOS</string>
 
     <!-- Summary Points -->
     <string name="summary_points_title">RESUMO</string>
-    <string name="summary_points_subtitle">SEU SALDO LIVELO</string>
+    <string name="summary_points_subtitle">SEU SALDO</string>
     <string name="summary_points_no_points">Você ainda não/npossui pontos.</string>
-    <string name="summary_points_gain_points">Saiba como ganhar pontos Livelo.</string>
+    <string name="summary_points_gain_points">Saiba como ganhar pontos.</string>
     <string name="summary_points_accumulated_title">Pontos acumulados</string>
     <string name="summary_points_accumulated_subtitle">Nos últimos 30 dias</string>
     <string name="summary_points_expire_title">Pontos a expirar</string>
@@ -161,7 +161,7 @@
     <string name="summary_loading_update_amount">Atualizando Total...</string>
 
     <!-- Home -->
-    <string name="home_subtitle">SEU SALDO LIVELO</string>
+    <string name="home_subtitle">SEU SALDO</string>
     <string name="home_product_catalog">CATÁLOGO DE\nRECOMPENSAS</string>
     <string name="home_qr_code">QR CODE</string>
     <!--<string name="home_my_points">MEUS \nPONTOS</string>-->
@@ -227,7 +227,7 @@
     <string name="rescue_history_label_order_finalized">CONCLUÍDO</string>
     <string name="rescue_history_label_order_canceled">CANCELADO</string>
     <string name="rescue_history_no_rescue_to_show_title">Você ainda não realizou \nnenhum resgate!</string>
-    <string name="rescue_history_nothing_to_show">Comece agora e troque seus \npontos Livelo por experiências</string>
+    <string name="rescue_history_nothing_to_show">Comece agora e troque seus \npontos por experiências</string>
     <string name="rescue_history_nothing_to_show_filter">Nenhum pedido encontrado!</string>
     <string name="rescue_history_go_catalog">IR PARA O CATÁLOGO</string>
 
@@ -277,7 +277,7 @@
     <string name="no_points_to_show_title">Nada por aqui</string>
     <string name="no_points_to_show_subtitle_accumulated">Você não acumulou pontos nesse\nperíodo. Comece a acumular agora\ne troque por experiências!</string>
     <string name="no_points_to_show_subtitle_expired">Você não tem pontos a\nexpirar nesse período.</string>
-    <string name="no_points_to_show_subtitle_rescued">Ainda não resgatou seus pontos?\nAproveite já as vantagens Livelo!</string>
+    <string name="no_points_to_show_subtitle_rescued">Ainda não resgatou seus pontos?\nAproveite já as vantagens!</string>
 
     <string name="drawer_open_desc">open</string>
     <string name="drawer_close_desc">close</string>
@@ -305,7 +305,7 @@
     <string name="mini_loading_text">Atualizando Informações...</string>
 
     <!-- WebView - Forgot Password -->
-    <string name="webview_forgot_password_toolbar_title">Livelo</string>
+    <string name="webview_forgot_password_toolbar_title">livAutomation</string>
 
     <!-- Activate device -->
     <string name="activate_device_text_send_sms">O Código foi solicitado.</string>
@@ -386,7 +386,7 @@
 
     <!-- Checkout Address -->
     <string name="checkout_address_title_toolbar">ENDEREÇO</string>
-    <string name="checkout_address_info">Você pode adicionar, editar ou remover endereços na sua Lista de Endereços do site Livelo. Lembre-se de manter seus dados atualizados!</string>
+    <string name="checkout_address_info">Você pode adicionar, editar ou remover endereços na sua Lista de Endereços do site. Lembre-se de manter seus dados atualizados!</string>
     <string name="checkout_address_send_order">ENVIAR PEDIDO</string>
 
     <!-- Search -->
@@ -424,7 +424,7 @@
     <string name="cart_title_empty">Seu carrinho está vazio</string>
     <string name="cart_title_description">Navegue pelo catálogo de produtos\ne boas compras!</string>
 
-    <string name="cart_credit_description">Seu saldo é insuficiente para resgatar apenas\ncom pontos. Complete com Pontos + Dinheiro\nno site Livelo para concluir\nseu resgate.</string>
+    <string name="cart_credit_description">Seu saldo é insuficiente para resgatar apenas\ncom pontos. Complete com Pontos + Dinheiro\nno site para concluir\nseu resgate.</string>
 
     <!-- Checkout Activity -->
     <string name="checkout_error_banner_generic">Não foi possível processar sua informação. Por favor, tente novamente.</string>

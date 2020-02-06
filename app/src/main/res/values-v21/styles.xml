@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="LiveloPontosTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="LivAutomationTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/app_color_primary</item>
         <item name="colorPrimaryDark">@color/app_color_primary_dark</item>
         <item name="colorAccent">#ffffff</item>
@@ -11,7 +11,7 @@
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 
-    <style name="LiveloPontosTheme.Fullscreen.Splash" parent="LiveloPontosTheme">
+    <style name="LiveloPontosTheme.Fullscreen.Splash" parent="LivAutomationTheme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -29,7 +29,7 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
-    <style name="LiveloPontosTheme.ActivateDeviceActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="LivautomationTheme.ActivateDeviceActivity" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">false</item>
         <item name="colorAccent">@color/blue_150958</item>
         <item name="colorPrimaryDark">@color/blue_150958</item>
@@ -38,7 +38,7 @@
         <item name="android:navigationBarColor">@color/app_color_primary_dark</item>
     </style>
 
-    <style name="LiveloPontosTheme.Pink" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="LivautomationTheme.Pink" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorAccent">@color/pink_ed037c</item>
         <item name="colorPrimaryDark">@color/app_color_primary_dark</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_voltar</item>

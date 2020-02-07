@@ -24,7 +24,6 @@
 
     <application
         android:name=".LivAutomationApp"
-        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/LivAutomationTheme">
@@ -40,10 +39,10 @@
             android:name=".ui.login.LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/LiveloPontosTheme.Fullscreen.Splash">
+            android:theme="@style/LivautomationTheme.Fullscreen.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -97,17 +96,6 @@
         </receiver>
 
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
-
-        <receiver
-            android:name=".notification.LiveloBroadcastReceive"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-
-                <category android:name="br.com.pontomobi.livelopontos" />
-            </intent-filter>
-        </receiver>
 
         <meta-data
             android:name="io.fabric.ApiKey"

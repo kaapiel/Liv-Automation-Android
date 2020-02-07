@@ -7,12 +7,12 @@
 
     <TextView
         android:id="@+id/register_confirmation_title"
-        style="@style/LiveloPontosTheme.TextView.Register.Confirmation.Title"
+        style="@style/LivautomationTheme.TextView.Register.Confirmation.Title"
         android:text="@string/account_activated_title" />
 
     <TextView
         android:layout_below="@+id/register_confirmation_title"
-        style="@style/LiveloPontosTheme.TextView.Register.Confirmation.Subtitle"
+        style="@style/LivautomationTheme.TextView.Register.Confirmation.Subtitle"
         android:text="@string/account_activated_description" />
 
     <ImageView
@@ -23,7 +23,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/register_confirmation_button"
-        style="@style/LiveloPontosTheme.Button.Register.Confirmation"
+        style="@style/LivautomationTheme.Button.Register.Confirmation"
         android:text="@string/account_activated_button"
         android:layout_alignParentBottom="true" />
 

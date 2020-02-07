@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/variation_value"
-        style="@style/LiveloPontosTheme.TextView.ProductDetail.ProductsVariation.SpinnerText"
+        style="@style/LivautomationTheme.TextView.ProductDetail.ProductsVariation.SpinnerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

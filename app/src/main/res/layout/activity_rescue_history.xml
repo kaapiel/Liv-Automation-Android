@@ -43,14 +43,14 @@
 
         <TextView
             android:id="@+id/rescue_filter_first_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter.Title"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter.Title"
             android:drawablePadding="@dimen/rescue_filter_first_drawable_padding"
             android:drawableRight="@drawable/drop_down"
             android:text="@string/rescue_history_filter" />
 
         <TextView
             android:id="@+id/rescue_filter_second_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter"
             android:layout_marginTop="@dimen/rescue_filter_itens_margin_top"
             android:text="@string/rescue_history_filter_order_proccess"
             android:drawableLeft="@drawable/selector_filter_order_process"
@@ -58,7 +58,7 @@
 
         <TextView
             android:id="@+id/rescue_filter_third_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter"
             android:layout_marginTop="@dimen/rescue_filter_itens_margin_top"
             android:text="@string/rescue_history_filter_order_send"
             android:drawableLeft="@drawable/selector_filter_order_send"
@@ -66,7 +66,7 @@
 
         <TextView
             android:id="@+id/rescue_filter_fourth_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter"
             android:layout_marginTop="@dimen/rescue_filter_itens_margin_top"
             android:text="@string/rescue_history_filter_order_finalized"
             android:drawableLeft="@drawable/selector_filter_order_finalized"
@@ -74,7 +74,7 @@
 
         <TextView
             android:id="@+id/rescue_filter_fifth_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter"
             android:layout_marginTop="@dimen/rescue_filter_itens_margin_top"
             android:text="@string/rescue_history_filter_order_canceled"
             android:drawableLeft="@drawable/selector_filter_order_canceled"
@@ -82,7 +82,7 @@
 
         <TextView
             android:id="@+id/rescue_filter_sixth_option"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Filter"
+            style="@style/LivautomationTheme.TextView.Rescue.Filter"
             android:layout_marginBottom="@dimen/rescue_filter_itens_margin_bottom"
             android:layout_marginTop="@dimen/rescue_filter_itens_margin_top"
             android:text="@string/rescue_history_filter_order_all"

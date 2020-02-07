@@ -11,13 +11,13 @@
 
     <TextView
         android:id="@+id/historic_order_by_most_recent"
-        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Order"
+        style="@style/LivautomationTheme.TextView.Historic.Filter.Order"
         android:visibility="invisible"
         android:text="@string/historical_extract_organize_by_most_recent" />
 
     <TextView
         android:id="@+id/historic_order_by_most_old"
-        style="@style/LiveloPontosTheme.TextView.Historic.Filter.Order"
+        style="@style/LivautomationTheme.TextView.Historic.Filter.Order"
         android:drawableLeft="@drawable/ic_antigos"
         android:layout_marginBottom="@dimen/summary_month_filtro_itens_margin_bottom"
         android:text="@string/historical_extract_organize_by_most_old"

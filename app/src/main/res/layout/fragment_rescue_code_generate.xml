@@ -16,14 +16,14 @@
         android:src="@drawable/token_cel" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_marginTop="@dimen/activate_device_title_margin_top"
         android:gravity="center"
         android:text="@string/token_subtitle_rescue" />
 
     <TextView
         android:id="@+id/generate_code"
-        style="@style/LiveloPontosTheme.EditText.Code"
+        style="@style/LivautomationTheme.EditText.Code"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="14dp"
@@ -64,7 +64,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/generate_code_rescue"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="@dimen/activate_device_margin_top"
         android:text="@string/token_btn_generate_code"  />
 

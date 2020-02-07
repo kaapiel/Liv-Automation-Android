@@ -22,14 +22,14 @@
 
         <TextView
             android:id="@+id/my_account_title"
-            style="@style/LiveloPontosTheme.TextView.MyAccount.Title" />
+            style="@style/LivautomationTheme.TextView.MyAccount.Title" />
 
     </LinearLayout>
 
     <com.rey.material.widget.Switch
         android:visibility="gone"
         android:id="@+id/switch_fingerprint"
-        style="@style/LiveloPontosTheme.Switch"
+        style="@style/LivautomationTheme.Switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

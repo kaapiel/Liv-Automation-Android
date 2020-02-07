@@ -18,7 +18,7 @@
 
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_marginTop="@dimen/activate_device_description_margin_top"
         android:gravity="center"
         android:text="@string/token_title_activation" />
@@ -26,7 +26,7 @@
 
     <com.rey.material.widget.EditText
         android:id="@+id/et_code"
-        style="@style/LiveloPontosTheme.EditText.Activation.Code"
+        style="@style/LivautomationTheme.EditText.Activation.Code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/token_hint_activation"
@@ -35,14 +35,14 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/token_activation"
-        style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
+        style="@style/LivautomationTheme.Button.Login.Activate.Account"
         android:textColor="@color/gray_888888"
         android:text="@string/token_btn_activation" />
 
 
     <TextView
         android:id="@+id/send_code_again"
-        style="@style/LiveloPontosTheme.TextView.Token.Pink"
+        style="@style/LivautomationTheme.TextView.Token.Pink"
         android:layout_marginTop="18dp"
         android:gravity="center"
         android:text="@string/token_send_code_again" />

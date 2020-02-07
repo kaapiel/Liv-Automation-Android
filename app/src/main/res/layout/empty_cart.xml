@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/search_empty_title"
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_above="@+id/search_empty_description"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
@@ -25,7 +25,7 @@
 
     <TextView
         android:id="@+id/search_empty_description"
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/cart_go_catalog"
@@ -37,7 +37,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/cart_go_catalog"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="15dp"
         android:text="@string/search_empty_catalog" />

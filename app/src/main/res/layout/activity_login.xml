@@ -31,7 +31,7 @@
 
                 <com.rey.material.widget.EditText
                     android:id="@+id/login_cpf"
-                    style="@style/LiveloPontosTheme.EditText.Login.Cpf.Email"
+                    style="@style/LivautomationTheme.EditText.Login.Cpf.Email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_hint_cpf"
@@ -57,7 +57,7 @@
 
                 <com.rey.material.widget.EditText
                     android:id="@+id/login_password"
-                    style="@style/LiveloPontosTheme.EditText.Login.Password"
+                    style="@style/LivautomationTheme.EditText.Login.Password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_hint_password"
@@ -77,13 +77,13 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login_join"
-                style="@style/LiveloPontosTheme.Button.Login.Join"
+                style="@style/LivautomationTheme.Button.Login.Join"
                 android:text="@string/login_button_join"
                 android:textColor="@android:color/white" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login_activate_account"
-                style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
+                style="@style/LivautomationTheme.Button.Login.Activate.Account"
                 android:text="@string/login_button_activate_account" />
 
             <RelativeLayout
@@ -95,7 +95,7 @@
 
                 <!--<TextView-->
                 <!--android:id="@+id/tv_enter_without_login"-->
-                <!--style="@style/LiveloPontosTheme.EditText.Login.Forgot.Password"-->
+                <!--style="@style/LivautomationTheme.EditText.Login.Forgot.Password"-->
                 <!--android:gravity="left"-->
                 <!--android:layout_centerVertical="true"-->
                 <!--android:paddingTop="10dp"-->
@@ -106,7 +106,7 @@
 
                 <TextView
                     android:id="@+id/login_forgot_password"
-                    style="@style/LiveloPontosTheme.EditText.Login.Forgot.Password"
+                    style="@style/LivautomationTheme.EditText.Login.Forgot.Password"
                     android:layout_centerVertical="true"
                     android:gravity="center"
                     android:paddingBottom="10dp"

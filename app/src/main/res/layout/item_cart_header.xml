@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/amount_points"
-        style="@style/LiveloPontosTheme.TextView.MuseoSans.Blue"
+        style="@style/LivautomationTheme.TextView.MuseoSans.Blue"
         android:layout_width="match_parent"
         android:gravity="center"
         android:text="@string/cart_update_points"
@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/update_time"
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"

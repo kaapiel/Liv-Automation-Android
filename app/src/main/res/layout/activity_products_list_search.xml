@@ -67,7 +67,7 @@
 
             <TextView
                 android:id="@+id/total_products"
-                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold500"
+                style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold500"
                 android:textAllCaps="false"
                 tools:text="543 produtos"/>
 

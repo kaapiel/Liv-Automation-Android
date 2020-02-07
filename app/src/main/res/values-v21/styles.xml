@@ -11,7 +11,7 @@
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 
-    <style name="LiveloPontosTheme.Fullscreen.Splash" parent="LivAutomationTheme">
+    <style name="LivautomationTheme.Fullscreen.Splash" parent="LivAutomationTheme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -21,7 +21,7 @@
         <item name="android:navigationBarColor">@color/pink_ed037c</item>
     </style>
 
-    <style name="LiveloPontosTheme.Fullscreen.BrandingBank" parent="LiveloPontosTheme.Fullscreen.Splash">
+    <style name="LivautomationTheme.Fullscreen.BrandingBank" parent="LivautomationTheme.Fullscreen.Splash">
         <item name="android:navigationBarColor">@android:color/white</item>
     </style>
 

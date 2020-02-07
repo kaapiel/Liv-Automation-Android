@@ -26,14 +26,14 @@
 
         <TextView
             android:id="@+id/partner_name"
-            style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner.Name"
+            style="@style/LivautomationTheme.TextView.ProductDetail.Partner.Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/partner_available"
-            style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner"
+            style="@style/LivautomationTheme.TextView.ProductDetail.Partner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/product_unavailable"
@@ -47,28 +47,28 @@
 
             <TextView
                 android:id="@+id/product_value"
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner.Values"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Partner.Values"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product_value" />
 
             <TextView
                 android:id="@+id/product_single_price"
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner.Values.Value"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Partner.Values.Value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product_single_price" />
 
             <TextView
                 android:id="@+id/product_list_price"
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner.Values"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Partner.Values"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product_list_price" />
 
             <TextView
                 android:id="@+id/product_sales_price"
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Partner.Values.Value"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Partner.Values.Value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product_sales_price" />

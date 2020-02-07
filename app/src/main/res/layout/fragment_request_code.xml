@@ -15,20 +15,20 @@
         android:src="@drawable/token_cel" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_marginTop="@dimen/activate_device_description_margin_top"
         android:gravity="center"
         android:text="@string/token_subtitle_start" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_marginTop="14dp"
         android:gravity="center"
         android:text="@string/token_description" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/request_activation"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:text="@string/token_btn_request_activation" />
 
 </LinearLayout>

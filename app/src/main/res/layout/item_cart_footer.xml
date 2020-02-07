@@ -7,7 +7,7 @@
               android:layout_height="wrap_content">
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -19,7 +19,7 @@
 
     <com.rey.material.widget.EditText
         android:id="@+id/cart_coupon"
-        style="@style/LiveloPontosTheme.EditText.ForgotPassword.Cpf"
+        style="@style/LivautomationTheme.EditText.ForgotPassword.Cpf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -33,7 +33,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/cart_add_coupon"
-        style="@style/LiveloPontosTheme.Button.Login.Activate.Account"
+        style="@style/LivautomationTheme.Button.Login.Activate.Account"
         android:text="@string/cart_add"
         android:textColor="@color/gray_888888"/>
 
@@ -45,7 +45,7 @@
         android:background="@color/blue_53529a" >
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Title.White"
+            style="@style/LivautomationTheme.TextView.Title.White"
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
             android:layout_centerVertical="true"
@@ -64,12 +64,12 @@
 
             <TextView
                 android:id="@+id/cart_subtotal_points"
-                style="@style/LiveloPontosTheme.TextView.Title.White"
+                style="@style/LivautomationTheme.TextView.Title.White"
                 android:textSize="26sp"
                 tools:text="1.580"/>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
@@ -93,7 +93,7 @@
         android:background="@color/blue_53529a" >
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Title.White"
+            style="@style/LivautomationTheme.TextView.Title.White"
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
             android:layout_centerVertical="true"
@@ -112,12 +112,12 @@
 
             <TextView
                 android:id="@+id/cart_discount_points"
-                style="@style/LiveloPontosTheme.TextView.Title.White"
+                style="@style/LivautomationTheme.TextView.Title.White"
                 android:textSize="26sp"
                 tools:text="3.001"/>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
@@ -141,7 +141,7 @@
         android:background="@color/blue_53529a" >
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Title.White"
+            style="@style/LivautomationTheme.TextView.Title.White"
             android:layout_centerVertical="true"
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
@@ -160,12 +160,12 @@
 
             <TextView
                 android:id="@+id/cart_total_points"
-                style="@style/LiveloPontosTheme.TextView.Title.White"
+                style="@style/LivautomationTheme.TextView.Title.White"
                 android:textSize="26sp"
                 tools:text="1.580"/>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
@@ -189,7 +189,7 @@
         android:background="@color/blue_53529a">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Title.White"
+            style="@style/LivautomationTheme.TextView.Title.White"
             android:layout_centerVertical="true"
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
@@ -208,12 +208,12 @@
 
             <TextView
                 android:id="@+id/cart_points_remaining"
-                style="@style/LiveloPontosTheme.TextView.Title.White"
+                style="@style/LivautomationTheme.TextView.Title.White"
                 android:textSize="26sp"
                 tools:text="3.001"/>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
@@ -227,7 +227,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/checkout_send_order"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="20dp"
         android:text="@string/cart_complete"/>
@@ -242,7 +242,7 @@
         android:orientation="vertical">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+            style="@style/LivautomationTheme.TextView.MyInfo.Banner"
             android:text="@string/cart_credit_description"
             android:padding="15dp"/>
 

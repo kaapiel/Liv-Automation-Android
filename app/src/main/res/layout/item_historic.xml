@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/item_historic_monthYear"
-        style="@style/LiveloPontosTheme.TextView.Historic.Title.Month"
+        style="@style/LivautomationTheme.TextView.Historic.Title.Month"
         android:layout_below="@+id/historic_filter_title"
         android:text="JULHO/2015" />
 
@@ -29,12 +29,12 @@
 
             <TextView
                 android:id="@+id/item_historic_date_number"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Number"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Number"
                 android:text="2" />
 
             <TextView
                 android:id="@+id/item_historic_date_desc"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Desc"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Desc"
                 android:layout_below="@+id/item_historic_date_number"
                 android:text="QUI" />
 
@@ -53,12 +53,12 @@
 
             <TextView
                 android:id="@+id/item_historic_store"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store"
                 android:text="Padaria Juliet" />
 
             <TextView
                 android:id="@+id/item_historic_type"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store.Type"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store.Type"
                 android:text="Resgatado" />
 
         </LinearLayout>
@@ -75,13 +75,13 @@
                 android:layout_width="wrap_content"
                 android:gravity="right"
                 android:minWidth="@dimen/min_size_points"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Points"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Points"
                 android:layout_toLeftOf="@+id/item_historic_arrow"
                 tools:text="0" />
 
             <TextView
                 android:id="@+id/item_historic_pts"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Pts"
                 android:layout_alignRight="@+id/item_historic_points"
                 android:layout_marginRight="0dp"
                 android:minWidth="@dimen/min_size_points"

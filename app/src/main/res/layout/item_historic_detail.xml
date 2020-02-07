@@ -22,12 +22,12 @@
 
             <TextView
                 android:id="@+id/historic_detail_item_date_number"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Number"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Number"
                 android:text="2" />
 
             <TextView
                 android:id="@+id/historic_detail_item_date_desc"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Desc"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Desc"
                 android:layout_below="@+id/historic_detail_item_date_number"
                 android:text="QUI" />
 
@@ -43,12 +43,12 @@
 
             <TextView
                 android:id="@+id/historic_detail_item_store"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store"
                 android:text="Padaria Juliet" />
 
             <TextView
                 android:id="@+id/historic_detail_item_store_type"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store.Type"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store.Type"
                 android:text="Resgatado" />
 
         </LinearLayout>
@@ -62,11 +62,11 @@
 
             <TextView
                 android:id="@+id/historic_detail_item_points"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Points" />
+                style="@style/LivautomationTheme.TextView.Extract.Item.Points" />
 
             <TextView
                 android:id="@+id/historic_detail_item_pts"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Pts"
                 android:text="PTS" />
 
         </LinearLayout>

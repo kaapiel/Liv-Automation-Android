@@ -25,17 +25,17 @@
 
                 <TextView
                     android:id="@+id/summary_top_points"
-                    style="@style/LiveloPontosTheme.TextView.Summary.Top.Points"
+                    style="@style/LivautomationTheme.TextView.Summary.Top.Points"
                     android:text="0" />
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Summary.Top.Pts"
+                    style="@style/LivautomationTheme.TextView.Summary.Top.Pts"
                     android:text="PTS" />
 
             </LinearLayout>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Summary.Top.Description"
+                style="@style/LivautomationTheme.TextView.Summary.Top.Description"
                 android:layout_below="@+id/summary_content_points"
                 android:layout_marginTop="10dp"
                 android:text="SEU SALDO LIVELO" />

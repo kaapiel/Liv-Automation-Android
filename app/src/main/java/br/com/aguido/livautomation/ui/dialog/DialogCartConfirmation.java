@@ -208,7 +208,7 @@ public class DialogCartConfirmation extends DialogFragment {
         DataOutputStream wr = new DataOutputStream(
                 con.getOutputStream());
 
-        wr.writeBytes("{\"jql\":\"project=Livelo\",\"startAt\":2,\"maxResults\":5,\"fields\":[\"key\",\"summary\",\"issuetype\",\"created\",\"priority\",\"status\",\"customfield_10015\",\"components\",\"resolution\",\"reporter\",\"assignee\"]}");
+        wr.writeBytes("{\"jql\":\"project=livAutomation\",\"startAt\":2,\"maxResults\":5,\"fields\":[\"key\",\"summary\",\"issuetype\",\"created\",\"priority\",\"status\",\"customfield_10015\",\"components\",\"resolution\",\"reporter\",\"assignee\"]}");
 
         if (con.getResponseCode() != 200) {
 

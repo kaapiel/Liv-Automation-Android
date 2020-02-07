@@ -19,7 +19,7 @@
     <android.support.v7.widget.AppCompatSpinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        style="@style/LiveloPontosTheme.Spinner"
+        style="@style/LivautomationTheme.Spinner"
         android:id="@+id/spinner_ambiente"
         android:textAlignment="center"
         android:layout_below="@+id/tv_amb"
@@ -41,7 +41,7 @@
     <android.support.v7.widget.AppCompatSpinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        style="@style/LiveloPontosTheme.Spinner"
+        style="@style/LivautomationTheme.Spinner"
         android:id="@+id/spinner_maquina"
         android:textAlignment="center"
         android:layout_below="@+id/tv_maq"
@@ -52,7 +52,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/botaoExecutarTestes"
-        style="@style/LiveloPontosTheme.Button.Login.Join"
+        style="@style/LivautomationTheme.Button.Login.Join"
         android:text="PLAY"
         android:background="#FF401090"
         android:textColor="@android:color/white"
@@ -74,7 +74,7 @@
     <android.support.v7.widget.AppCompatSpinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        style="@style/LiveloPontosTheme.Spinner"
+        style="@style/LivautomationTheme.Spinner"
         android:id="@+id/spinner_sprint"
         android:textAlignment="center"
         android:layout_below="@+id/tv_spt"

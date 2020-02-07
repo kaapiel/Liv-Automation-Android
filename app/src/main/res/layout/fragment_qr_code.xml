@@ -21,13 +21,13 @@
 
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                style="@style/LivautomationTheme.TextView.MyInfo.Banner"
                 android:layout_marginTop="20dp"
                 android:textSize="20.7sp"
                 android:text="@string/qr_code_info"/>
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                style="@style/LivautomationTheme.TextView.MyInfo.Banner"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="40dp"
                 android:textSize="20.7sp"

@@ -13,8 +13,8 @@ package br.com.aguido.livautomation.util;
  */
 public class Constants {
 
-	public static String pacote = "br.com.pontomobi.livelopontos";
-	public static String classe = "br.com.pontomobi.livautomation.ui.splash.SplashActivity";
+	public static String pacote = "br.com.aguido.livautomation";
+	public static String classe = "br.com.aguido.livautomation.ui.splash.SplashActivity";
 
 	public static String xpathProperties = "./utilitarios/properties/xpath.properties";
 	public static String configProperties = "./utilitarios/properties/config.properties";

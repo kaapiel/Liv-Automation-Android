@@ -23,13 +23,13 @@
 
         <TextView
             android:id="@+id/last_update_label"
-            style="@style/LiveloPontosTheme.TextView.LastUpdate.Label"
+            style="@style/LivautomationTheme.TextView.LastUpdate.Label"
             android:layout_centerVertical="true"
             android:text="@string/last_update_label"/>
 
         <TextView
             android:id="@+id/last_update_date_hour"
-            style="@style/LiveloPontosTheme.TextView.LastUpdate.Date"
+            style="@style/LivautomationTheme.TextView.LastUpdate.Date"
             android:layout_centerVertical="true"
             android:text="20/05/2015 10:30"/>
     </RelativeLayout>
@@ -43,7 +43,7 @@
         android:orientation="horizontal">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Mini.Loading"
+            style="@style/LivautomationTheme.TextView.Mini.Loading"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical"
             android:text="@string/mini_loading_text"/>

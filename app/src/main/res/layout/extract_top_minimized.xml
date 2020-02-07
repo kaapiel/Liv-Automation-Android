@@ -16,11 +16,11 @@
 
         <TextView
             android:id="@+id/extract_top_minimized_points"
-            style="@style/LiveloPontosTheme.TextView.Extract.Top.Minimized.Points"
+            style="@style/LivautomationTheme.TextView.Extract.Top.Minimized.Points"
             android:text="0" />
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Extract.Top.Minimized.Pts"
+            style="@style/LivautomationTheme.TextView.Extract.Top.Minimized.Pts"
             android:text="PTS" />
 
     </LinearLayout>
@@ -30,6 +30,6 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
-        style="@style/LiveloPontosTheme.TextView.Extract.Top.Minimized.Month" />
+        style="@style/LivautomationTheme.TextView.Extract.Top.Minimized.Month" />
 
 </RelativeLayout>

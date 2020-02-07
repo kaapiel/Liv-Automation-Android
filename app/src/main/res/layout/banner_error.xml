@@ -9,6 +9,6 @@
     <TextView
         android:id="@+id/banner_error_text"
         android:layout_centerInParent="true"
-        style="@style/LiveloPontosTheme.TextView.Banner.Error" />
+        style="@style/LivautomationTheme.TextView.Banner.Error" />
 
 </RelativeLayout>

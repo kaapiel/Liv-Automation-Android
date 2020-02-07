@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/summary_month_item_month"
         android:layout_centerVertical="true"
-        style="@style/LiveloPontosTheme.TextView.Summary.Month.Item.Month" />
+        style="@style/LivautomationTheme.TextView.Summary.Month.Item.Month" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,13 +20,13 @@
 
         <TextView
             android:id="@+id/summary_month_item_points"
-            style="@style/LiveloPontosTheme.TextView.Summary.Item.Points"
+            style="@style/LivautomationTheme.TextView.Summary.Item.Points"
             android:layout_toLeftOf="@+id/iv_arrow"
             tools:text="summary_item_points" />
 
         <TextView
             android:id="@+id/summary_month_item_pts"
-            style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+            style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
             android:layout_below="@+id/summary_month_item_points"
             android:layout_toLeftOf="@+id/iv_arrow"
             android:text="PONTOS" />

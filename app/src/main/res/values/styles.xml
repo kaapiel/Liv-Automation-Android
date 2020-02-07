@@ -35,7 +35,7 @@
         <item name="fontPath">fonts/Signika-Regular.ttf</item>
     </style>
 
-    <style name="LivautomationTheme.Fullscreen.Splash" parent="LivautomationTheme">
+    <style name="LivautomationTheme.Fullscreen.Splash" parent="@style/LivAutomationTheme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowIsTranslucent">true</item>

@@ -36,18 +36,18 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                         android:text="@string/rescue_number_order" />
 
                     <TextView
                         android:id="@+id/tv_order_number"
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                         android:layout_weight="0.9"
                         tools:text="ABC 123.456.789.000" />
 
                     <TextView
                         android:id="@+id/tv_order_date"
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                         android:layout_weight="0.1"
                         tools:text="27/07/2015" />
                 </LinearLayout>
@@ -66,12 +66,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                         android:text="@string/rescue_receiver" />
 
                     <TextView
                         android:id="@+id/tv_order_receiver"
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                         android:layout_weight="0.9"
                         tools:text="Roberto Zimmerman" />
 
@@ -97,12 +97,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                         android:text="@string/rescue_total" />
 
                     <TextView
                         android:id="@+id/tv_order_total"
-                        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                        style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                         android:layout_weight="0.9"
                         tools:text="1.999pts + R$ 100,00" />
 

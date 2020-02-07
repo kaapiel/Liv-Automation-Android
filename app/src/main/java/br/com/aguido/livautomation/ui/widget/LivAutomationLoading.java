@@ -5,23 +5,25 @@ import android.graphics.drawable.AnimationDrawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 import br.com.aguido.livautomation.R;
 
 /**
  * Created by vilmar.filho on 1/5/16.
  */
-public class LiveloLoading extends ImageView{
+public class LivAutomationLoading extends AppCompatImageView {
 
-    public LiveloLoading(Context context) {
+    public LivAutomationLoading(Context context) {
         super(context);
     }
 
-    public LiveloLoading(Context context, AttributeSet attrs) {
+    public LivAutomationLoading(Context context, AttributeSet attrs) {
         super(context, attrs);
         setupLoading();
     }
 
-    public LiveloLoading(Context context, AttributeSet attrs, int defStyle) {
+    public LivAutomationLoading(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setupLoading();
     }

@@ -23,12 +23,12 @@
 
             <TextView
                 android:id="@+id/summary_month_detail_item_date_number"
-                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Number"
+                style="@style/LivautomationTheme.TextView.Summary.Month.Detail.Item.Date.Number"
                 android:text="2" />
 
             <TextView
                 android:id="@+id/summary_month_detail_item_date_desc"
-                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Date.Desc"
+                style="@style/LivautomationTheme.TextView.Summary.Month.Detail.Item.Date.Desc"
                 android:layout_below="@+id/summary_month_detail_item_date_number"
                 android:text="QUI" />
 
@@ -46,7 +46,7 @@
             <TextView
                 android:id="@+id/summary_month_detail_item_store"
                 android:layout_width="match_parent"
-                style="@style/LiveloPontosTheme.TextView.Summary.Month.Detail.Item.Store"
+                style="@style/LivautomationTheme.TextView.Summary.Month.Detail.Item.Store"
                 android:text="Padaria Juliet Padaria Juliet Padaria Juliet Padaria Juliet" />
 
         </LinearLayout>
@@ -61,13 +61,13 @@
             <TextView
                 android:id="@+id/summary_month_detail_item_points"
                 android:layout_width="wrap_content"
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Points"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Points"
                 android:layout_toLeftOf="@+id/iv_arrow"
                 tools:text="0" />
 
             <TextView
                 android:id="@+id/summary_month_detail_item_pts"
-                style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
                 android:layout_below="@+id/summary_month_detail_item_points"
                 android:layout_toLeftOf="@+id/iv_arrow"
                 android:text="PONTOS" />

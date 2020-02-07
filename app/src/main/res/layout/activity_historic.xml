@@ -48,7 +48,7 @@
 
         <TextView
             android:id="@+id/historic_order_by_title"
-            style="@style/LiveloPontosTheme.TextView.Historic.Filter"
+            style="@style/LivautomationTheme.TextView.Historic.Filter"
             android:layout_marginRight="10dp"
             android:drawableRight="@drawable/drop_down"
             android:gravity="center"
@@ -56,7 +56,7 @@
 
         <TextView
             android:id="@+id/historic_filter_by_title"
-            style="@style/LiveloPontosTheme.TextView.Historic.Filter"
+            style="@style/LivautomationTheme.TextView.Historic.Filter"
             android:drawableRight="@drawable/drop_down"
             android:gravity="center"
             android:text="@string/historic_filter_filter_by_title" />

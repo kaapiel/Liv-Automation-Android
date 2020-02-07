@@ -15,7 +15,7 @@
         android:layout_gravity="left" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_marginTop="@dimen/activate_device_description_margin_top"
         android:gravity="center"
         android:layout_marginLeft="10dp"
@@ -26,7 +26,7 @@
 
     <TextView
         android:id="@+id/tv_summary"
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -37,7 +37,7 @@
         android:text="Automation - SIT - Carrinho page"/>
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -50,7 +50,7 @@
         android:id="@+id/tv_priority" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -63,7 +63,7 @@
         android:id="@+id/tv_issueType" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -76,7 +76,7 @@
         android:id="@+id/tv_component" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -89,7 +89,7 @@
         android:id="@+id/tv_created" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -102,7 +102,7 @@
         android:layout_gravity="left" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -115,7 +115,7 @@
         android:layout_gravity="left" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -128,7 +128,7 @@
         android:layout_gravity="left" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -142,7 +142,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/checkout_confirm"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="30dp"
         android:text="@string/enable_fingerprint_option_positive" />

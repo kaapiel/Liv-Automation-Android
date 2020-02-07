@@ -18,7 +18,7 @@
             android:orientation="vertical">
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Register.Info"
+                style="@style/LivautomationTheme.TextView.Register.Info"
                 android:text="@string/register_info" />
 
             <LinearLayout
@@ -29,18 +29,18 @@
                 android:orientation="vertical">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Register.Title"
+                    style="@style/LivautomationTheme.TextView.Register.Title"
                     android:text="@string/register_title" />
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Register.SubTitle"
+                    style="@style/LivautomationTheme.TextView.Register.SubTitle"
                     android:text="@string/register_subtitle" />
 
                 <include layout="@layout/register_fields" />
 
                 <android.support.v7.widget.AppCompatButton
                     android:id="@+id/register_user_activate"
-                    style="@style/LiveloPontosTheme.Button.register.Activate.Account"
+                    style="@style/LivautomationTheme.Button.register.Activate.Account"
                     android:text="@string/register_button_activate_account" />
 
             </LinearLayout>

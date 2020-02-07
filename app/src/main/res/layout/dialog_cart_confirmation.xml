@@ -16,14 +16,14 @@
         android:layout_gravity="center_horizontal" />
 
     <TextView
-        style="@style/LiveloPontosTheme.TextView.Token.Title.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Title.Blue"
         android:layout_marginTop="@dimen/activate_device_description_margin_top"
         android:gravity="center"
         android:text="Deseja realizar a execução?" />
 
     <TextView
         android:id="@+id/cart_description_product"
-        style="@style/LiveloPontosTheme.TextView.Token.Description.Blue"
+        style="@style/LivautomationTheme.TextView.Token.Description.Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -44,7 +44,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/cart_confirm"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:layout_height="48dp"
         android:layout_marginTop="25dp"
         android:text="Executar Testes" />
@@ -59,7 +59,7 @@
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
         android:text="Cancelar"
-        android:textAppearance="@style/LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500"
+        android:textAppearance="@style/LivautomationTheme.TextView.Rescue.Fields.Pink.Bold500"
         android:textColor="@color/pink_ed037c" />
 
 </LinearLayout>

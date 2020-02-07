@@ -13,11 +13,11 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_cpf"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_cpf" />
 
         <ImageView
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -28,11 +28,11 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_rg"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_rg" />
 
         <ImageView
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -43,11 +43,11 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_name"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_name" />
 
         <ImageView
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -58,13 +58,13 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_nickname"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:maxLength="8"
             android:hint="@string/register_hint_nickname" />
 
         <ImageView
             android:id="@+id/cadeado_nickname"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -76,11 +76,11 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_nationality"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_nationality" />
 
         <ImageView
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -93,11 +93,11 @@
             android:id="@+id/register_user_sex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/LiveloPontosTheme.Spinner"  />
+            style="@style/LivautomationTheme.Spinner"  />
 
         <ImageView
             android:id="@+id/cadeado_user_sex"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="5dp"
             android:src="@drawable/ic_cadeado" />
@@ -110,11 +110,11 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_birth_date"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_birth_date" />
 
         <ImageView
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -125,20 +125,20 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_email"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:maxLength="120"
             android:hint="@string/register_hint_email"
             android:inputType="textEmailAddress"/>
 
         <ImageView
             android:id="@+id/cadeado_email"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
     <com.rey.material.widget.EditText
         android:id="@+id/register_user_confirm_email"
-        style="@style/LiveloPontosTheme.EditText.Register"
+        style="@style/LivautomationTheme.EditText.Register"
         android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"
         android:maxLength="120"
         android:hint="@string/register_hint_confirm_email"
@@ -147,7 +147,7 @@
     <TextView
         android:id="@+id/tv_label_address"
         android:layout_centerVertical="true"
-        style="@style/LiveloPontosTheme.TextView.Switch.Description"
+        style="@style/LivautomationTheme.TextView.Switch.Description"
         android:layout_marginBottom="8dp"
         android:text="@string/register_hint_main_address"
         android:visibility="gone"/>
@@ -168,13 +168,13 @@
         <!--android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"-->
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_phone_home"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_phone_home"
             android:inputType="number" />
 
         <ImageView
             android:id="@+id/cadeado_phone_home"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -186,13 +186,13 @@
         <!--android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"-->
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_phone_work"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_phone_work"
             android:inputType="number" />
 
         <ImageView
             android:id="@+id/cadeado_phone_work"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -204,13 +204,13 @@
         <!--android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"-->
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_celphone"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_celphone"
             android:inputType="number" />
 
         <ImageView
             android:id="@+id/cadeado_celphone"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
@@ -222,20 +222,20 @@
 
         <com.rey.material.widget.EditText
             android:id="@+id/register_user_password"
-            style="@style/LiveloPontosTheme.EditText.Register"
+            style="@style/LivautomationTheme.EditText.Register"
             android:hint="@string/register_hint_password"
             android:maxLength="6"
             android:inputType="numberPassword" />
 
         <ImageView
             android:id="@+id/cadeado_password"
-            style="@style/LiveloPontosTheme.ImageView.Register"
+            style="@style/LivautomationTheme.ImageView.Register"
             android:src="@drawable/ic_cadeado" />
     </FrameLayout>
 
     <com.rey.material.widget.EditText
         android:id="@+id/register_user_confirm_password"
-        style="@style/LiveloPontosTheme.EditText.Register"
+        style="@style/LivautomationTheme.EditText.Register"
         android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"
         android:hint="@string/register_hint_confirm_password"
         android:maxLength="6"
@@ -261,7 +261,7 @@
 
     <com.rey.material.widget.TextView
         android:id="@+id/register_user_terms_conditions"
-        style="@style/LiveloPontosTheme.CheckBox"
+        style="@style/LivautomationTheme.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/register_user_edittext_margin_bottom"

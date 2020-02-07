@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/title_position"
-        style="@style/LiveloPontosTheme.TextView.Product.Detail.Title"
+        style="@style/LivautomationTheme.TextView.Product.Detail.Title"
         tools:text="PRODUTO 1" />
 
     <View
@@ -23,12 +23,12 @@
         android:background="@android:color/white">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:text="@string/product_detail_partner"/>
 
         <TextView
             android:id="@+id/tv_name_partner"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
             tools:text="Lojas Americanas" />
 
     </LinearLayout>
@@ -46,12 +46,12 @@
         android:background="@android:color/white">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:text="@string/product_detail_name_product"/>
 
         <TextView
             android:id="@+id/tv_name_product"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
             android:text="Furadeira Black&amp;Decker Imp.3/8 Tm500" />
 
     </LinearLayout>
@@ -69,12 +69,12 @@
         android:background="@android:color/white">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:text="@string/product_detail_value"/>
 
         <TextView
             android:id="@+id/tv_value_points"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
             tools:text="1.999 PTS" />
 
     </LinearLayout>
@@ -92,12 +92,12 @@
         android:background="@android:color/white">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:text="@string/product_detail_amount"/>
 
         <TextView
             android:id="@+id/product_qty"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
             tools:text="1" />
 
     </LinearLayout>
@@ -115,12 +115,12 @@
         android:background="@android:color/white">
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:text="@string/product_detail_total"/>
 
         <TextView
             android:id="@+id/tv_amount"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
             tools:text="1.999 PTS" />
 
     </LinearLayout>

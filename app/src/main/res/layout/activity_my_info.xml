@@ -37,11 +37,11 @@
                 android:orientation="vertical">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                    style="@style/LivautomationTheme.TextView.MyInfo.Banner"
                     android:text="@string/my_account_description" />
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner.Site"
+                    style="@style/LivautomationTheme.TextView.MyInfo.Banner.Site"
                     android:text="@string/my_account_description_site" />
 
             </LinearLayout>
@@ -51,7 +51,7 @@
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/my_account_change"
-                style="@style/LiveloPontosTheme.Button.register.Activate.Account"
+                style="@style/LivautomationTheme.Button.register.Activate.Account"
                 android:text="@string/my_account_button" />
 
         </LinearLayout>

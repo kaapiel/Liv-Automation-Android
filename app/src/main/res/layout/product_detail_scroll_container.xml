@@ -51,7 +51,7 @@
         <!-- NAME -->
         <TextView
             android:id="@+id/product_name"
-            style="@style/LiveloPontosTheme.TextView.ProductDetail.ProductName"
+            style="@style/LivautomationTheme.TextView.ProductDetail.ProductName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -89,7 +89,7 @@
 
                     <TextView
                         android:id="@+id/id_description"
-                        style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                        style="@style/LivautomationTheme.TextView.ProductDetail.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -110,7 +110,7 @@
 
                 <TextView
                     android:id="@+id/expandable_text"
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.Text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="0dp" />
@@ -134,7 +134,7 @@
                 android:visibility="invisible">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.Subtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="0dp"
@@ -142,7 +142,7 @@
 
                 <TextView
                     android:id="@+id/product_id"
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.Text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/product_id_gtin_margin_top" />
@@ -164,7 +164,7 @@
                 android:visibility="invisible">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.Subtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="0dp"
@@ -172,7 +172,7 @@
 
                 <TextView
                     android:id="@+id/product_gtin"
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.Text"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.Text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/product_id_gtin_margin_top" />
@@ -197,7 +197,7 @@
             android:orientation="vertical">
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Title"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
@@ -228,7 +228,7 @@
             android:orientation="vertical">
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.ProductDetail.Subtitle"
+                style="@style/LivautomationTheme.TextView.ProductDetail.Subtitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
@@ -254,7 +254,7 @@
 
                 <TextView
                     android:id="@+id/product_amount"
-                    style="@style/LiveloPontosTheme.TextView.ProductDetail.ProductsAmount.Text"
+                    style="@style/LivautomationTheme.TextView.ProductDetail.ProductsAmount.Text"
                     android:layout_width="0dp"
                     android:layout_height="40dp"
                     android:layout_weight="1" />
@@ -281,7 +281,7 @@
 
         <Button
             android:id="@+id/bt_add_to_cart"
-            style="@style/LiveloPontosTheme.TextView.ProductDetail.AddToCart"
+            style="@style/LivautomationTheme.TextView.ProductDetail.AddToCart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="false" />

@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/view_extract_footer_title"
-        style="@style/LiveloPontosTheme.TextView.Extract.Footer.Title" />
+        style="@style/LivautomationTheme.TextView.Extract.Footer.Title" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -15,13 +15,13 @@
 
         <TextView
             android:id="@+id/view_extract_footer_points"
-            style="@style/LiveloPontosTheme.TextView.Extract.Footer.Points"
+            style="@style/LivautomationTheme.TextView.Extract.Footer.Points"
             android:layout_toLeftOf="@+id/iv_arrow"
             android:text="0" />
 
         <TextView
             android:id="@+id/view_extract_footer_pts"
-            style="@style/LiveloPontosTheme.TextView.Extract.Item.Pts"
+            style="@style/LivautomationTheme.TextView.Extract.Item.Pts"
             android:layout_below="@+id/view_extract_footer_points"
             android:layout_toLeftOf="@+id/iv_arrow"
             android:text="PONTOS" />

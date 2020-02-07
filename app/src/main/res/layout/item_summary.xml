@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/summary_item_title"
-        style="@style/LiveloPontosTheme.TextView.Summary.Item.Title"
+        style="@style/LivautomationTheme.TextView.Summary.Item.Title"
         tools:text="summary_item_title"/>
 
     <TextView
         android:id="@+id/summary_item_subtitle"
-        style="@style/LiveloPontosTheme.TextView.Summary.Item.Subtitle"
+        style="@style/LivautomationTheme.TextView.Summary.Item.Subtitle"
         android:layout_below="@+id/summary_item_title"
         tools:text="summary_item_subtitle"/>
 
@@ -26,13 +26,13 @@
 
         <TextView
             android:id="@+id/summary_item_points"
-            style="@style/LiveloPontosTheme.TextView.Summary.Item.Points"
+            style="@style/LivautomationTheme.TextView.Summary.Item.Points"
             android:layout_toLeftOf="@+id/iv_arrow"
             tools:text="summary_item_points"/>
 
         <TextView
             android:id="@+id/summary_item_pts"
-            style="@style/LiveloPontosTheme.TextView.Summary.Item.Pts"
+            style="@style/LivautomationTheme.TextView.Summary.Item.Pts"
             android:layout_below="@+id/summary_item_points"
             android:layout_toLeftOf="@+id/iv_arrow"
             android:text="PONTOS" />

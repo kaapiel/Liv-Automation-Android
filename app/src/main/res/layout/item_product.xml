@@ -22,26 +22,26 @@
 
         <TextView
             android:layout_marginTop="20dp"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:layout_marginBottom="2dp"
             android:text="@string/product_detail_title_name_product"/>
 
         <TextView
             android:id="@+id/tv_name_product"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Pink.Bold500"
             android:lines="2"
             android:ellipsize="end"
             tools:text="Furadeira Black&amp;Decker Imp. 3/8 Tm500"/>
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="2dp"
             android:text="@string/product_detail_title_value_product"/>
 
         <TextView
             android:id="@+id/tv_points"
-            style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold500"
+            style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold500"
             tools:text="899 pts"/>
 
 

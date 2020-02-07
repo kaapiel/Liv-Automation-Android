@@ -13,6 +13,6 @@
 
     <TextView
         android:id="@+id/toolbar_title"
-        style="@style/LiveloPontosTheme.TextView.Toolbar" />
+        style="@style/LivautomationTheme.TextView.Toolbar" />
 
 </android.support.v7.widget.Toolbar>

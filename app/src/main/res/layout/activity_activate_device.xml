@@ -15,8 +15,8 @@
 
         <TextView
             android:id="@+id/toolbar_title"
-            style="@style/LiveloPontosTheme.TextView.Toolbar"
-            tools:text="LIVELO" />
+            style="@style/LivautomationTheme.TextView.Toolbar"
+            tools:text="LIVAUTOMATION" />
 
     </android.support.v7.widget.Toolbar>
 

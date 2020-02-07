@@ -23,12 +23,12 @@
 
             <TextView
                 android:id="@+id/extract_item_date_number"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Number"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Number"
                 android:text="2" />
 
             <TextView
                 android:id="@+id/extract_item_date_desc"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Date.Desc"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Date.Desc"
                 android:layout_below="@+id/extract_item_date_number"
                 android:text="QUI" />
 
@@ -47,12 +47,12 @@
             <TextView
                 android:id="@+id/extract_item_store"
                 android:layout_width="match_parent"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store"
                 android:text="Padaria Juliet Padaria Juliet Padaria Juliet Padaria Juliet" />
 
             <TextView
                 android:id="@+id/extract_item_store_type"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Store.Type"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Store.Type"
                 android:text="Resgatado" />
 
         </LinearLayout>
@@ -70,14 +70,14 @@
                 android:id="@+id/extract_item_points"
                 android:layout_width="match_parent"
                 android:gravity="right"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Points"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Points"
                 tools:text="0" />
 
             <TextView
                 android:id="@+id/extract_item_pts"
                 android:layout_width="match_parent"
                 android:layout_alignParentRight="true"
-                style="@style/LiveloPontosTheme.TextView.Extract.Item.Pts"
+                style="@style/LivautomationTheme.TextView.Extract.Item.Pts"
                 android:gravity="right"
                 android:text="PONTOS" />
 

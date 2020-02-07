@@ -23,12 +23,12 @@
     <TextView
         android:id="@+id/tutorial_join_now"
         android:layout_marginLeft="@dimen/tutorial_join_now_margin_left"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.JoinNow"
+        style="@style/LivautomationTheme.TextView.Tutorial.JoinNow"
         android:text="@string/tutorial_option_login" />
 
     <TextView
         android:id="@+id/tutorial_activate_account"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.ActivateAccount"
+        style="@style/LivautomationTheme.TextView.Tutorial.ActivateAccount"
         android:text="@string/tutorial_option_activate_account" />
 
 </RelativeLayout>

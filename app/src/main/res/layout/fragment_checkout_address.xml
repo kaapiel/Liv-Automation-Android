@@ -25,7 +25,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.MyInfo.Banner"
+                    style="@style/LivautomationTheme.TextView.MyInfo.Banner"
                     android:gravity="left"
                     android:text="@string/checkout_address_info"
                     android:layout_marginBottom="10dp"/>
@@ -41,7 +41,7 @@
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/checkout_send_order"
-                style="@style/LiveloPontosTheme.Button.Enabled"
+                style="@style/LivautomationTheme.Button.Enabled"
                 android:layout_marginTop="25dp"
                 android:text="@string/checkout_address_send_order"
                 android:layout_marginBottom="20dp"/>

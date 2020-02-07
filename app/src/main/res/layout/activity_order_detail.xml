@@ -27,7 +27,7 @@
                 android:background="@color/black_alpha_32000000" />
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Product.Detail.Title"
+                style="@style/LivautomationTheme.TextView.Product.Detail.Title"
                 android:gravity="center"
                 android:text="@string/product_detail_subtitle" />
 
@@ -65,18 +65,18 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                                 android:text="@string/rescue_number_order" />
 
                             <TextView
                                 android:id="@+id/tv_order_number"
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                                 android:layout_weight="0.9"
                                 tools:text="ABC 123.456.789.000" />
 
                             <TextView
                                 android:id="@+id/tv_order_date"
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                                 android:layout_weight="0.1"
                                 tools:text="27/07/2015" />
                         </LinearLayout>
@@ -95,12 +95,12 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                                 android:text="@string/rescue_receiver" />
 
                             <TextView
                                 android:id="@+id/tv_order_receiver"
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                                 android:layout_weight="0.9"
                                 tools:text="Roberto Zimmerman" />
                         </LinearLayout>
@@ -120,18 +120,18 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Order"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Order"
                                 android:text="@string/rescue_total" />
 
                             <TextView
                                 android:id="@+id/tv_order_total"
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                                style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                                 android:layout_weight="0.9"
                                 tools:text="1.999pts + R$ 100,00" />
 
                             <TextView
                                 android:id="@+id/tv_status"
-                                style="@style/LiveloPontosTheme.TextView.Rescue.Status"
+                                style="@style/LivautomationTheme.TextView.Rescue.Status"
                                 android:text="Pedido em processamento" />
 
                         </LinearLayout>
@@ -146,7 +146,7 @@
 
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Product.Detail.Title"
+                style="@style/LivautomationTheme.TextView.Product.Detail.Title"
                 android:gravity="center"
                 android:text="@string/product_detail_title_info_geral" />
 
@@ -159,12 +159,12 @@
                 android:padding="@dimen/last_update_label_margin_left">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
                     android:text="@string/rescue_address" />
 
                 <TextView
                     android:id="@+id/tv_order_address"
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                     android:ellipsize="end"
                     android:maxLines="3"
                     tools:text="Roberto Zimmerman, Rua Francisco Matarazzo, 1.234 / 123, Cerqueira César,  São Paulo - SP  CEP: 55666-777" />
@@ -184,12 +184,12 @@
                 android:padding="@dimen/last_update_label_margin_left">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
                     android:text="@string/rescue_payment" />
 
                 <TextView
                     android:id="@+id/tv_order_payment"
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
                     android:ellipsize="end"
                     android:maxLines="3"
                     tools:text="Cartão MasterCard \nxxxx.xxxx.xxxx.1234 \n1x de R$ 100,00" />
@@ -202,7 +202,7 @@
                 android:background="@color/black_alpha_32000000" />
 
             <TextView
-                style="@style/LiveloPontosTheme.TextView.Product.Detail.Title"
+                style="@style/LivautomationTheme.TextView.Product.Detail.Title"
                 android:gravity="center"
                 android:text="@string/product_detail_title_info_order" />
 
@@ -227,13 +227,13 @@
                 android:padding="@dimen/last_update_label_margin_left">
 
                 <TextView
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Blue"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Blue"
                     android:text="@string/product_detail_total_order"
                     android:textSize="20sp"/>
 
                 <TextView
                     android:id="@+id/total_order_description"
-                    style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Pink.Bold500"
+                    style="@style/LivautomationTheme.TextView.Rescue.Fields.Pink.Bold500"
                     android:layout_marginLeft="10dp"
                     android:textSize="20sp"
                     android:text="1.999 PTS"/>

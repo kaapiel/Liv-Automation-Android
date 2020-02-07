@@ -9,7 +9,7 @@
 
     <android.support.v7.widget.AppCompatSpinner
         android:id="@+id/execution_spinner"
-        style="@style/LiveloPontosTheme.Spinner"
+        style="@style/LivautomationTheme.Spinner"
         android:layout_height="80dp"
         android:layout_width="match_parent"
         android:text="Executar Testes!"
@@ -21,7 +21,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/login_join"
-        style="@style/LiveloPontosTheme.Button.Enabled"
+        style="@style/LivautomationTheme.Button.Enabled"
         android:text="Executar Testes!"
         android:backgroundTint="#000066"
         android:textColor="@android:color/white"

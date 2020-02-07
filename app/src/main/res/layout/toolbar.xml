@@ -19,7 +19,7 @@
 
         <TextView
             android:id="@+id/toolbar_title"
-            style="@style/LiveloPontosTheme.TextView.Toolbar"
+            style="@style/LivautomationTheme.TextView.Toolbar"
             android:ellipsize="end"
             tools:text="LIVELO"/>
 
@@ -40,7 +40,7 @@
 
             <TextView
                 android:id="@+id/cart_menu_items"
-                style="@style/LiveloPontosTheme.TextView.MuseoSans.Blue"
+                style="@style/LivautomationTheme.TextView.MuseoSans.Blue"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"

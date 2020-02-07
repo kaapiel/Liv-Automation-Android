@@ -40,28 +40,28 @@
 
         <TextView
             android:id="@+id/summary_expired_first_option"
-            style="@style/LiveloPontosTheme.TextView.Summary.Month.Filter"
+            style="@style/LivautomationTheme.TextView.Summary.Month.Filter"
             android:drawablePadding="@dimen/summary_month_filtro_first_drawable_padding"
             android:drawableRight="@drawable/drop_down"
             android:text="@string/summay_expired_filter_all" />
 
         <TextView
             android:id="@+id/summary_expired_second_option"
-            style="@style/LiveloPontosTheme.TextView.Summary.Month.Filter"
+            style="@style/LivautomationTheme.TextView.Summary.Month.Filter"
             android:layout_marginTop="@dimen/summary_month_filtro_itens_margin_top"
             android:text="@string/summay_expired_filter_next_month"
             android:visibility="invisible" />
 
         <TextView
             android:id="@+id/summary_expired_third_option"
-            style="@style/LiveloPontosTheme.TextView.Summary.Month.Filter"
+            style="@style/LivautomationTheme.TextView.Summary.Month.Filter"
             android:layout_marginTop="@dimen/summary_month_filtro_itens_margin_top"
             android:text="@string/summay_expired_filter_next_three_month"
             android:visibility="invisible" />
 
         <TextView
             android:id="@+id/summary_expired_fourt_option"
-            style="@style/LiveloPontosTheme.TextView.Summary.Month.Filter"
+            style="@style/LivautomationTheme.TextView.Summary.Month.Filter"
             android:layout_marginBottom="@dimen/summary_month_filtro_itens_margin_bottom"
             android:layout_marginTop="@dimen/summary_month_filtro_itens_margin_top"
             android:text="@string/summay_expired_filter_next_six_month"

@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/tv_category"
-        style="@style/LiveloPontosTheme.TextView.Rescue.Fields.Bold"
+        style="@style/LivautomationTheme.TextView.Rescue.Fields.Bold"
         android:layout_centerVertical="true"
         android:layout_marginLeft="14dp"
         android:textSize="18sp"

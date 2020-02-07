@@ -134,12 +134,12 @@
             android:src="@drawable/pontos_vazio" />
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Extract.Clean.Title"
+            style="@style/LivautomationTheme.TextView.Extract.Clean.Title"
             android:layout_marginTop="10dp"
             android:text="@string/extract_clean_title" />
 
         <TextView
-            style="@style/LiveloPontosTheme.TextView.Extract.Clean.Description"
+            style="@style/LivautomationTheme.TextView.Extract.Clean.Description"
             android:text="@string/extract_clean_description" />
 
     </LinearLayout>

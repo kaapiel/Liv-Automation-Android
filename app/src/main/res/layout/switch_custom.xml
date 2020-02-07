@@ -7,7 +7,7 @@
     <TextView
         android:id="@+id/switch_custom_text"
         android:layout_centerVertical="true"
-        style="@style/LiveloPontosTheme.TextView.Switch.Description"
+        style="@style/LivautomationTheme.TextView.Switch.Description"
         android:text="@string/register_switch_push" />
 
     <com.rey.material.widget.Switch
@@ -17,6 +17,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
-        style="@style/LiveloPontosTheme.Switch" />
+        style="@style/LivautomationTheme.Switch" />
 
 </RelativeLayout>

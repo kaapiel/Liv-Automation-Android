@@ -8,12 +8,12 @@
     <TextView
         android:layout_alignParentTop="true"
         android:id="@+id/tutorial_title_header"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.Title.Header" />
+        style="@style/LivautomationTheme.TextView.Tutorial.Title.Header" />
 
     <TextView
         android:layout_below="@+id/tutorial_title_header"
         android:id="@+id/tutorial_description_header"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.SubTitle.Header" />
+        style="@style/LivautomationTheme.TextView.Tutorial.SubTitle.Header" />
 
     <ImageView
         android:id="@+id/tutorial_image_header"
@@ -31,11 +31,11 @@
     <TextView
         android:layout_below="@id/tutorial_image_footer"
         android:id="@+id/tutorial_title_footer"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.Title.Footer" />
+        style="@style/LivautomationTheme.TextView.Tutorial.Title.Footer" />
 
     <TextView
         android:layout_below="@id/tutorial_title_footer"
         android:id="@+id/tutorial_description_footer"
-        style="@style/LiveloPontosTheme.TextView.Tutorial.SubTitle.Footer" />
+        style="@style/LivautomationTheme.TextView.Tutorial.SubTitle.Footer" />
 
 </RelativeLayout>

@@ -5,7 +5,7 @@ public class ViewConstants {
 
 	public static class Properties {
 
-		public static final String LIVELO_LOGO = "livelo_logo";
+		public static final String LIVAUTOMATION_LOGO = "livautomation_logo";
 		public static final String OUTPUT_DIR_BASE_EVIDENCES = "output_dir_base_evidences";
 		public static final String CONFIG_PATH = "C:/Developer/SourceTree/Automation/utilitarios/properties/xpath.properties";
 		public static final String CONFIG_PATH_MOBILE = "C:/Developer/SourceTree/Automation/utilitarios/properties/xpathMobile.properties";
@@ -20,7 +20,7 @@ public class ViewConstants {
 		public static final String EVIDENCIA_PATH = "evidencia_path";
 		public static final String EVIDENCIAS_CONSOLIDADAS = "evidenciasConsolidadas";
 		public static final String APP_PATH = "app_path";
-		public static final String SENHA_LIVELO_ATG = "512404";
+		public static final String SENHA_LIVAUTOMATION_ATG = "512404";
 	}
 
 	public static class ConfigProperties {

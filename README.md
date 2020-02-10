@@ -1,4 +1,4 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/menu.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/banner.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=liv-automation-android&metric=alert_status)](https://sonarcloud.io/dashboard?id=liv-automation-android)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=liv-automation-android&metric=ncloc)](https://sonarcloud.io/dashboard?id=liv-automation-android)

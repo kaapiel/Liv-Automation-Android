@@ -55,7 +55,7 @@ public class ExecucaoTestesFragment extends LivAutomationFragment implements OnC
         listAmbiente.add("DEV"); listAmbiente.add("SIT"); listAmbiente.add("UAT"); listAmbiente.add("PROD");
 
         listMaquinas = new ArrayList<>();
-        listMaquinas.add("SILK 10.54.106.12"); listMaquinas.add("SELENIUM 10.42.119.124");
+        listMaquinas.add("SILK 192.168.0.1"); listMaquinas.add("SELENIUM 192.168.0.2");
 
         listSprint = new ArrayList<>();
         listSprint.add("18"); listSprint.add("19"); listSprint.add("20"); listSprint.add("21"); listSprint.add("22");

@@ -35,7 +35,7 @@
         android:textSize="18sp"
         tools:text="@string/search_empty_description"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/search_go_catalog"
         style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginBottom="15dp"

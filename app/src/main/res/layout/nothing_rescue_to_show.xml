@@ -27,7 +27,7 @@
         android:layout_below="@+id/nothing_to_show_title"
         android:text="@string/rescue_history_nothing_to_show" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_go_catalog"
         android:layout_below="@+id/nothing_to_show_subtitle"
         style="@style/LivautomationTheme.Button.Enabled"

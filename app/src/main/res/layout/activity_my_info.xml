@@ -49,7 +49,7 @@
 
             <include layout="@layout/register_fields" />
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/my_account_change"
                 style="@style/LivautomationTheme.Button.register.Activate.Account"
                 android:text="@string/my_account_button" />

@@ -31,7 +31,7 @@
         app:et_dividerHeight="1dp"
         app:et_inputId="@+id/cart_coupon_hint"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cart_add_coupon"
         style="@style/LivautomationTheme.Button.Login.Activate.Account"
         android:text="@string/cart_add"
@@ -225,7 +225,7 @@
 
     </RelativeLayout>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/checkout_send_order"
         style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="25dp"

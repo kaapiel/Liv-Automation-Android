@@ -42,14 +42,14 @@
 
     <include layout="@layout/loading" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cart_confirm"
         style="@style/LivautomationTheme.Button.Enabled"
         android:layout_height="48dp"
         android:layout_marginTop="25dp"
         android:text="Executar Testes" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cart_continue"
         android:layout_width="match_parent"
         android:layout_height="48dp"

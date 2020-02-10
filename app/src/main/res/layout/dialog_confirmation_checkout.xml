@@ -140,7 +140,7 @@
         android:id="@+id/tv_resolution"
         android:layout_gravity="left" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/checkout_confirm"
         style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="25dp"

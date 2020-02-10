@@ -62,7 +62,7 @@
         
     </LinearLayout>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/generate_code_rescue"
         style="@style/LivautomationTheme.Button.Enabled"
         android:layout_marginTop="@dimen/activate_device_margin_top"

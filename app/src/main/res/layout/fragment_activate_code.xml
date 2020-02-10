@@ -33,7 +33,7 @@
         app:et_dividerHeight="1dp" />
 
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/token_activation"
         style="@style/LivautomationTheme.Button.Login.Activate.Account"
         android:textColor="@color/gray_888888"

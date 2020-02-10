@@ -1,5 +1,5 @@
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/login.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/regression-rests.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/regression-tests.png)
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/menu.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=liv-automation-android&metric=alert_status)](https://sonarcloud.io/dashboard?id=liv-automation-android)

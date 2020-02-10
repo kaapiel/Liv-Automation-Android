@@ -27,7 +27,7 @@ Install this app and replace jira/sonar/jenkins/silk servers urls!
 <h2 id="examples">Examples :eyes:</h2>
 
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/example-1.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/example-1.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/example-2.png)
 
 <br/>
 

@@ -1,4 +1,6 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/login.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/regression-tests.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/menu.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=liv-automation-android&metric=alert_status)](https://sonarcloud.io/dashboard?id=liv-automation-android)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=liv-automation-android&metric=ncloc)](https://sonarcloud.io/dashboard?id=liv-automation-android)
@@ -26,10 +28,12 @@ Install this app and replace jira/sonar/jenkins/silk servers urls!
 
 <h2 id="examples">Examples :eyes:</h2>
 
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/test-description.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/bugs-number.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/remote-jenkins-job-execution.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/remote-job-confirmation.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/remote-jenkins-job-parameters.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Liv-Automation-Android/performance-graphs.png)
 
 <br/>
 

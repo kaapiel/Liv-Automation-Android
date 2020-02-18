@@ -11,6 +11,12 @@
 # Liv Automation Android
 A powerful & easy to use Android app for quality management!
 
+### To access SonarCloud data use this link: 
+#### https://sonarcloud.io/dashboard?id=liv-automation-android
+
+### To access pipeline and CI data use this link: 
+#### https://circleci.com/gh/kaapiel/Liv-Automation-Android
+
 ## Table of Contents
 1. [Quick Start](#quick-start)
 1. [Example usage](#examples)
